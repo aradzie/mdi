@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "mdi-generater",
+  "version": "0.0.1",
+  "description": "Generates contents for package mdi.",
+  "scripts": {
+    "clean": "rm -rf package/icon && mkdir package/icon",
+    "build": "git submodule update && npm run clean && node scripts/generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aradzie/mdi.git"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "icon",
+    "icons",
+    "svg icon",
+    "svg icons",
+    "material design"
+  ],
+  "author": "Aliaksandr Radzivanovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aradzie/mdi/issues"
+  },
+  "homepage": "https://github.com/aradzie/mdi#readme",
+  "devDependencies": {
+    "svgo": "^0.7.0",
+    "xml2js": "^0.4.17"
+  }
+}

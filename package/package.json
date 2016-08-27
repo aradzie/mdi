@@ -1,0 +1,29 @@
+{
+  "name": "mdi",
+  "version": "0.0.1",
+  "description": "A set of React icon components generated from Material Design SVG icons.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aradzie/mdi.git"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "icon",
+    "svg icon",
+    "material design"
+  ],
+  "author": "Aliaksandr Radzivanovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aradzie/mdi/issues"
+  },
+  "homepage": "https://github.com/aradzie/mdi#readme",
+  "dependencies": {
+    "@types/classnames": "0.0.28",
+    "@types/react": "^0.14.33",
+    "classnames": "^2.2.5",
+    "react": "^15.3.1"
+  }
+}

@@ -1,0 +1,7 @@
+# Source files
+MaterialDesign
+
+# Build files
+gulpfile.js
+tsconfig.json
+.build
