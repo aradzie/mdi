@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var WeatherWindyVariant = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M6 6l.69.06A5.5 5.5 0 0 1 17.5 7.5l-.082.95A3 3 0 1 1 19 14H6a4 4 0 0 1 0-8zm0 2a2 2 0 0 0 0 4h13a1 1 0 1 0 0-2h-3.5V7.5a3.5 3.5 0 0 0-7 0V8H6zm12 10H4a1 1 0 1 1 0-2h14a3 3 0 1 1-2.121 5.121 1 1 0 1 1 1.414-1.414A1 1 0 1 0 18 18z" }))); };
+WeatherWindyVariant.displayName = "WeatherWindyVariant";
+exports.default = WeatherWindyVariant;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoid2VhdGhlci13aW5keS12YXJpYW50LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vd2VhdGhlci13aW5keS12YXJpYW50LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sbUJBQW1CLEdBQTJDLFVBQUMsS0FBSyxJQUFLLE9BQUEsQ0FDM0Usb0JBQUMsa0JBQU8sdUJBQUssS0FBSztJQUNkLDhCQUFNLENBQUMsRUFBQyx1T0FBdU8sR0FBRSxDQUMzTyxDQUNiLEVBSjhFLENBSTlFLENBQUM7QUFFRixtQkFBbUIsQ0FBQyxXQUFXLEdBQUcscUJBQXFCLENBQUM7QUFFeEQsa0JBQWUsbUJBQW1CLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBHZW5lcmF0ZWQgZnJvbSBmaWxlIHdlYXRoZXItd2luZHktdmFyaWFudC5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IFdlYXRoZXJXaW5keVZhcmlhbnQ6IFJlYWN0LlN0YXRlbGVzc0NvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk02IDZsLjY5LjA2QTUuNSA1LjUgMCAwIDEgMTcuNSA3LjVsLS4wODIuOTVBMyAzIDAgMSAxIDE5IDE0SDZhNCA0IDAgMCAxIDAtOHptMCAyYTIgMiAwIDAgMCAwIDRoMTNhMSAxIDAgMSAwIDAtMmgtMy41VjcuNWEzLjUgMy41IDAgMCAwLTcgMFY4SDZ6bTEyIDEwSDRhMSAxIDAgMSAxIDAtMmgxNGEzIDMgMCAxIDEtMi4xMjEgNS4xMjEgMSAxIDAgMSAxIDEuNDE0LTEuNDE0QTEgMSAwIDEgMCAxOCAxOHpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuV2VhdGhlcldpbmR5VmFyaWFudC5kaXNwbGF5TmFtZSA9IFwiV2VhdGhlcldpbmR5VmFyaWFudFwiO1xuXG5leHBvcnQgZGVmYXVsdCBXZWF0aGVyV2luZHlWYXJpYW50O1xuIl19

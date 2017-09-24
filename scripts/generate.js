@@ -2,22 +2,6 @@ const fs = require("fs");
 const Svgo = require("svgo");
 const xml = require("xml2js");
 
-// Begin polyfill.
-if (!("entries" in Object)) {
-    Object.entries = function entries(target) {
-        if (target == null) {
-            throw new TypeError();
-        }
-        const object = Object(target);
-        const result = [];
-        for (const key of Object.keys(object)) {
-            result.push([key, object[key]]);
-        }
-        return result;
-    }
-}
-// End polyfill.
-
 const svgo = new Svgo({});
 
 const parser = new xml.Parser({
@@ -36,7 +20,7 @@ const builder = new xml.Builder({
 });
 
 const svgDir = `${__dirname}/../MaterialDesign/icons/svg`;
-const outDir = `${__dirname}/../package/icon`;
+const outDir = `${__dirname}/../src/icon`;
 
 const fileNames = fs.readdirSync(svgDir);
 
@@ -82,7 +66,11 @@ function generate(iconName, contents, document) {
 }
 
 function format(iconName, children) {
-    const componentName = toPascalCase(iconName);
+    let componentName = toPascalCase(iconName);
+
+    if (componentName == "React") {
+        componentName = "ReactJS";
+    }
 
     return `/* Generated from file ${iconName}.svg. */
 

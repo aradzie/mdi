@@ -1,11 +1,11 @@
 {
   "private": true,
   "name": "mdi-generater",
-  "version": "0.0.1",
-  "description": "Generates contents for package mdi.",
+  "version": "0.1.0",
+  "description": "Generates the contents of package mdi.",
   "scripts": {
-    "clean": "rm -rf package/icon && mkdir package/icon",
-    "build": "git submodule update && npm run clean && node scripts/generate.js"
+    "clean": "rm -rf src/icon && mkdir src/icon",
+    "build": "git submodule update && npm run clean && node scripts/generate.js && tsc && npm pack file:package"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,13 @@
   },
   "homepage": "https://github.com/aradzie/mdi#readme",
   "devDependencies": {
-    "svgo": "^0.7.0",
-    "xml2js": "^0.4.17"
+    "@types/classnames": "^2.2.3",
+    "@types/react": "^16.0.5",
+    "classnames": "^2.2.5",
+    "react": "^15.6.1",
+    "svgo": "^0.7.2",
+    "tslib": "^1.7.1",
+    "typescript": "^2.5.2",
+    "xml2js": "^0.4.19"
   }
 }

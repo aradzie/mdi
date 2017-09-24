@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var ImageFilterCenterFocus = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M12 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm7 10h-4v2h4c1.1 0 2-.9 2-2v-4h-2m0-12h-4v2h4v4h2V5c0-1.1-.9-2-2-2zM5 5h4V3H5c-1.1 0-2 .9-2 2v4h2m0 6H3v4c0 1.1.9 2 2 2h4v-2H5v-4z" }))); };
+ImageFilterCenterFocus.displayName = "ImageFilterCenterFocus";
+exports.default = ImageFilterCenterFocus;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW1hZ2UtZmlsdGVyLWNlbnRlci1mb2N1cy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pY29uL2ltYWdlLWZpbHRlci1jZW50ZXItZm9jdXMudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVBLHdDQUFvRDtBQUNwRCw2QkFBK0I7QUFFL0IsSUFBTSxzQkFBc0IsR0FBMkMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUM5RSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLDhMQUE4TCxHQUFFLENBQ2xNLENBQ2IsRUFKaUYsQ0FJakYsQ0FBQztBQUVGLHNCQUFzQixDQUFDLFdBQVcsR0FBRyx3QkFBd0IsQ0FBQztBQUU5RCxrQkFBZSxzQkFBc0IsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgaW1hZ2UtZmlsdGVyLWNlbnRlci1mb2N1cy5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEltYWdlRmlsdGVyQ2VudGVyRm9jdXM6IFJlYWN0LlN0YXRlbGVzc0NvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0xMiA5Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzIDMtMS4zNCAzLTMtMS4zNC0zLTMtM3ptNyAxMGgtNHYyaDRjMS4xIDAgMi0uOSAyLTJ2LTRoLTJtMC0xMmgtNHYyaDR2NGgyVjVjMC0xLjEtLjktMi0yLTJ6TTUgNWg0VjNINWMtMS4xIDAtMiAuOS0yIDJ2NGgybTAgNkgzdjRjMCAxLjEuOSAyIDIgMmg0di0ySDV2LTR6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkltYWdlRmlsdGVyQ2VudGVyRm9jdXMuZGlzcGxheU5hbWUgPSBcIkltYWdlRmlsdGVyQ2VudGVyRm9jdXNcIjtcblxuZXhwb3J0IGRlZmF1bHQgSW1hZ2VGaWx0ZXJDZW50ZXJGb2N1cztcbiJdfQ==

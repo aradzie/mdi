@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var ProjectorScreen = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M4 2c-.554 0-1 .446-1 1v1c0 .554.446 1 1 1h1v9h6v2.586l-4.207 4.207 1.414 1.414L11 19.414V22h2v-2.586l2.793 2.793 1.414-1.414L13 16.586V14h6V5h1c.554 0 1-.446 1-1V3c0-.554-.446-1-1-1H4z" }))); };
+ProjectorScreen.displayName = "ProjectorScreen";
+exports.default = ProjectorScreen;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHJvamVjdG9yLXNjcmVlbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pY29uL3Byb2plY3Rvci1zY3JlZW4udHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVBLHdDQUFvRDtBQUNwRCw2QkFBK0I7QUFFL0IsSUFBTSxlQUFlLEdBQTJDLFVBQUMsS0FBSyxJQUFLLE9BQUEsQ0FDdkUsb0JBQUMsa0JBQU8sdUJBQUssS0FBSztJQUNkLDhCQUFNLENBQUMsRUFBQywyTEFBMkwsR0FBRSxDQUMvTCxDQUNiLEVBSjBFLENBSTFFLENBQUM7QUFFRixlQUFlLENBQUMsV0FBVyxHQUFHLGlCQUFpQixDQUFDO0FBRWhELGtCQUFlLGVBQWUsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgcHJvamVjdG9yLXNjcmVlbi5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IFByb2plY3RvclNjcmVlbjogUmVhY3QuU3RhdGVsZXNzQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTQgMmMtLjU1NCAwLTEgLjQ0Ni0xIDF2MWMwIC41NTQuNDQ2IDEgMSAxaDF2OWg2djIuNTg2bC00LjIwNyA0LjIwNyAxLjQxNCAxLjQxNEwxMSAxOS40MTRWMjJoMnYtMi41ODZsMi43OTMgMi43OTMgMS40MTQtMS40MTRMMTMgMTYuNTg2VjE0aDZWNWgxYy41NTQgMCAxLS40NDYgMS0xVjNjMC0uNTU0LS40NDYtMS0xLTFINHpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuUHJvamVjdG9yU2NyZWVuLmRpc3BsYXlOYW1lID0gXCJQcm9qZWN0b3JTY3JlZW5cIjtcblxuZXhwb3J0IGRlZmF1bHQgUHJvamVjdG9yU2NyZWVuO1xuIl19

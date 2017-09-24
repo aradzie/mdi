@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var Ambulance = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M18 18.498a1.5 1.5 0 1 0-.002-3.001A1.5 1.5 0 0 0 18 18.498zm1.5-9H17v2.5h4.463l-1.964-2.5zm-13.5 9a1.5 1.5 0 1 0-.002-3.001A1.5 1.5 0 0 0 6 18.498zm14-10.5l3 4v5h-2a3 3 0 1 1-6 0H9a3 3 0 1 1-6 0H1v-11a2 2 0 0 1 2-2h14v4h3zM8 6v3H5v2h3v3h2v-3h3V9h-3V6H8z" }))); };
+Ambulance.displayName = "Ambulance";
+exports.default = Ambulance;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYW1idWxhbmNlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vYW1idWxhbmNlLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sU0FBUyxHQUEyQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ2pFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsZ1FBQWdRLEdBQUUsQ0FDcFEsQ0FDYixFQUpvRSxDQUlwRSxDQUFDO0FBRUYsU0FBUyxDQUFDLFdBQVcsR0FBRyxXQUFXLENBQUM7QUFFcEMsa0JBQWUsU0FBUyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBhbWJ1bGFuY2Uuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBBbWJ1bGFuY2U6IFJlYWN0LlN0YXRlbGVzc0NvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0xOCAxOC40OThhMS41IDEuNSAwIDEgMC0uMDAyLTMuMDAxQTEuNSAxLjUgMCAwIDAgMTggMTguNDk4em0xLjUtOUgxN3YyLjVoNC40NjNsLTEuOTY0LTIuNXptLTEzLjUgOWExLjUgMS41IDAgMSAwLS4wMDItMy4wMDFBMS41IDEuNSAwIDAgMCA2IDE4LjQ5OHptMTQtMTAuNWwzIDR2NWgtMmEzIDMgMCAxIDEtNiAwSDlhMyAzIDAgMSAxLTYgMEgxdi0xMWEyIDIgMCAwIDEgMi0yaDE0djRoM3pNOCA2djNINXYyaDN2M2gydi0zaDNWOWgtM1Y2SDh6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkFtYnVsYW5jZS5kaXNwbGF5TmFtZSA9IFwiQW1idWxhbmNlXCI7XG5cbmV4cG9ydCBkZWZhdWx0IEFtYnVsYW5jZTtcbiJdfQ==

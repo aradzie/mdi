@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var Keyboard = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M19 9.998h-2v-2h2m0 5h-2v-2h2m-3-1h-2v-2h2m0 5h-2v-2h2m0 6H8v-2h8m-9-5H5v-2h2m0 5H5v-2h2m1 0h2v2H8m0-5h2v2H8m3 1h2v2h-2m0-5h2v2h-2m9-5H4c-1.106 0-1.99.896-1.99 2l-.01 10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-10a2 2 0 0 0-2-2z" }))); };
+Keyboard.displayName = "Keyboard";
+exports.default = Keyboard;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoia2V5Ym9hcmQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi9rZXlib2FyZC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLFFBQVEsR0FBMkMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUNoRSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLDZOQUE2TixHQUFFLENBQ2pPLENBQ2IsRUFKbUUsQ0FJbkUsQ0FBQztBQUVGLFFBQVEsQ0FBQyxXQUFXLEdBQUcsVUFBVSxDQUFDO0FBRWxDLGtCQUFlLFFBQVEsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUga2V5Ym9hcmQuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBLZXlib2FyZDogUmVhY3QuU3RhdGVsZXNzQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTE5IDkuOTk4aC0ydi0yaDJtMCA1aC0ydi0yaDJtLTMtMWgtMnYtMmgybTAgNWgtMnYtMmgybTAgNkg4di0yaDhtLTktNUg1di0yaDJtMCA1SDV2LTJoMm0xIDBoMnYySDhtMC01aDJ2Mkg4bTMgMWgydjJoLTJtMC01aDJ2MmgtMm05LTVINGMtMS4xMDYgMC0xLjk5Ljg5Ni0xLjk5IDJsLS4wMSAxMGEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJ2LTEwYTIgMiAwIDAgMC0yLTJ6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbktleWJvYXJkLmRpc3BsYXlOYW1lID0gXCJLZXlib2FyZFwiO1xuXG5leHBvcnQgZGVmYXVsdCBLZXlib2FyZDtcbiJdfQ==

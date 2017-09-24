@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var TabUnselected = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M15 20.998h2v-2h-2m-4 2h2v-2l-2 .001m8-6.001h2v-2h-2m0 10a2 2 0 0 0 2-2h-2m-12-14h2v-2H7m12 14h2v-2h-2m0-12h-8v6h10v-4a2 2 0 0 0-2-2zm-14 18v-2H3a2 2 0 0 0 2 2zm-2-4h2v-2H3m4 6h2v-1.999L7 19M3 4.998h2v-2a2 2 0 0 0-2 2zm0 8h2v-2H3m0-2h2v-2H3v2z" }))); };
+TabUnselected.displayName = "TabUnselected";
+exports.default = TabUnselected;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGFiLXVuc2VsZWN0ZWQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi90YWItdW5zZWxlY3RlZC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLGFBQWEsR0FBMkMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUNyRSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLHFQQUFxUCxHQUFFLENBQ3pQLENBQ2IsRUFKd0UsQ0FJeEUsQ0FBQztBQUVGLGFBQWEsQ0FBQyxXQUFXLEdBQUcsZUFBZSxDQUFDO0FBRTVDLGtCQUFlLGFBQWEsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgdGFiLXVuc2VsZWN0ZWQuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBUYWJVbnNlbGVjdGVkOiBSZWFjdC5TdGF0ZWxlc3NDb21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMTUgMjAuOTk4aDJ2LTJoLTJtLTQgMmgydi0ybC0yIC4wMDFtOC02LjAwMWgydi0yaC0ybTAgMTBhMiAyIDAgMCAwIDItMmgtMm0tMTItMTRoMnYtMkg3bTEyIDE0aDJ2LTJoLTJtMC0xMmgtOHY2aDEwdi00YTIgMiAwIDAgMC0yLTJ6bS0xNCAxOHYtMkgzYTIgMiAwIDAgMCAyIDJ6bS0yLTRoMnYtMkgzbTQgNmgydi0xLjk5OUw3IDE5TTMgNC45OThoMnYtMmEyIDIgMCAwIDAtMiAyem0wIDhoMnYtMkgzbTAtMmgydi0ySDN2MnpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuVGFiVW5zZWxlY3RlZC5kaXNwbGF5TmFtZSA9IFwiVGFiVW5zZWxlY3RlZFwiO1xuXG5leHBvcnQgZGVmYXVsdCBUYWJVbnNlbGVjdGVkO1xuIl19

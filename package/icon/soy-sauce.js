@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var SoySauce = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M13.9 7.5c0-.7.2-1.2.3-1.5h.6l.9-2.5h.8V2h-9v1.5h.8L9.2 6h.6c.2.3.3.8.3 1.5 0 1.3-4.1 6.2-4.1 10.1v2c0 1.4 2.7 2.3 6 2.3s6-.9 6-2.3v-2c0-3.9-4.1-8.8-4.1-10.1zM12 15c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" }))); };
+SoySauce.displayName = "SoySauce";
+exports.default = SoySauce;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic295LXNhdWNlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vc295LXNhdWNlLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sUUFBUSxHQUEyQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ2hFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsa05BQWtOLEdBQUUsQ0FDdE4sQ0FDYixFQUptRSxDQUluRSxDQUFDO0FBRUYsUUFBUSxDQUFDLFdBQVcsR0FBRyxVQUFVLENBQUM7QUFFbEMsa0JBQWUsUUFBUSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBzb3ktc2F1Y2Uuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBTb3lTYXVjZTogUmVhY3QuU3RhdGVsZXNzQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTEzLjkgNy41YzAtLjcuMi0xLjIuMy0xLjVoLjZsLjktMi41aC44VjJoLTl2MS41aC44TDkuMiA2aC42Yy4yLjMuMy44LjMgMS41IDAgMS4zLTQuMSA2LjItNC4xIDEwLjF2MmMwIDEuNCAyLjcgMi4zIDYgMi4zczYtLjkgNi0yLjN2LTJjMC0zLjktNC4xLTguOC00LjEtMTAuMXpNMTIgMTVjLTEuMSAwLTItLjktMi0ycy45LTIgMi0yIDIgLjkgMiAyLS45IDItMiAyelwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5Tb3lTYXVjZS5kaXNwbGF5TmFtZSA9IFwiU295U2F1Y2VcIjtcblxuZXhwb3J0IGRlZmF1bHQgU295U2F1Y2U7XG4iXX0=

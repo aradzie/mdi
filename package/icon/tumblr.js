@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var Tumblr = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M16 10.998h-3v3.9c0 .733.143 1.1 1.1 1.1H16v3s-1.029.1-2.1.1c-2.647 0-3.9-1.623-3.9-3.4v-4.7H8v-2.8c2.407-.2 2.618-2.042 2.8-3.2H13v3h3m4-6H4a1.99 1.99 0 0 0-1.99 2l-.01 16a2 2 0 0 0 2 2h16c1.103 0 2-.896 2-2v-16a2 2 0 0 0-2-2z" }))); };
+Tumblr.displayName = "Tumblr";
+exports.default = Tumblr;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHVtYmxyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vdHVtYmxyLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sTUFBTSxHQUEyQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQzlELG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMscU9BQXFPLEdBQUUsQ0FDek8sQ0FDYixFQUppRSxDQUlqRSxDQUFDO0FBRUYsTUFBTSxDQUFDLFdBQVcsR0FBRyxRQUFRLENBQUM7QUFFOUIsa0JBQWUsTUFBTSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSB0dW1ibHIuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBUdW1ibHI6IFJlYWN0LlN0YXRlbGVzc0NvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0xNiAxMC45OThoLTN2My45YzAgLjczMy4xNDMgMS4xIDEuMSAxLjFIMTZ2M3MtMS4wMjkuMS0yLjEuMWMtMi42NDcgMC0zLjktMS42MjMtMy45LTMuNHYtNC43SDh2LTIuOGMyLjQwNy0uMiAyLjYxOC0yLjA0MiAyLjgtMy4ySDEzdjNoM200LTZINGExLjk5IDEuOTkgMCAwIDAtMS45OSAybC0uMDEgMTZhMiAyIDAgMCAwIDIgMmgxNmMxLjEwMyAwIDItLjg5NiAyLTJ2LTE2YTIgMiAwIDAgMC0yLTJ6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cblR1bWJsci5kaXNwbGF5TmFtZSA9IFwiVHVtYmxyXCI7XG5cbmV4cG9ydCBkZWZhdWx0IFR1bWJscjtcbiJdfQ==

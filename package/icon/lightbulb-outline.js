@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var LightbulbOutline = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M12 1.998a7 7 0 0 1 7 7 6.987 6.987 0 0 1-3 5.74v2.26a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26a6.987 6.987 0 0 1-3-5.74 7 7 0 0 1 7-7zm-3 19v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zM12 4a5 5 0 0 0-2 9.584V16h4v-2.416A5.001 5.001 0 0 0 12 4z" }))); };
+LightbulbOutline.displayName = "LightbulbOutline";
+exports.default = LightbulbOutline;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGlnaHRidWxiLW91dGxpbmUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi9saWdodGJ1bGItb3V0bGluZS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLGdCQUFnQixHQUEyQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ3hFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsMk9BQTJPLEdBQUUsQ0FDL08sQ0FDYixFQUoyRSxDQUkzRSxDQUFDO0FBRUYsZ0JBQWdCLENBQUMsV0FBVyxHQUFHLGtCQUFrQixDQUFDO0FBRWxELGtCQUFlLGdCQUFnQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBsaWdodGJ1bGItb3V0bGluZS5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IExpZ2h0YnVsYk91dGxpbmU6IFJlYWN0LlN0YXRlbGVzc0NvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0xMiAxLjk5OGE3IDcgMCAwIDEgNyA3IDYuOTg3IDYuOTg3IDAgMCAxLTMgNS43NHYyLjI2YTEgMSAwIDAgMS0xIDFIOWExIDEgMCAwIDEtMS0xdi0yLjI2YTYuOTg3IDYuOTg3IDAgMCAxLTMtNS43NCA3IDcgMCAwIDEgNy03em0tMyAxOXYtMWg2djFhMSAxIDAgMCAxLTEgMWgtNGExIDEgMCAwIDEtMS0xek0xMiA0YTUgNSAwIDAgMC0yIDkuNTg0VjE2aDR2LTIuNDE2QTUuMDAxIDUuMDAxIDAgMCAwIDEyIDR6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkxpZ2h0YnVsYk91dGxpbmUuZGlzcGxheU5hbWUgPSBcIkxpZ2h0YnVsYk91dGxpbmVcIjtcblxuZXhwb3J0IGRlZmF1bHQgTGlnaHRidWxiT3V0bGluZTtcbiJdfQ==

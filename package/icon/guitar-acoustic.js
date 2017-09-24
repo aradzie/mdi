@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var GuitarAcoustic = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M19.586 3H22v2h-1.586l-4.248 4.242a5 5 0 0 0-1.408-1.408L19.586 3zM12 8a4 4 0 0 1 1 7.871V16a5 5 0 1 1-5-5l.129.012A4 4 0 0 1 12 8zm0 2.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-5.063 3.736l-.707.707 2.829 2.828.707-.707-2.829-2.828z" }))); };
+GuitarAcoustic.displayName = "GuitarAcoustic";
+exports.default = GuitarAcoustic;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ3VpdGFyLWFjb3VzdGljLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vZ3VpdGFyLWFjb3VzdGljLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sY0FBYyxHQUEyQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ3RFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMseU9BQXlPLEdBQUUsQ0FDN08sQ0FDYixFQUp5RSxDQUl6RSxDQUFDO0FBRUYsY0FBYyxDQUFDLFdBQVcsR0FBRyxnQkFBZ0IsQ0FBQztBQUU5QyxrQkFBZSxjQUFjLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBHZW5lcmF0ZWQgZnJvbSBmaWxlIGd1aXRhci1hY291c3RpYy5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEd1aXRhckFjb3VzdGljOiBSZWFjdC5TdGF0ZWxlc3NDb21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMTkuNTg2IDNIMjJ2MmgtMS41ODZsLTQuMjQ4IDQuMjQyYTUgNSAwIDAgMC0xLjQwOC0xLjQwOEwxOS41ODYgM3pNMTIgOGE0IDQgMCAwIDEgMSA3Ljg3MVYxNmE1IDUgMCAxIDEtNS01bC4xMjkuMDEyQTQgNCAwIDAgMSAxMiA4em0wIDIuNWExLjUgMS41IDAgMSAwIDAgMyAxLjUgMS41IDAgMCAwIDAtM3ptLTUuMDYzIDMuNzM2bC0uNzA3LjcwNyAyLjgyOSAyLjgyOC43MDctLjcwNy0yLjgyOS0yLjgyOHpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuR3VpdGFyQWNvdXN0aWMuZGlzcGxheU5hbWUgPSBcIkd1aXRhckFjb3VzdGljXCI7XG5cbmV4cG9ydCBkZWZhdWx0IEd1aXRhckFjb3VzdGljO1xuIl19

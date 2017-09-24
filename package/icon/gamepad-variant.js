@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var GamepadVariant = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M7 6h10a6 6 0 1 1-4.472 10h-1.056A6 6 0 1 1 7 6zM6 9v2H4v2h2v2h2v-2h2v-2H8V9H6zm9.5 3a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm3-3a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" }))); };
+GamepadVariant.displayName = "GamepadVariant";
+exports.default = GamepadVariant;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ2FtZXBhZC12YXJpYW50LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vZ2FtZXBhZC12YXJpYW50LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sY0FBYyxHQUEyQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ3RFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMscUtBQXFLLEdBQUUsQ0FDekssQ0FDYixFQUp5RSxDQUl6RSxDQUFDO0FBRUYsY0FBYyxDQUFDLFdBQVcsR0FBRyxnQkFBZ0IsQ0FBQztBQUU5QyxrQkFBZSxjQUFjLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBHZW5lcmF0ZWQgZnJvbSBmaWxlIGdhbWVwYWQtdmFyaWFudC5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEdhbWVwYWRWYXJpYW50OiBSZWFjdC5TdGF0ZWxlc3NDb21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNNyA2aDEwYTYgNiAwIDEgMS00LjQ3MiAxMGgtMS4wNTZBNiA2IDAgMSAxIDcgNnpNNiA5djJINHYyaDJ2Mmgydi0yaDJ2LTJIOFY5SDZ6bTkuNSAzYTEuNSAxLjUgMCAxIDAgMCAzIDEuNSAxLjUgMCAwIDAgMC0zem0zLTNhMS41IDEuNSAwIDEgMCAwIDMgMS41IDEuNSAwIDAgMCAwLTN6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkdhbWVwYWRWYXJpYW50LmRpc3BsYXlOYW1lID0gXCJHYW1lcGFkVmFyaWFudFwiO1xuXG5leHBvcnQgZGVmYXVsdCBHYW1lcGFkVmFyaWFudDtcbiJdfQ==

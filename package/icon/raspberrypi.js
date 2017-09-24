@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var Raspberrypi = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M20 8h2v2h-2V8zM4 5h16a2 2 0 0 1 2 2h-3v2H5v4h3v3h11v1h3a2 2 0 0 1-2 2h-4v1h-2v-1h-3v1H7v-1H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm15 10H9v-5h10v1h3v2h-3v2zm-6-3v2h2v-2h-2zM5 6v2h1V6H5zm2 0v2h1V6H7zm2 0v2h1V6H9zm2 0v2h1V6h-1zm2 0v2h1V6h-1zm2 0v2h1V6h-1zm5 8h2v2h-2v-2z" }))); };
+Raspberrypi.displayName = "Raspberrypi";
+exports.default = Raspberrypi;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicmFzcGJlcnJ5cGkuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi9yYXNwYmVycnlwaS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLFdBQVcsR0FBMkMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUNuRSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLHdRQUF3USxHQUFFLENBQzVRLENBQ2IsRUFKc0UsQ0FJdEUsQ0FBQztBQUVGLFdBQVcsQ0FBQyxXQUFXLEdBQUcsYUFBYSxDQUFDO0FBRXhDLGtCQUFlLFdBQVcsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgcmFzcGJlcnJ5cGkuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBSYXNwYmVycnlwaTogUmVhY3QuU3RhdGVsZXNzQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTIwIDhoMnYyaC0yVjh6TTQgNWgxNmEyIDIgMCAwIDEgMiAyaC0zdjJINXY0aDN2M2gxMXYxaDNhMiAyIDAgMCAxLTIgMmgtNHYxaC0ydi0xaC0zdjFIN3YtMUg0YTIgMiAwIDAgMS0yLTJWN2EyIDIgMCAwIDEgMi0yem0xNSAxMEg5di01aDEwdjFoM3YyaC0zdjJ6bS02LTN2Mmgydi0yaC0yek01IDZ2MmgxVjZINXptMiAwdjJoMVY2SDd6bTIgMHYyaDFWNkg5em0yIDB2MmgxVjZoLTF6bTIgMHYyaDFWNmgtMXptMiAwdjJoMVY2aC0xem01IDhoMnYyaC0ydi0yelwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5SYXNwYmVycnlwaS5kaXNwbGF5TmFtZSA9IFwiUmFzcGJlcnJ5cGlcIjtcblxuZXhwb3J0IGRlZmF1bHQgUmFzcGJlcnJ5cGk7XG4iXX0=

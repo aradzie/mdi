@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var BlockHelper = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 2C6.477 2 2 6.477 2 12c0 2.401.846 4.605 2.257 6.329L18.33 4.257A9.958 9.958 0 0 0 12 2zm0 20c5.523 0 10-4.477 10-10a9.959 9.959 0 0 0-2.257-6.329L5.67 19.743A9.959 9.959 0 0 0 12 22z" }))); };
+BlockHelper.displayName = "BlockHelper";
+exports.default = BlockHelper;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmxvY2staGVscGVyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vYmxvY2staGVscGVyLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sV0FBVyxHQUEyQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ25FLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsb1FBQW9RLEdBQUUsQ0FDeFEsQ0FDYixFQUpzRSxDQUl0RSxDQUFDO0FBRUYsV0FBVyxDQUFDLFdBQVcsR0FBRyxhQUFhLENBQUM7QUFFeEMsa0JBQWUsV0FBVyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBibG9jay1oZWxwZXIuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBCbG9ja0hlbHBlcjogUmVhY3QuU3RhdGVsZXNzQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTEyIDBjNi42MjcgMCAxMiA1LjM3MyAxMiAxMnMtNS4zNzMgMTItMTIgMTJTMCAxOC42MjcgMCAxMiA1LjM3MyAwIDEyIDB6bTAgMkM2LjQ3NyAyIDIgNi40NzcgMiAxMmMwIDIuNDAxLjg0NiA0LjYwNSAyLjI1NyA2LjMyOUwxOC4zMyA0LjI1N0E5Ljk1OCA5Ljk1OCAwIDAgMCAxMiAyem0wIDIwYzUuNTIzIDAgMTAtNC40NzcgMTAtMTBhOS45NTkgOS45NTkgMCAwIDAtMi4yNTctNi4zMjlMNS42NyAxOS43NDNBOS45NTkgOS45NTkgMCAwIDAgMTIgMjJ6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkJsb2NrSGVscGVyLmRpc3BsYXlOYW1lID0gXCJCbG9ja0hlbHBlclwiO1xuXG5leHBvcnQgZGVmYXVsdCBCbG9ja0hlbHBlcjtcbiJdfQ==

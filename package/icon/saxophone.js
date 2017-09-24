@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var Saxophone = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M4 2a1 1 0 1 0 0 2 3 3 0 0 1 3 3v8.5c0 3.601 2.899 6.5 6.5 6.5s6.5-2.899 6.5-6.5V13c.554 0 1-.446 1-1s-.446-1-1-1h-6c-.554 0-1 .446-1 1s.446 1 1 1v2c0 .554-.446 1-1 1s-1-.446-1-1v-4a1 1 0 1 0 0-2V8a1 1 0 1 0 0-2v-.5A3.5 3.5 0 0 0 8.5 2H4z" }))); };
+Saxophone.displayName = "Saxophone";
+exports.default = Saxophone;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2F4b3Bob25lLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vc2F4b3Bob25lLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sU0FBUyxHQUEyQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ2pFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsZ1BBQWdQLEdBQUUsQ0FDcFAsQ0FDYixFQUpvRSxDQUlwRSxDQUFDO0FBRUYsU0FBUyxDQUFDLFdBQVcsR0FBRyxXQUFXLENBQUM7QUFFcEMsa0JBQWUsU0FBUyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBzYXhvcGhvbmUuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBTYXhvcGhvbmU6IFJlYWN0LlN0YXRlbGVzc0NvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk00IDJhMSAxIDAgMSAwIDAgMiAzIDMgMCAwIDEgMyAzdjguNWMwIDMuNjAxIDIuODk5IDYuNSA2LjUgNi41czYuNS0yLjg5OSA2LjUtNi41VjEzYy41NTQgMCAxLS40NDYgMS0xcy0uNDQ2LTEtMS0xaC02Yy0uNTU0IDAtMSAuNDQ2LTEgMXMuNDQ2IDEgMSAxdjJjMCAuNTU0LS40NDYgMS0xIDFzLTEtLjQ0Ni0xLTF2LTRhMSAxIDAgMSAwIDAtMlY4YTEgMSAwIDEgMCAwLTJ2LS41QTMuNSAzLjUgMCAwIDAgOC41IDJINHpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuU2F4b3Bob25lLmRpc3BsYXlOYW1lID0gXCJTYXhvcGhvbmVcIjtcblxuZXhwb3J0IGRlZmF1bHQgU2F4b3Bob25lO1xuIl19

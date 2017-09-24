@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var BluetoothConnect = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M19 9.998l-2 2 2 2 2-2m-6.122 4.293L13 18.171v-3.759m0-8.586l1.88 1.88-1.88 1.878m4.707-1.879L12 1.998h-1v7.586L6.413 4.998 5 6.412l5.586 5.586L5 17.584l1.414 1.414L11 14.412v7.586h1l5.707-5.707-4.293-4.293m-6.414 0l-2-2-2 2 2 2 2-2z" }))); };
+BluetoothConnect.displayName = "BluetoothConnect";
+exports.default = BluetoothConnect;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmx1ZXRvb3RoLWNvbm5lY3QuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi9ibHVldG9vdGgtY29ubmVjdC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLGdCQUFnQixHQUEyQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ3hFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsMk9BQTJPLEdBQUUsQ0FDL08sQ0FDYixFQUoyRSxDQUkzRSxDQUFDO0FBRUYsZ0JBQWdCLENBQUMsV0FBVyxHQUFHLGtCQUFrQixDQUFDO0FBRWxELGtCQUFlLGdCQUFnQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBibHVldG9vdGgtY29ubmVjdC5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEJsdWV0b290aENvbm5lY3Q6IFJlYWN0LlN0YXRlbGVzc0NvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0xOSA5Ljk5OGwtMiAyIDIgMiAyLTJtLTYuMTIyIDQuMjkzTDEzIDE4LjE3MXYtMy43NTltMC04LjU4NmwxLjg4IDEuODgtMS44OCAxLjg3OG00LjcwNy0xLjg3OUwxMiAxLjk5OGgtMXY3LjU4Nkw2LjQxMyA0Ljk5OCA1IDYuNDEybDUuNTg2IDUuNTg2TDUgMTcuNTg0bDEuNDE0IDEuNDE0TDExIDE0LjQxMnY3LjU4NmgxbDUuNzA3LTUuNzA3LTQuMjkzLTQuMjkzbS02LjQxNCAwbC0yLTItMiAyIDIgMiAyLTJ6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkJsdWV0b290aENvbm5lY3QuZGlzcGxheU5hbWUgPSBcIkJsdWV0b290aENvbm5lY3RcIjtcblxuZXhwb3J0IGRlZmF1bHQgQmx1ZXRvb3RoQ29ubmVjdDtcbiJdfQ==
