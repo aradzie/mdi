@@ -11,17 +11,6 @@ export interface SvgIconProps {
     onMouseUp?: React.MouseEventHandler<{}>;
 }
 
-export const propTypes = {
-    children: React.PropTypes.node.isRequired,
-    className: React.PropTypes.any,
-    viewBox: React.PropTypes.string,
-    onClick: React.PropTypes.func,
-    onMouseDown: React.PropTypes.func,
-    onMouseEnter: React.PropTypes.func,
-    onMouseLeave: React.PropTypes.func,
-    onMouseUp: React.PropTypes.func,
-};
-
 export const defaultProps = {
     className: null,
     viewBox: "0 0 24 24",
@@ -33,7 +22,6 @@ export const defaultProps = {
 };
 
 export class SvgIcon extends React.PureComponent<SvgIconProps, {}> {
-    static propTypes = propTypes;
     static defaultProps = defaultProps;
 
     render() {
