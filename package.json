@@ -28,11 +28,11 @@
   "homepage": "https://github.com/aradzie/mdi#readme",
   "devDependencies": {
     "@types/classnames": "^2.2.3",
-    "@types/react": "^16.0.7",
+    "@types/react": "^16.0.16",
     "classnames": "^2.2.5",
     "react": "^16.0.0",
     "svgo": "^0.7.2",
-    "tslib": "^1.7.1",
+    "tslib": "^1.8.0",
     "typescript": "^2.5.3",
     "xml2js": "^0.4.19"
   }

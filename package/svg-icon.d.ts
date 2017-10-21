@@ -9,24 +9,8 @@ export interface SvgIconProps {
     onMouseLeave?: React.MouseEventHandler<{}>;
     onMouseUp?: React.MouseEventHandler<{}>;
 }
-export declare const defaultProps: {
-    className: null;
-    viewBox: string;
-    onClick: () => void;
-    onMouseDown: () => void;
-    onMouseEnter: () => void;
-    onMouseLeave: () => void;
-    onMouseUp: () => void;
-};
+export declare const defaultProps: Partial<SvgIconProps>;
 export declare class SvgIcon extends React.PureComponent<SvgIconProps, {}> {
-    static defaultProps: {
-        className: null;
-        viewBox: string;
-        onClick: () => void;
-        onMouseDown: () => void;
-        onMouseEnter: () => void;
-        onMouseLeave: () => void;
-        onMouseUp: () => void;
-    };
+    static defaultProps: Partial<SvgIconProps>;
     render(): JSX.Element;
 }

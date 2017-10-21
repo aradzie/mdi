@@ -11,7 +11,7 @@ export interface SvgIconProps {
     onMouseUp?: React.MouseEventHandler<{}>;
 }
 
-export const defaultProps = {
+export const defaultProps: Partial<SvgIconProps> = {
     className: null,
     viewBox: "0 0 24 24",
     onClick: () => {},
