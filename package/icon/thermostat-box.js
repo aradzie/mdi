@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var ThermostatBox = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M5 3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5zm7 2c1.57 0 3 .5 4.19 1.4L14 8.56c-.57-.35-1.26-.56-2-.56a4 4 0 0 0-2.83 6.83l-2.12 2.12A7 7 0 0 1 12 5zm5.6 2.81A6.86 6.86 0 0 1 19 12c0 1.93-.78 3.68-2.05 4.95l-2.12-2.12C15.55 14.1 16 13.1 16 12c0-.74-.21-1.43-.57-2l2.17-2.19z" }))); };
+ThermostatBox.displayName = "ThermostatBox";
+exports.default = ThermostatBox;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGhlcm1vc3RhdC1ib3guanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi90aGVybW9zdGF0LWJveC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLGFBQWEsR0FBMkMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUNyRSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLDhTQUE4UyxHQUFFLENBQ2xULENBQ2IsRUFKd0UsQ0FJeEUsQ0FBQztBQUVGLGFBQWEsQ0FBQyxXQUFXLEdBQUcsZUFBZSxDQUFDO0FBRTVDLGtCQUFlLGFBQWEsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgdGhlcm1vc3RhdC1ib3guc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBUaGVybW9zdGF0Qm94OiBSZWFjdC5TdGF0ZWxlc3NDb21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNNSAzYTIgMiAwIDAgMC0yIDJ2MTRhMiAyIDAgMCAwIDIgMmgxNGEyIDIgMCAwIDAgMi0yVjVhMiAyIDAgMCAwLTItMkg1em03IDJjMS41NyAwIDMgLjUgNC4xOSAxLjRMMTQgOC41NmMtLjU3LS4zNS0xLjI2LS41Ni0yLS41NmE0IDQgMCAwIDAtMi44MyA2LjgzbC0yLjEyIDIuMTJBNyA3IDAgMCAxIDEyIDV6bTUuNiAyLjgxQTYuODYgNi44NiAwIDAgMSAxOSAxMmMwIDEuOTMtLjc4IDMuNjgtMi4wNSA0Ljk1bC0yLjEyLTIuMTJDMTUuNTUgMTQuMSAxNiAxMy4xIDE2IDEyYzAtLjc0LS4yMS0xLjQzLS41Ny0ybDIuMTctMi4xOXpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuVGhlcm1vc3RhdEJveC5kaXNwbGF5TmFtZSA9IFwiVGhlcm1vc3RhdEJveFwiO1xuXG5leHBvcnQgZGVmYXVsdCBUaGVybW9zdGF0Qm94O1xuIl19

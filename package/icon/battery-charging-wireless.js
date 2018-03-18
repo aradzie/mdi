@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var BatteryChargingWireless = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M13 4h-2V2H5v2H3a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1zm7.07.93l-1.41 1.41c3.126 3.123 3.129 8.188 0 11.32l1.41 1.41c3.904-3.905 3.904-10.235 0-14.14zm-2.83 2.83l-1.41 1.41a4 4 0 0 1 0 5.66l1.41 1.41a6 6 0 0 0 0-8.48z" }))); };
+BatteryChargingWireless.displayName = "BatteryChargingWireless";
+exports.default = BatteryChargingWireless;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmF0dGVyeS1jaGFyZ2luZy13aXJlbGVzcy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pY29uL2JhdHRlcnktY2hhcmdpbmctd2lyZWxlc3MudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVBLHdDQUFvRDtBQUNwRCw2QkFBK0I7QUFFL0IsSUFBTSx1QkFBdUIsR0FBMkMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUMvRSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLHFQQUFxUCxHQUFFLENBQ3pQLENBQ2IsRUFKa0YsQ0FJbEYsQ0FBQztBQUVGLHVCQUF1QixDQUFDLFdBQVcsR0FBRyx5QkFBeUIsQ0FBQztBQUVoRSxrQkFBZSx1QkFBdUIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgYmF0dGVyeS1jaGFyZ2luZy13aXJlbGVzcy5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEJhdHRlcnlDaGFyZ2luZ1dpcmVsZXNzOiBSZWFjdC5TdGF0ZWxlc3NDb21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMTMgNGgtMlYySDV2MkgzYTEgMSAwIDAgMC0xIDF2MTZhMSAxIDAgMCAwIDEgMWgxMGExIDEgMCAwIDAgMS0xVjVhMSAxIDAgMCAwLTEtMXptNy4wNy45M2wtMS40MSAxLjQxYzMuMTI2IDMuMTIzIDMuMTI5IDguMTg4IDAgMTEuMzJsMS40MSAxLjQxYzMuOTA0LTMuOTA1IDMuOTA0LTEwLjIzNSAwLTE0LjE0em0tMi44MyAyLjgzbC0xLjQxIDEuNDFhNCA0IDAgMCAxIDAgNS42NmwxLjQxIDEuNDFhNiA2IDAgMCAwIDAtOC40OHpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuQmF0dGVyeUNoYXJnaW5nV2lyZWxlc3MuZGlzcGxheU5hbWUgPSBcIkJhdHRlcnlDaGFyZ2luZ1dpcmVsZXNzXCI7XG5cbmV4cG9ydCBkZWZhdWx0IEJhdHRlcnlDaGFyZ2luZ1dpcmVsZXNzO1xuIl19

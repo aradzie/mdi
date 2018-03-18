@@ -2,7 +2,79 @@ const fs = require("fs");
 const Svgo = require("svgo");
 const xml = require("xml2js");
 
-const svgo = new Svgo({});
+const svgo = new Svgo({
+    plugins: [{
+        cleanupAttrs: true,
+    }, {
+        removeDoctype: true,
+    }, {
+        removeXMLProcInst: true,
+    }, {
+        removeComments: true,
+    }, {
+        removeMetadata: true,
+    }, {
+        removeTitle: true,
+    }, {
+        removeDesc: true,
+    }, {
+        removeUselessDefs: true,
+    }, {
+        removeEditorsNSData: true,
+    }, {
+        removeEmptyAttrs: true,
+    }, {
+        removeHiddenElems: true,
+    }, {
+        removeEmptyText: true,
+    }, {
+        removeEmptyContainers: true,
+    }, {
+        removeViewBox: false,
+    }, {
+        cleanUpEnableBackground: true,
+    }, {
+        convertStyleToAttrs: true,
+    }, {
+        convertColors: true,
+    }, {
+        convertPathData: true,
+    }, {
+        convertTransform: true,
+    }, {
+        removeUnknownsAndDefaults: true,
+    }, {
+        removeNonInheritableGroupAttrs: true,
+    }, {
+        removeUselessStrokeAndFill: true,
+    }, {
+        removeUnusedNS: true,
+    }, {
+        cleanupIDs: true,
+    }, {
+        cleanupNumericValues: true,
+    }, {
+        moveElemsAttrsToGroup: true,
+    }, {
+        moveGroupAttrsToElems: true,
+    }, {
+        collapseGroups: true,
+    }, {
+        removeRasterImages: false,
+    }, {
+        mergePaths: true,
+    }, {
+        convertShapeToPath: true,
+    }, {
+        sortAttrs: true,
+    }, {
+        transformsWithOnePath: true,
+    }, {
+        removeDimensions: true,
+    }, {
+        removeAttrs: { attrs: "(stroke|fill)" },
+    }],
+});
 
 const parser = new xml.Parser({
     explicitRoot: true,
@@ -30,7 +102,7 @@ for (const fileName of fileNames) {
     const extName = fileName.substring(n + 1);
     if (extName == "svg") {
         const contents = fs.readFileSync(`${svgDir}/${fileName}`, { encoding: "utf8" });
-        svgo.optimize(contents, function (result) {
+        svgo.optimize(contents).then(result => {
             const { data, info: { width, height } } = result;
             parser.parseString(data, (error, document) => {
                 const out = generate(baseName, contents, document);
