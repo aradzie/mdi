@@ -27,13 +27,13 @@
   },
   "homepage": "https://github.com/aradzie/mdi#readme",
   "devDependencies": {
-    "@types/classnames": "^2.2.3",
-    "@types/react": "^16.0.40",
-    "classnames": "^2.2.5",
-    "react": "^16.2.0",
-    "svgo": "^1.0.5",
-    "tslib": "^1.9.0",
-    "typescript": "^2.7.2",
+    "@types/classnames": "^2.2.6",
+    "@types/react": "^16.4.18",
+    "classnames": "^2.2.6",
+    "react": "^16.6.0",
+    "svgo": "^1.1.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.1.6",
     "xml2js": "^0.4.19"
   }
 }
