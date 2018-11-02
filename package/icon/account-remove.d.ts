@@ -1,4 +1,3 @@
-/// <reference types="react" />
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
 declare const AccountRemove: React.StatelessComponent<SvgIconProps>;

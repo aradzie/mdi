@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var Christianity = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M10.5 2h3v6H19v3h-5.5v11h-3V11H5V8h5.5V2z" }))); };
+Christianity.displayName = "Christianity";
+exports.default = Christianity;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2hyaXN0aWFuaXR5LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vY2hyaXN0aWFuaXR5LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sWUFBWSxHQUEyQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ3BFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsMkNBQTJDLEdBQUUsQ0FDL0MsQ0FDYixFQUp1RSxDQUl2RSxDQUFDO0FBRUYsWUFBWSxDQUFDLFdBQVcsR0FBRyxjQUFjLENBQUM7QUFFMUMsa0JBQWUsWUFBWSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBjaHJpc3RpYW5pdHkuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBDaHJpc3RpYW5pdHk6IFJlYWN0LlN0YXRlbGVzc0NvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0xMC41IDJoM3Y2SDE5djNoLTUuNXYxMWgtM1YxMUg1VjhoNS41VjJ6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkNocmlzdGlhbml0eS5kaXNwbGF5TmFtZSA9IFwiQ2hyaXN0aWFuaXR5XCI7XG5cbmV4cG9ydCBkZWZhdWx0IENocmlzdGlhbml0eTtcbiJdfQ==

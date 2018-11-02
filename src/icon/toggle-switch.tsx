@@ -5,7 +5,7 @@ import * as React from "react";
 
 const ToggleSwitch: React.StatelessComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M17 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zM4 14a2 2 0 0 1 0-4h6v4H4z"/>
+        <path d="M17 7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5s-2.24-5-5-5zm0 8c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/>
     </SvgIcon>
 );
 

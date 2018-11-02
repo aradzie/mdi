@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var ZodiacSagittarius = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M22 2v10h-2V5.41L10.41 15l2.3 2.29-1.42 1.42L9 16.41l-5.29 5.3-1.42-1.42L7.59 15l-2.3-2.29 1.42-1.42L9 13.59 18.59 4H12V2h10z" }))); };
+ZodiacSagittarius.displayName = "ZodiacSagittarius";
+exports.default = ZodiacSagittarius;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiem9kaWFjLXNhZ2l0dGFyaXVzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vem9kaWFjLXNhZ2l0dGFyaXVzLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0saUJBQWlCLEdBQTJDLFVBQUMsS0FBSyxJQUFLLE9BQUEsQ0FDekUsb0JBQUMsa0JBQU8sdUJBQUssS0FBSztJQUNkLDhCQUFNLENBQUMsRUFBQywrSEFBK0gsR0FBRSxDQUNuSSxDQUNiLEVBSjRFLENBSTVFLENBQUM7QUFFRixpQkFBaUIsQ0FBQyxXQUFXLEdBQUcsbUJBQW1CLENBQUM7QUFFcEQsa0JBQWUsaUJBQWlCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBHZW5lcmF0ZWQgZnJvbSBmaWxlIHpvZGlhYy1zYWdpdHRhcml1cy5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IFpvZGlhY1NhZ2l0dGFyaXVzOiBSZWFjdC5TdGF0ZWxlc3NDb21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMjIgMnYxMGgtMlY1LjQxTDEwLjQxIDE1bDIuMyAyLjI5LTEuNDIgMS40Mkw5IDE2LjQxbC01LjI5IDUuMy0xLjQyLTEuNDJMNy41OSAxNWwtMi4zLTIuMjkgMS40Mi0xLjQyTDkgMTMuNTkgMTguNTkgNEgxMlYyaDEwelwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5ab2RpYWNTYWdpdHRhcml1cy5kaXNwbGF5TmFtZSA9IFwiWm9kaWFjU2FnaXR0YXJpdXNcIjtcblxuZXhwb3J0IGRlZmF1bHQgWm9kaWFjU2FnaXR0YXJpdXM7XG4iXX0=

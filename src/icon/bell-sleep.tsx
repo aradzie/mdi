@@ -5,7 +5,7 @@ import * as React from "react";
 
 const BellSleep: React.StatelessComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M14 9.798l-2.8 3.4H14v1.8H9v-1.8l2.8-3.4H9v-1.8h5m4 8v-5.5a6.498 6.498 0 0 0-5-6.319V3.5a1.5 1.5 0 0 0-3 0v.68a6.498 6.498 0 0 0-5 6.32v5.5l-2 2v1h17v-1m-8.5 4a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2z"/>
+        <path d="M10 21h4a2 2 0 1 1-4 0zm11-2v1H3v-1l2-2v-6a7 7 0 0 1 5-6.71A2.85 2.85 0 0 1 10 4a2 2 0 1 1 4 0c.005.097.005.193 0 .29A7 7 0 0 1 19 11v6l2 2zM15 9H9v2h3.24L9 13.7V16h6v-2h-3.24L15 11.3V9z"/>
     </SvgIcon>
 );
 

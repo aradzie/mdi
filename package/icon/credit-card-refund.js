@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var CreditCardRefund = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M18 11H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2zm0 10H6v-4h12v4zm0-6H6v-2h12v2zM17 5v5h-1.5V6.5H9.875L12.3 8.93 11.24 10 7 5.75l4.24-4.24 1.06 1.06L9.875 5H17z" }))); };
+CreditCardRefund.displayName = "CreditCardRefund";
+exports.default = CreditCardRefund;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3JlZGl0LWNhcmQtcmVmdW5kLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vY3JlZGl0LWNhcmQtcmVmdW5kLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sZ0JBQWdCLEdBQTJDLFVBQUMsS0FBSyxJQUFLLE9BQUEsQ0FDeEUsb0JBQUMsa0JBQU8sdUJBQUssS0FBSztJQUNkLDhCQUFNLENBQUMsRUFBQywwTEFBMEwsR0FBRSxDQUM5TCxDQUNiLEVBSjJFLENBSTNFLENBQUM7QUFFRixnQkFBZ0IsQ0FBQyxXQUFXLEdBQUcsa0JBQWtCLENBQUM7QUFFbEQsa0JBQWUsZ0JBQWdCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBHZW5lcmF0ZWQgZnJvbSBmaWxlIGNyZWRpdC1jYXJkLXJlZnVuZC5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IENyZWRpdENhcmRSZWZ1bmQ6IFJlYWN0LlN0YXRlbGVzc0NvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0xOCAxMUg2YTIgMiAwIDAgMC0yIDJ2OGEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJ2LThhMiAyIDAgMCAwLTItMnptMCAxMEg2di00aDEydjR6bTAtNkg2di0yaDEydjJ6TTE3IDV2NWgtMS41VjYuNUg5Ljg3NUwxMi4zIDguOTMgMTEuMjQgMTAgNyA1Ljc1bDQuMjQtNC4yNCAxLjA2IDEuMDZMOS44NzUgNUgxN3pcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuQ3JlZGl0Q2FyZFJlZnVuZC5kaXNwbGF5TmFtZSA9IFwiQ3JlZGl0Q2FyZFJlZnVuZFwiO1xuXG5leHBvcnQgZGVmYXVsdCBDcmVkaXRDYXJkUmVmdW5kO1xuIl19

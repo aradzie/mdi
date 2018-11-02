@@ -5,7 +5,7 @@ import * as React from "react";
 
 const FormatPageBreak: React.StatelessComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M7 11h2v2H7v-2zm4 0h2v2h-2v-2zm8 6h-4v-5.828l6 6V22H3v-9h2v7h14v-3zM3 2h18v9h-2V4H5v7H3V2z"/>
+        <path d="M18 20H6v-2H4v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2h-2v2zM14 2H6a2 2 0 0 0-2 2v8h2V4h8v4h4v4h2V8l-6-6zm-3 14H8v-2h3v2zm5 0h-3v-2h3v2zM3 14h3v2H3v-2zm18 2h-3v-2h3v2z"/>
     </SvgIcon>
 );
 

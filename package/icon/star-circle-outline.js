@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var StarCircleOutline = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M8.578 17.25l.938-3.89-3-2.579 3.937-.375L12 6.796l1.547 3.657 3.937.328-3 2.578.938 3.891L12 15.187 8.578 17.25zM12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16z" }))); };
+StarCircleOutline.displayName = "StarCircleOutline";
+exports.default = StarCircleOutline;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3Rhci1jaXJjbGUtb3V0bGluZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pY29uL3N0YXItY2lyY2xlLW91dGxpbmUudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVBLHdDQUFvRDtBQUNwRCw2QkFBK0I7QUFFL0IsSUFBTSxpQkFBaUIsR0FBMkMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUN6RSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLDhOQUE4TixHQUFFLENBQ2xPLENBQ2IsRUFKNEUsQ0FJNUUsQ0FBQztBQUVGLGlCQUFpQixDQUFDLFdBQVcsR0FBRyxtQkFBbUIsQ0FBQztBQUVwRCxrQkFBZSxpQkFBaUIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgc3Rhci1jaXJjbGUtb3V0bGluZS5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IFN0YXJDaXJjbGVPdXRsaW5lOiBSZWFjdC5TdGF0ZWxlc3NDb21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNOC41NzggMTcuMjVsLjkzOC0zLjg5LTMtMi41NzkgMy45MzctLjM3NUwxMiA2Ljc5NmwxLjU0NyAzLjY1NyAzLjkzNy4zMjgtMyAyLjU3OC45MzggMy44OTFMMTIgMTUuMTg3IDguNTc4IDE3LjI1ek0xMiAyYzUuNTIzIDAgMTAgNC40NzcgMTAgMTBzLTQuNDc3IDEwLTEwIDEwUzIgMTcuNTIzIDIgMTIgNi40NzcgMiAxMiAyem0wIDJhOCA4IDAgMSAwIDAgMTYgOCA4IDAgMCAwIDAtMTZ6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cblN0YXJDaXJjbGVPdXRsaW5lLmRpc3BsYXlOYW1lID0gXCJTdGFyQ2lyY2xlT3V0bGluZVwiO1xuXG5leHBvcnQgZGVmYXVsdCBTdGFyQ2lyY2xlT3V0bGluZTtcbiJdfQ==

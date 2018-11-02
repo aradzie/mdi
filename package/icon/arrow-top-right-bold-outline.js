@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var ArrowTopRightBoldOutline = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M5.636 4.222h14.142v14.142l-4.243-4.243-5.657 5.657-5.657-5.657 5.657-5.657-4.242-4.242zm12.021 2.121h-7.071l2.121 2.121-5.657 5.657 2.828 2.828 5.657-5.657 2.121 2.121v-7.07h.001z" }))); };
+ArrowTopRightBoldOutline.displayName = "ArrowTopRightBoldOutline";
+exports.default = ArrowTopRightBoldOutline;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXJyb3ctdG9wLXJpZ2h0LWJvbGQtb3V0bGluZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pY29uL2Fycm93LXRvcC1yaWdodC1ib2xkLW91dGxpbmUudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVBLHdDQUFvRDtBQUNwRCw2QkFBK0I7QUFFL0IsSUFBTSx3QkFBd0IsR0FBMkMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUNoRixvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLHNMQUFzTCxHQUFFLENBQzFMLENBQ2IsRUFKbUYsQ0FJbkYsQ0FBQztBQUVGLHdCQUF3QixDQUFDLFdBQVcsR0FBRywwQkFBMEIsQ0FBQztBQUVsRSxrQkFBZSx3QkFBd0IsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgYXJyb3ctdG9wLXJpZ2h0LWJvbGQtb3V0bGluZS5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEFycm93VG9wUmlnaHRCb2xkT3V0bGluZTogUmVhY3QuU3RhdGVsZXNzQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTUuNjM2IDQuMjIyaDE0LjE0MnYxNC4xNDJsLTQuMjQzLTQuMjQzLTUuNjU3IDUuNjU3LTUuNjU3LTUuNjU3IDUuNjU3LTUuNjU3LTQuMjQyLTQuMjQyem0xMi4wMjEgMi4xMjFoLTcuMDcxbDIuMTIxIDIuMTIxLTUuNjU3IDUuNjU3IDIuODI4IDIuODI4IDUuNjU3LTUuNjU3IDIuMTIxIDIuMTIxdi03LjA3aC4wMDF6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkFycm93VG9wUmlnaHRCb2xkT3V0bGluZS5kaXNwbGF5TmFtZSA9IFwiQXJyb3dUb3BSaWdodEJvbGRPdXRsaW5lXCI7XG5cbmV4cG9ydCBkZWZhdWx0IEFycm93VG9wUmlnaHRCb2xkT3V0bGluZTtcbiJdfQ==

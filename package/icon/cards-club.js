@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var CardsClub = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M12 2c2.3 0 4.3 2 4.3 4.2-.092 2.574-1.959 3.627-2.26 3.78 1-.48 2.46-.48 2.46-.48 2.5 0 4.5 1.8 4.5 4.3S19 18 16.5 18c0 0-1.5 0-3.5-1 0 0-.3 2 2 5H9c2.3-3 2-5 2-5-2 1-3.5 1-3.5 1C5 18 3 16.3 3 13.8s2-4.3 4.5-4.3c0 0 1.46 0 2.46.48-.301-.153-2.168-1.206-2.26-3.78C7.7 4 9.7 2 12 2z" }))); };
+CardsClub.displayName = "CardsClub";
+exports.default = CardsClub;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2FyZHMtY2x1Yi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pY29uL2NhcmRzLWNsdWIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVBLHdDQUFvRDtBQUNwRCw2QkFBK0I7QUFFL0IsSUFBTSxTQUFTLEdBQTJDLFVBQUMsS0FBSyxJQUFLLE9BQUEsQ0FDakUsb0JBQUMsa0JBQU8sdUJBQUssS0FBSztJQUNkLDhCQUFNLENBQUMsRUFBQywyUkFBMlIsR0FBRSxDQUMvUixDQUNiLEVBSm9FLENBSXBFLENBQUM7QUFFRixTQUFTLENBQUMsV0FBVyxHQUFHLFdBQVcsQ0FBQztBQUVwQyxrQkFBZSxTQUFTLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBHZW5lcmF0ZWQgZnJvbSBmaWxlIGNhcmRzLWNsdWIuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBDYXJkc0NsdWI6IFJlYWN0LlN0YXRlbGVzc0NvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0xMiAyYzIuMyAwIDQuMyAyIDQuMyA0LjItLjA5MiAyLjU3NC0xLjk1OSAzLjYyNy0yLjI2IDMuNzggMS0uNDggMi40Ni0uNDggMi40Ni0uNDggMi41IDAgNC41IDEuOCA0LjUgNC4zUzE5IDE4IDE2LjUgMThjMCAwLTEuNSAwLTMuNS0xIDAgMC0uMyAyIDIgNUg5YzIuMy0zIDItNSAyLTUtMiAxLTMuNSAxLTMuNSAxQzUgMTggMyAxNi4zIDMgMTMuOHMyLTQuMyA0LjUtNC4zYzAgMCAxLjQ2IDAgMi40Ni40OC0uMzAxLS4xNTMtMi4xNjgtMS4yMDYtMi4yNi0zLjc4QzcuNyA0IDkuNyAyIDEyIDJ6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkNhcmRzQ2x1Yi5kaXNwbGF5TmFtZSA9IFwiQ2FyZHNDbHViXCI7XG5cbmV4cG9ydCBkZWZhdWx0IENhcmRzQ2x1YjtcbiJdfQ==

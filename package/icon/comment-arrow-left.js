@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var CommentArrowLeft = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M9 22a1 1 0 0 1-1-1v-3H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6.1l-3.7 3.71c-.2.19-.45.29-.7.29H9m7.17-10.883V9.053h-4.642l1.805-1.805L12.085 6 8 10.085l4.085 4.085 1.248-1.248-1.805-1.805h4.642z" }))); };
+CommentArrowLeft.displayName = "CommentArrowLeft";
+exports.default = CommentArrowLeft;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tbWVudC1hcnJvdy1sZWZ0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vY29tbWVudC1hcnJvdy1sZWZ0LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sZ0JBQWdCLEdBQTJDLFVBQUMsS0FBSyxJQUFLLE9BQUEsQ0FDeEUsb0JBQUMsa0JBQU8sdUJBQUssS0FBSztJQUNkLDhCQUFNLENBQUMsRUFBQyxpT0FBaU8sR0FBRSxDQUNyTyxDQUNiLEVBSjJFLENBSTNFLENBQUM7QUFFRixnQkFBZ0IsQ0FBQyxXQUFXLEdBQUcsa0JBQWtCLENBQUM7QUFFbEQsa0JBQWUsZ0JBQWdCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBHZW5lcmF0ZWQgZnJvbSBmaWxlIGNvbW1lbnQtYXJyb3ctbGVmdC5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IENvbW1lbnRBcnJvd0xlZnQ6IFJlYWN0LlN0YXRlbGVzc0NvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk05IDIyYTEgMSAwIDAgMS0xLTF2LTNINGEyIDIgMCAwIDEtMi0yVjRhMiAyIDAgMCAxIDItMmgxNmEyIDIgMCAwIDEgMiAydjEyYTIgMiAwIDAgMS0yIDJoLTYuMWwtMy43IDMuNzFjLS4yLjE5LS40NS4yOS0uNy4yOUg5bTcuMTctMTAuODgzVjkuMDUzaC00LjY0MmwxLjgwNS0xLjgwNUwxMi4wODUgNiA4IDEwLjA4NWw0LjA4NSA0LjA4NSAxLjI0OC0xLjI0OC0xLjgwNS0xLjgwNWg0LjY0MnpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuQ29tbWVudEFycm93TGVmdC5kaXNwbGF5TmFtZSA9IFwiQ29tbWVudEFycm93TGVmdFwiO1xuXG5leHBvcnQgZGVmYXVsdCBDb21tZW50QXJyb3dMZWZ0O1xuIl19

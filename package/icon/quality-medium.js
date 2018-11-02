@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var QualityMedium = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M21 6v12c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2zm-9 4c0-.5-.5-1-1-1H6.5c-.5 0-1 .5-1 1v5H7v-4.5h1V14h1.5v-3.5h1V15H12v-5zm2.5-1a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h1v1.5h1.25V15h.75a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-3zm.5 1.5h2v3h-2v-3z" }))); };
+QualityMedium.displayName = "QualityMedium";
+exports.default = QualityMedium;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicXVhbGl0eS1tZWRpdW0uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi9xdWFsaXR5LW1lZGl1bS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLGFBQWEsR0FBMkMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUNyRSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLGtRQUFrUSxHQUFFLENBQ3RRLENBQ2IsRUFKd0UsQ0FJeEUsQ0FBQztBQUVGLGFBQWEsQ0FBQyxXQUFXLEdBQUcsZUFBZSxDQUFDO0FBRTVDLGtCQUFlLGFBQWEsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgcXVhbGl0eS1tZWRpdW0uc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBRdWFsaXR5TWVkaXVtOiBSZWFjdC5TdGF0ZWxlc3NDb21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMjEgNnYxMmMwIDEuMS0uOSAyLTIgMkg1Yy0xLjEgMC0yLS45LTItMlY2YzAtMS4xLjktMiAyLTJoMTRjMS4xIDAgMiAuOSAyIDJ6bS05IDRjMC0uNS0uNS0xLTEtMUg2LjVjLS41IDAtMSAuNS0xIDF2NUg3di00LjVoMVYxNGgxLjV2LTMuNWgxVjE1SDEydi01em0yLjUtMWExIDEgMCAwIDAtMSAxdjRhMSAxIDAgMCAwIDEgMWgxdjEuNWgxLjI1VjE1aC43NWExIDEgMCAwIDAgMS0xdi00YTEgMSAwIDAgMC0xLTFoLTN6bS41IDEuNWgydjNoLTJ2LTN6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cblF1YWxpdHlNZWRpdW0uZGlzcGxheU5hbWUgPSBcIlF1YWxpdHlNZWRpdW1cIjtcblxuZXhwb3J0IGRlZmF1bHQgUXVhbGl0eU1lZGl1bTtcbiJdfQ==

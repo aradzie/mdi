@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var HeartCircle = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M12 2C6.47 2 2 6.5 2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2zM9.75 7.82c.87 0 1.7.41 2.25 1.05a3.006 3.006 0 0 1 2.25-1.05c1.54 0 2.75 1.21 2.75 2.75 0 1.89-1.7 3.43-4.28 5.77L12 17l-.72-.66C8.7 14 7 12.46 7 10.57c0-1.54 1.21-2.75 2.75-2.75z" }))); };
+HeartCircle.displayName = "HeartCircle";
+exports.default = HeartCircle;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaGVhcnQtY2lyY2xlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vaGVhcnQtY2lyY2xlLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sV0FBVyxHQUEyQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ25FLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsa1FBQWtRLEdBQUUsQ0FDdFEsQ0FDYixFQUpzRSxDQUl0RSxDQUFDO0FBRUYsV0FBVyxDQUFDLFdBQVcsR0FBRyxhQUFhLENBQUM7QUFFeEMsa0JBQWUsV0FBVyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBoZWFydC1jaXJjbGUuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBIZWFydENpcmNsZTogUmVhY3QuU3RhdGVsZXNzQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTEyIDJDNi40NyAyIDIgNi41IDIgMTJjMCA1LjUyMyA0LjQ3NyAxMCAxMCAxMHMxMC00LjQ3NyAxMC0xMFMxNy41MjMgMiAxMiAyek05Ljc1IDcuODJjLjg3IDAgMS43LjQxIDIuMjUgMS4wNWEzLjAwNiAzLjAwNiAwIDAgMSAyLjI1LTEuMDVjMS41NCAwIDIuNzUgMS4yMSAyLjc1IDIuNzUgMCAxLjg5LTEuNyAzLjQzLTQuMjggNS43N0wxMiAxN2wtLjcyLS42NkM4LjcgMTQgNyAxMi40NiA3IDEwLjU3YzAtMS41NCAxLjIxLTIuNzUgMi43NS0yLjc1elwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5IZWFydENpcmNsZS5kaXNwbGF5TmFtZSA9IFwiSGVhcnRDaXJjbGVcIjtcblxuZXhwb3J0IGRlZmF1bHQgSGVhcnRDaXJjbGU7XG4iXX0=

@@ -5,7 +5,7 @@ import * as React from "react";
 
 const Tab: React.StatelessComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M19 18.998L5 19V4.998h7v4h7m0-6H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-14a2 2 0 0 0-2-2z"/>
+        <path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h10v4h8v10z"/>
     </SvgIcon>
 );
 

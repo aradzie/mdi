@@ -5,7 +5,7 @@ import * as React from "react";
 
 const FileMove: React.StatelessComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M6.001 1.998H14l6.001 6V20a2.001 2.001 0 0 1-2.003 1.997H5.991A1.993 1.993 0 0 1 4 20l.01-16.001c0-1.104.883-2.002 1.992-2.002zM12 14l-6-.003v3.004l6 .003V19l3.999-3.501L12 12.004V14zm.998-10.504v5.503H18.5l-5.504-5.503z"/>
+        <path d="M14 17h4v-3l5 4.5-5 4.5v-3h-4v-3zm-1-8h5.5L13 3.5V9zM6 2h8l6 6v4.341A6 6 0 0 0 13.528 22H5.99A1.992 1.992 0 0 1 4 20l.01-16c0-1.104.885-2 1.99-2z"/>
     </SvgIcon>
 );
 
