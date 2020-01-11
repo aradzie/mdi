@@ -149,7 +149,7 @@ function format(iconName, children) {
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ${componentName}: React.StatelessComponent<SvgIconProps> = (props) => (
+const ${componentName}: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
 ${children.map(child => indent(child, "        ")).join("\n")}
     </SvgIcon>
