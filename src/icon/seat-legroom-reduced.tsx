@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const SeatLegroomReduced: React.StatelessComponent<SvgIconProps> = (props) => (
+const SeatLegroomReduced: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M19.971 19.199A1.51 1.51 0 0 1 18.501 21H14v-3.004L15 14H8.999A3.005 3.005 0 0 1 6 11V2.998h6.001v6h5c1.098 0 1.997.905 1.997 2.003l-1.996 6.996h1.44c.727 0 1.386.494 1.528 1.202zM5 12.002V2.998H2.998v9.005c0 2.758 2.24 5 5 5h4.004V15H7.997A2.992 2.992 0 0 1 5 12.002z"/>
+        <path d="M19.97 19.2c.18.96-.55 1.8-1.47 1.8H14v-3l1-4H9a3 3 0 01-3-3V3h6v6h5a2 2 0 012 2l-2 7h1.44c.73 0 1.39.5 1.53 1.2M5 12V3H3v9a5 5 0 005 5h4v-2H8a3 3 0 01-3-3z"/>
     </SvgIcon>
 );
 

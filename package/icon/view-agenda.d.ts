@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ViewAgenda: React.StatelessComponent<SvgIconProps>;
+declare const ViewAgenda: React.FunctionComponent<SvgIconProps>;
 export default ViewAgenda;

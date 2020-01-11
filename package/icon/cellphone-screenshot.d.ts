@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CellphoneScreenshot: React.StatelessComponent<SvgIconProps>;
+declare const CellphoneScreenshot: React.FunctionComponent<SvgIconProps>;
 export default CellphoneScreenshot;

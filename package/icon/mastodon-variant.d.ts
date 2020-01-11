@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const MastodonVariant: React.StatelessComponent<SvgIconProps>;
+declare const MastodonVariant: React.FunctionComponent<SvgIconProps>;
 export default MastodonVariant;

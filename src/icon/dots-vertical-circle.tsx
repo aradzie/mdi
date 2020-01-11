@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const DotsVerticalCircle: React.StatelessComponent<SvgIconProps> = (props) => (
+const DotsVerticalCircle: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12zm8.5 0a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0zm0 5.5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0zm0-11a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0z"/>
+        <path d="M2 12A10 10 0 0112 2a10 10 0 0110 10 10 10 0 01-10 10A10 10 0 012 12m8.5 0a1.5 1.5 0 001.5 1.5 1.5 1.5 0 001.5-1.5 1.5 1.5 0 00-1.5-1.5 1.5 1.5 0 00-1.5 1.5m0 5.5A1.5 1.5 0 0012 19a1.5 1.5 0 001.5-1.5A1.5 1.5 0 0012 16a1.5 1.5 0 00-1.5 1.5m0-11A1.5 1.5 0 0012 8a1.5 1.5 0 001.5-1.5A1.5 1.5 0 0012 5a1.5 1.5 0 00-1.5 1.5z"/>
     </SvgIcon>
 );
 

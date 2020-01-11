@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const PencilOff: React.StatelessComponent<SvgIconProps> = (props) => (
+const PencilOff: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M18.656 2a.94.94 0 0 0-.687.281l-1.844 1.844 3.75 3.75 1.844-1.844a.99.99 0 0 0 0-1.406l-2.344-2.344A1.01 1.01 0 0 0 18.656 2zM3.281 4L2 5.281l6.5 6.469-4.5 4.5V20h3.75l4.5-4.5 6.469 6.5L20 20.719l-6.5-6.469-3.75-3.75L3.281 4zm11.781 1.188l-4.03 4.03 3.75 3.75 4.03-4.03-3.75-3.75z"/>
+        <path d="M18.66 2c-.26 0-.5.09-.69.28l-1.84 1.85 3.75 3.75 1.84-1.85c.39-.39.39-1.03 0-1.4l-2.34-2.35c-.2-.19-.47-.28-.72-.28M3.28 4L2 5.28l6.5 6.47-4.5 4.5V20h3.75l4.5-4.5 6.47 6.5L20 20.72l-6.5-6.47-3.75-3.75L3.28 4m11.78 1.19l-4.03 4.03 3.75 3.75 4.03-4.03-3.75-3.75z"/>
     </SvgIcon>
 );
 

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ViewParallel: React.StatelessComponent<SvgIconProps> = (props) => (
+const ViewParallel: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M4 21V3h4v18H4zm6 0V3h4v18h-4zm6 0V3h4v18h-4z"/>
+        <path d="M4 21V3h4v18H4m6 0V3h4v18h-4m6 0V3h4v18h-4z"/>
     </SvgIcon>
 );
 

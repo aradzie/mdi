@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ArrowLeftDropCircleOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const ArrowLeftDropCircleOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10zm-2 0a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-6-5l-5 5 5 5V7z"/>
+        <path d="M22 12A10 10 0 0012 2 10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10m-2 0a8 8 0 01-8 8 8 8 0 01-8-8 8 8 0 018-8 8 8 0 018 8m-6-5l-5 5 5 5V7z"/>
     </SvgIcon>
 );
 

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CloudCircle: React.StatelessComponent<SvgIconProps> = (props) => (
+const CloudCircle: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M16.5 15.998H8a3 3 0 1 1 0-6c.046 0 .09.012.136.014A3.99 3.99 0 0 1 12 6.998a4 4 0 0 1 4 4h.5a2.5 2.5 0 1 1 0 5zm-4.5-14c-5.524 0-10 4.477-10 10s4.476 10 10 10c5.522 0 10-4.477 10-10s-4.478-10-10-10z"/>
+        <path d="M16.5 16H8a3 3 0 01-3-3 3 3 0 013-3h.14c.44-1.72 1.99-3 3.86-3a4 4 0 014 4h.5a2.5 2.5 0 012.5 2.5 2.5 2.5 0 01-2.5 2.5M12 2A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10A10 10 0 0012 2z"/>
     </SvgIcon>
 );
 

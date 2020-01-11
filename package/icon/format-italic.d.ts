@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const FormatItalic: React.StatelessComponent<SvgIconProps>;
+declare const FormatItalic: React.FunctionComponent<SvgIconProps>;
 export default FormatItalic;

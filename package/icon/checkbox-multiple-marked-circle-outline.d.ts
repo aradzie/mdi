@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CheckboxMultipleMarkedCircleOutline: React.StatelessComponent<SvgIconProps>;
+declare const CheckboxMultipleMarkedCircleOutline: React.FunctionComponent<SvgIconProps>;
 export default CheckboxMultipleMarkedCircleOutline;

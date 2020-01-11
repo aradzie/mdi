@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const HighDefinition: React.StatelessComponent<SvgIconProps>;
+declare const HighDefinition: React.FunctionComponent<SvgIconProps>;
 export default HighDefinition;

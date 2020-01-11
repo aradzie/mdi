@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Patreon: React.StatelessComponent<SvgIconProps> = (props) => (
+const Patreon: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M14.733 3c3.715 0 6.737 3.031 6.737 6.758a6.745 6.745 0 0 1-6.737 6.737c-3.727 0-6.758-3.023-6.758-6.737A6.765 6.765 0 0 1 14.733 3zM2.7 21V3H6v18H2.7z"/>
+        <path d="M14.73 3c3.72 0 6.74 3.03 6.74 6.76 0 3.71-3.02 6.74-6.74 6.74-3.73 0-6.76-3.03-6.76-6.74C7.97 6.03 11 3 14.73 3M2.7 21V3H6v18H2.7z"/>
     </SvgIcon>
 );
 

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const MenuDownOutline: React.StatelessComponent<SvgIconProps>;
+declare const MenuDownOutline: React.FunctionComponent<SvgIconProps>;
 export default MenuDownOutline;

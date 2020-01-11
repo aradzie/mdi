@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const FileCheck: React.StatelessComponent<SvgIconProps>;
+declare const FileCheck: React.FunctionComponent<SvgIconProps>;
 export default FileCheck;

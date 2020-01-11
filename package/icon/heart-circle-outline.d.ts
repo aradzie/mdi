@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const HeartCircleOutline: React.StatelessComponent<SvgIconProps>;
+declare const HeartCircleOutline: React.FunctionComponent<SvgIconProps>;
 export default HeartCircleOutline;

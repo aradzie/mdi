@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ChartMultiline: React.StatelessComponent<SvgIconProps>;
+declare const ChartMultiline: React.FunctionComponent<SvgIconProps>;
 export default ChartMultiline;

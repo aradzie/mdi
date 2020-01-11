@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Gradient: React.StatelessComponent<SvgIconProps>;
+declare const Gradient: React.FunctionComponent<SvgIconProps>;
 export default Gradient;

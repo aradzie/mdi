@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const EyeSettingsOutline: React.StatelessComponent<SvgIconProps>;
+declare const EyeSettingsOutline: React.FunctionComponent<SvgIconProps>;
 export default EyeSettingsOutline;

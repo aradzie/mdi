@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Oar: React.StatelessComponent<SvgIconProps> = (props) => (
+const Oar: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M20.234 15.211c-1.466-1.462-5.262-5.01-7.463-3.94L4.505 3.005 3 4.511l8.277 8.279c-.98 2.194 2.607 5.828 4.07 7.292 1.763 1.763 2.912.84 4.267-.512 1.489-1.492 2-2.963.62-4.359z"/>
+        <path d="M20.23 15.21c-1.46-1.46-5.26-5.01-7.46-3.94L4.5 3 3 4.5l8.28 8.29c-.98 2.21 2.6 5.83 4.07 7.29 1.76 1.76 2.91.84 4.26-.51 1.49-1.49 2-2.96.62-4.36z"/>
     </SvgIcon>
 );
 

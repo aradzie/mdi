@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CardBulletedOff: React.StatelessComponent<SvgIconProps>;
+declare const CardBulletedOff: React.FunctionComponent<SvgIconProps>;
 export default CardBulletedOff;

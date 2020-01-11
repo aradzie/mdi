@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const WifiStrengthAlertOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const WifiStrengthAlertOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12.002 2.998A18.986 18.986 0 0 0 .377 7.003H.361c3.883 4.828 7.764 9.657 11.65 14.486 2.33-2.9 4.659-5.805 6.988-8.705V9.585l-6.996 8.716L3.27 7.436A16.972 16.972 0 0 1 12.003 5c3.07.015 6.083.859 8.71 2.451l-.44.546h2.564l.805-.994h.006a18.98 18.98 0 0 0-11.646-4.005zm9 7.002v7.997h1.995V10m-1.996 10v2.003h1.996V20"/>
+        <path d="M12 3C7.79 3 3.7 4.41.38 7H.36C4.24 11.83 8.13 16.66 12 21.5c2.34-2.91 4.67-5.82 7-8.72V9.59l-7 8.71L3.27 7.44C5.9 5.85 8.92 5 12 5c3.07 0 6.09.86 8.71 2.45l-.44.55h2.57c.27-.33.53-.67.8-1h.01C20.32 4.41 16.22 3 12 3m9 7v8h2v-8m-2 10v2h2v-2"/>
     </SvgIcon>
 );
 

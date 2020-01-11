@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const HockeyPuck: React.StatelessComponent<SvgIconProps> = (props) => (
+const HockeyPuck: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12 5C6.477 5 2 6.567 2 8.5S6.477 12 12 12s10-1.567 10-3.5S17.523 5 12 5zM2 11.762V16.5C2 18.433 6.477 20 12 20s10-1.567 10-3.5v-4.738c-.67.457-1.424.806-2.268 1.101C17.623 13.601 14.951 14 12 14c-2.95 0-5.623-.399-7.732-1.137-.844-.295-1.598-.644-2.268-1.101z"/>
+        <path d="M12 5C6.5 5 2 6.57 2 8.5S6.5 12 12 12s10-1.57 10-3.5S17.5 5 12 5M2 11.76v4.74C2 18.43 6.5 20 12 20s10-1.57 10-3.5v-4.74c-.67.46-1.42.81-2.27 1.1C17.62 13.6 14.95 14 12 14s-5.62-.4-7.73-1.14c-.85-.29-1.6-.64-2.27-1.1z"/>
     </SvgIcon>
 );
 

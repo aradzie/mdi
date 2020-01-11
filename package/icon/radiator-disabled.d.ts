@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const RadiatorDisabled: React.StatelessComponent<SvgIconProps>;
+declare const RadiatorDisabled: React.FunctionComponent<SvgIconProps>;
 export default RadiatorDisabled;

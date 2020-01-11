@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CalendarMultiselect: React.StatelessComponent<SvgIconProps>;
+declare const CalendarMultiselect: React.FunctionComponent<SvgIconProps>;
 export default CalendarMultiselect;

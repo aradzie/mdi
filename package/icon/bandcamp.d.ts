@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Bandcamp: React.StatelessComponent<SvgIconProps>;
+declare const Bandcamp: React.FunctionComponent<SvgIconProps>;
 export default Bandcamp;

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CloseOctagonOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const CloseOctagonOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M8.271 2.998L2.997 8.27v7.456l5.274 5.274h7.456l5.274-5.274V8.271l-5.274-5.273M9.101 5h5.801L19 9.101v5.801L14.903 19H9.1L5 14.903V9.1m4.116-1.396L7.705 9.116l2.886 2.886-2.886 2.88 1.411 1.412 2.886-2.885 2.88 2.885 1.412-1.412-2.885-2.88 2.885-2.886-1.412-1.411-2.88 2.886"/>
+        <path d="M8.27 3L3 8.27v7.46L8.27 21h7.46C17.5 19.24 21 15.73 21 15.73V8.27L15.73 3M9.1 5h5.8L19 9.1v5.8L14.9 19H9.1L5 14.9V9.1m4.12-1.39L7.71 9.12 10.59 12l-2.88 2.88 1.41 1.41L12 13.41l2.88 2.88 1.41-1.41L13.41 12l2.88-2.88-1.41-1.41L12 10.59"/>
     </SvgIcon>
 );
 

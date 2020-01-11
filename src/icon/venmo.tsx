@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Venmo: React.StatelessComponent<SvgIconProps> = (props) => (
+const Venmo: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M19.49 3c.654 1.08.949 2.194.949 3.6 0 4.484-3.828 10.31-6.935 14.4H6.407L3.561 3.982l6.214-.59 1.505 12.11c1.406-2.291 3.14-5.89 3.14-8.345 0-1.343-.23-2.258-.589-3.012L19.49 3z"/>
+        <path d="M19.5 3c.64 1.08.94 2.19.94 3.6 0 4.48-3.83 10.31-6.94 14.4H6.41L3.56 4l6.21-.61 1.51 12.11c1.41-2.29 3.14-5.89 3.14-8.34 0-1.35-.23-2.26-.59-3.01L19.5 3z"/>
     </SvgIcon>
 );
 

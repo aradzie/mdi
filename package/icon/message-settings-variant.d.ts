@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const MessageSettingsVariant: React.StatelessComponent<SvgIconProps>;
+declare const MessageSettingsVariant: React.FunctionComponent<SvgIconProps>;
 export default MessageSettingsVariant;

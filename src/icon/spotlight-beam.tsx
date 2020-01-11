@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const SpotlightBeam: React.StatelessComponent<SvgIconProps> = (props) => (
+const SpotlightBeam: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M9 16.5l.914-.914 5.213 5.213-.914.914L9 16.5zm6.5-6.5l.914-.914 5.213 5.213-.914.914L15.5 10zM6.722 2.722l3.424 3.424-4 4-3.424-3.424a2 2 0 0 1 0-2.829l1.171-1.171a2 2 0 0 1 2.829 0zm7.85 4.778l.706.707-7.07 7.071-.708-.707-.86-3.503 4.428-4.429 3.503.861z"/>
+        <path d="M9 16.5l.91-.91 5.22 5.21-.92.91L9 16.5m6.5-6.5l.91-.91 5.22 5.21-.92.91L15.5 10M6.72 2.72l3.43 3.43-4 4-3.43-3.43c-.78-.78-.78-2.05 0-2.83l1.17-1.17c.78-.78 2.05-.78 2.83 0m7.85 4.78l.71.71-7.07 7.07-.71-.71-.86-3.5 4.43-4.43 3.5.86z"/>
     </SvgIcon>
 );
 

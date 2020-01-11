@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var FormatTextRotationAngleDown = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M14.25 21h-4.22l1.41-1.41-8.86-8.86 1.45-1.4 8.81 8.86 1.41-1.41M12.61 8l2.62 2.64 2.2-4.87m1.98-.85l-4.46 11.11-1.45-1.45.89-2.2-3.51-3.57-2.2.94-1.46-1.5 11.11-4.41z" }))); };
+FormatTextRotationAngleDown.displayName = "FormatTextRotationAngleDown";
+exports.default = FormatTextRotationAngleDown;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZm9ybWF0LXRleHQtcm90YXRpb24tYW5nbGUtZG93bi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pY29uL2Zvcm1hdC10ZXh0LXJvdGF0aW9uLWFuZ2xlLWRvd24udHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVBLHdDQUFvRDtBQUNwRCw2QkFBK0I7QUFFL0IsSUFBTSwyQkFBMkIsR0FBMEMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUNsRixvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLHlLQUF5SyxHQUFFLENBQzdLLENBQ2IsRUFKcUYsQ0FJckYsQ0FBQztBQUVGLDJCQUEyQixDQUFDLFdBQVcsR0FBRyw2QkFBNkIsQ0FBQztBQUV4RSxrQkFBZSwyQkFBMkIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgZm9ybWF0LXRleHQtcm90YXRpb24tYW5nbGUtZG93bi5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEZvcm1hdFRleHRSb3RhdGlvbkFuZ2xlRG93bjogUmVhY3QuRnVuY3Rpb25Db21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMTQuMjUgMjFoLTQuMjJsMS40MS0xLjQxLTguODYtOC44NiAxLjQ1LTEuNCA4LjgxIDguODYgMS40MS0xLjQxTTEyLjYxIDhsMi42MiAyLjY0IDIuMi00Ljg3bTEuOTgtLjg1bC00LjQ2IDExLjExLTEuNDUtMS40NS44OS0yLjItMy41MS0zLjU3LTIuMi45NC0xLjQ2LTEuNSAxMS4xMS00LjQxelwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5Gb3JtYXRUZXh0Um90YXRpb25BbmdsZURvd24uZGlzcGxheU5hbWUgPSBcIkZvcm1hdFRleHRSb3RhdGlvbkFuZ2xlRG93blwiO1xuXG5leHBvcnQgZGVmYXVsdCBGb3JtYXRUZXh0Um90YXRpb25BbmdsZURvd247XG4iXX0=

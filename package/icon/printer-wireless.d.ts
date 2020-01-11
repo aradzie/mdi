@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const PrinterWireless: React.StatelessComponent<SvgIconProps>;
+declare const PrinterWireless: React.FunctionComponent<SvgIconProps>;
 export default PrinterWireless;

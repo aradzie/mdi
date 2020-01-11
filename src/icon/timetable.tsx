@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Timetable: React.StatelessComponent<SvgIconProps> = (props) => (
+const Timetable: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M14 12h1.5v2.823l2.438 1.408-.75 1.299L14 15.689V12zM4 2h14a2 2 0 0 1 2 2v6.101A7 7 0 0 1 10.101 20H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 13v3h4.674A6.973 6.973 0 0 1 8 15H4zm0-7h6V5H4v3zm14 0V5h-6v3h6zM4 13h4.29a6.998 6.998 0 0 1 1.811-3H4v3zm11-2.846a4.846 4.846 0 1 0 0 9.692 4.846 4.846 0 0 0 0-9.692z"/>
+        <path d="M14 12h1.5v2.82l2.44 1.41-.75 1.3L14 15.69V12M4 2h14a2 2 0 012 2v6.1c1.24 1.26 2 2.99 2 4.9a7 7 0 01-7 7c-1.91 0-3.64-.76-4.9-2H4a2 2 0 01-2-2V4a2 2 0 012-2m0 13v3h4.67c-.43-.91-.67-1.93-.67-3H4m0-7h6V5H4v3m14 0V5h-6v3h6M4 13h4.29c.34-1.15.97-2.18 1.81-3H4v3m11-2.85A4.85 4.85 0 0010.15 15c0 2.68 2.17 4.85 4.85 4.85A4.85 4.85 0 0019.85 15c0-2.68-2.17-4.85-4.85-4.85z"/>
     </SvgIcon>
 );
 

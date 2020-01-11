@@ -1,0 +1,4 @@
+import { SvgIconProps } from "../svg-icon";
+import * as React from "react";
+declare const ClipboardListOutline: React.FunctionComponent<SvgIconProps>;
+export default ClipboardListOutline;

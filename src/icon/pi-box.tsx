@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const PiBox: React.StatelessComponent<SvgIconProps> = (props) => (
+const PiBox: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M5 2.998A2.002 2.002 0 0 0 2.998 5v13.999c0 1.104.893 1.997 2.002 1.997h13.999A2.001 2.001 0 0 0 21 19V5A2.005 2.005 0 0 0 19 2.998M6 7.003h11.002v1.996H15v5a1.002 1.002 0 0 0 2.003 0h1.996a3 3 0 1 1-6.001 0v-5H10v8.004H7.997V8.999H6.002"/>
+        <path d="M5 3a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2M6 7h11v2h-2v5a1 1 0 001 1 1 1 0 001-1h2a3 3 0 01-3 3 3 3 0 01-3-3V9h-3v8H8V9H6"/>
     </SvgIcon>
 );
 

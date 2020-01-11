@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Audiobook: React.StatelessComponent<SvgIconProps>;
+declare const Audiobook: React.FunctionComponent<SvgIconProps>;
 export default Audiobook;

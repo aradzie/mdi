@@ -3,7 +3,7 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const WindowMinimize: React.StatelessComponent<SvgIconProps> = (props) => (
+const WindowMinimize: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
         <path d="M20 14H4v-4h16"/>
     </SvgIcon>

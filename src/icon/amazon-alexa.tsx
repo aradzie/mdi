@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const AmazonAlexa: React.StatelessComponent<SvgIconProps> = (props) => (
+const AmazonAlexa: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12 2C6.478 2 2 6.522 2 12s4.478 10 10 10 10-4.522 10-10S17.522 2 12 2zm-1.565 19.87v-1.957a1.75 1.75 0 0 0-1.087-1.609C6.913 17.261 5.174 14.826 5.174 12c0-3.74 3.043-6.826 6.826-6.826 3.783 0 6.826 3.087 6.826 6.826 0 4.435-3.435 8.609-8.391 9.87z"/>
+        <path d="M12 2A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10A10 10 0 0012 2m-1.57 19.87v-1.96c0-.69-.43-1.34-1.08-1.61-2.44-1.04-4.18-3.47-4.18-6.3 0-3.74 3.05-6.83 6.83-6.83 3.78 0 6.83 3.09 6.83 6.83 0 4.43-3.44 8.61-8.4 9.87z"/>
     </SvgIcon>
 );
 

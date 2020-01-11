@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var Kotlin = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M2 2h20L12 12l10 10H2z" }))); };
+Kotlin.displayName = "Kotlin";
+exports.default = Kotlin;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoia290bGluLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24va290bGluLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sTUFBTSxHQUEwQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQzdELG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsd0JBQXdCLEdBQUUsQ0FDNUIsQ0FDYixFQUpnRSxDQUloRSxDQUFDO0FBRUYsTUFBTSxDQUFDLFdBQVcsR0FBRyxRQUFRLENBQUM7QUFFOUIsa0JBQWUsTUFBTSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBrb3RsaW4uc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBLb3RsaW46IFJlYWN0LkZ1bmN0aW9uQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTIgMmgyMEwxMiAxMmwxMCAxMEgyelwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5Lb3RsaW4uZGlzcGxheU5hbWUgPSBcIktvdGxpblwiO1xuXG5leHBvcnQgZGVmYXVsdCBLb3RsaW47XG4iXX0=

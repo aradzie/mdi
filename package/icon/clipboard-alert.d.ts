@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ClipboardAlert: React.StatelessComponent<SvgIconProps>;
+declare const ClipboardAlert: React.FunctionComponent<SvgIconProps>;
 export default ClipboardAlert;

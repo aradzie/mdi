@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const EraserVariant: React.StatelessComponent<SvgIconProps> = (props) => (
+const EraserVariant: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M15.141 2.998c-.512 0-1.02.2-1.411.59L2.587 14.727a2.005 2.005 0 0 0 0 2.833L5.03 20h7.656l8.726-8.73a1.99 1.99 0 0 0 0-2.827l-4.854-4.854a2.004 2.004 0 0 0-1.416-.591zm1.862 15L15 20h7.003v-2.003"/>
+        <path d="M15.14 3c-.51 0-1.02.2-1.41.59L2.59 14.73c-.78.77-.78 2.04 0 2.83L5.03 20h7.66l8.72-8.73c.79-.77.79-2.04 0-2.83l-4.85-4.85c-.39-.39-.91-.59-1.42-.59M17 18l-2 2h7v-2"/>
     </SvgIcon>
 );
 

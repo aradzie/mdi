@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FilmstripOff: React.StatelessComponent<SvgIconProps> = (props) => (
+const FilmstripOff: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M1 4.268L2.277 3 21 21.722 19.732 23l-3.733-3.732v1.73H8v-2H6v2H4V7.268L1 4.268zm17 4.73v-2h-2v2h2zm0 4v-2h-2v2h2zm0 2h-1.18l-10-10H8v-2h8v2h2v-2h2v15.179l-2-2v-1.179zm-10-2v-1.73l-.27-.27H6v2h2zm0 4v-2H6v2h2zm-2-14v1.179L4.82 2.998H6z"/>
+        <path d="M1 4.27L2.28 3 21 21.72 19.73 23 16 19.27V21H8v-2H6v2H4V7.27l-3-3M18 9V7h-2v2h2m0 4v-2h-2v2h2m0 2h-1.18l-10-10H8V3h8v2h2V3h2v15.18l-2-2V15M8 13v-1.73L7.73 11H6v2h2m0 4v-2H6v2h2M6 3v1.18L4.82 3H6z"/>
     </SvgIcon>
 );
 

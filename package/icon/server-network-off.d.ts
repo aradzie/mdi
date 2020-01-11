@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ServerNetworkOff: React.StatelessComponent<SvgIconProps>;
+declare const ServerNetworkOff: React.FunctionComponent<SvgIconProps>;
 export default ServerNetworkOff;

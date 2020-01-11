@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const DeveloperBoard: React.StatelessComponent<SvgIconProps>;
+declare const DeveloperBoard: React.FunctionComponent<SvgIconProps>;
 export default DeveloperBoard;

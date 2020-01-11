@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const FilePdfBox: React.StatelessComponent<SvgIconProps>;
+declare const FilePdfBox: React.FunctionComponent<SvgIconProps>;
 export default FilePdfBox;

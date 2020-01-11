@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const RhombusSplit: React.StatelessComponent<SvgIconProps> = (props) => (
+const RhombusSplit: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M7.357 5.943L10.8 2.5c.7-.7 1.7-.7 2.4 0l3.443 3.443L12 10.586 7.357 5.943zm10.7 1.414L13.414 12l4.643 4.643L21.5 13.2c.6-.7.6-1.7 0-2.4l-3.443-3.443zM5.943 16.643L10.586 12 5.943 7.357 2.5 10.8c-.7.7-.7 1.7 0 2.4l3.443 3.443zM12 13.414l-4.643 4.643L10.8 21.5c.7.7 1.7.7 2.4 0l3.443-3.443L12 13.414z"/>
+        <path d="M7.36 5.94L10.8 2.5c.7-.7 1.7-.7 2.4 0l3.44 3.44L12 10.59 7.36 5.94m10.7 1.42L13.41 12l4.65 4.64 3.44-3.44c.6-.7.6-1.7 0-2.4l-3.44-3.44M5.94 16.64L10.59 12 5.94 7.36 2.5 10.8c-.7.7-.7 1.7 0 2.4l3.44 3.44M12 13.41l-4.64 4.65 3.44 3.44c.7.7 1.7.7 2.4 0l3.44-3.44L12 13.41z"/>
     </SvgIcon>
 );
 

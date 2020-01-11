@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Onepassword: React.StatelessComponent<SvgIconProps> = (props) => (
+const Onepassword: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zm0 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm1-6.5a1.5 1.5 0 0 0 1 1.41V18h-4v-6.09a1.49 1.49 0 0 0 0-2.82V6h4v6.09a1.5 1.5 0 0 0-1 1.41z"/>
+        <path d="M12 1C5.92 1 1 5.92 1 12s4.92 11 11 11 11-4.92 11-11S18.08 1 12 1m0 19a8 8 0 01-8-8 8 8 0 018-8 8 8 0 018 8 8 8 0 01-8 8m1-6.5c0 .63.4 1.2 1 1.41V18h-4v-6.09c.78-.27 1.19-1.11.93-1.91a1.5 1.5 0 00-.93-.91V6h4v6.09c-.6.21-1 .78-1 1.41z"/>
     </SvgIcon>
 );
 

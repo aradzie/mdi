@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const TumblrReblog: React.StatelessComponent<SvgIconProps>;
+declare const TumblrReblog: React.FunctionComponent<SvgIconProps>;
 export default TumblrReblog;

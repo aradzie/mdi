@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ThermometerLines: React.StatelessComponent<SvgIconProps> = (props) => (
+const ThermometerLines: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M17 3h4v2h-4V3zm0 4h4v2h-4V7zm0 4h4v2h-3.255L17 12.101V11zm4 4v2h-2c0-.695-.101-1.366-.29-2H21zm-4 2a5 5 0 1 1-8-4V5a3 3 0 1 1 6 0v8c1.214.912 2 2.364 2 4zm-6-9v6.17a3.001 3.001 0 1 0 2 0V8h-2zM7 3v2H3V3h4zm0 4v2H3V7h4zm0 4v1.101L6.255 13H3v-2h4zm-4 4h2.29A7.001 7.001 0 0 0 5 17H3v-2z"/>
+        <path d="M17 3h4v2h-4V3m0 4h4v2h-4V7m0 4h4v2h-3.25l-.75-.9V11m4 4v2h-2c0-.69-.1-1.37-.29-2H21M7 3v2H3V3h4m0 4v2H3V7h4m0 4v1.1l-.75.9H3v-2h4m-4 4h2.29c-.19.63-.29 1.31-.29 2H3v-2m12-2V5c0-1.66-1.34-3-3-3S9 3.34 9 5v8c-2.21 1.66-2.66 4.79-1 7s4.79 2.66 7 1 2.66-4.79 1-7a4.74 4.74 0 00-1-1m-3-9c.55 0 1 .45 1 1v3h-2V5c0-.55.45-1 1-1z"/>
     </SvgIcon>
 );
 

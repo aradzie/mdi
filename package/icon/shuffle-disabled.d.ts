@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ShuffleDisabled: React.StatelessComponent<SvgIconProps>;
+declare const ShuffleDisabled: React.FunctionComponent<SvgIconProps>;
 export default ShuffleDisabled;

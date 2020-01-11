@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const HumanHandsdown: React.StatelessComponent<SvgIconProps> = (props) => (
+const HumanHandsdown: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12.002 1a1.998 1.998 0 1 0 0 4A1.997 1.997 0 0 0 14 2.998 1.997 1.997 0 0 0 12.002 1zM10 6.002a.977.977 0 0 0-.694.283h-.005L4 11.588l1.416 1.41 3.584-3.584v12.589H11V15h1.997v7.003H15V9.413l3.584 3.585L20 11.588l-5.303-5.304A.998.998 0 0 0 14 6"/>
+        <path d="M12 1a2 2 0 00-2 2c0 1.11.89 2 2 2 1.11 0 2-.89 2-2a2 2 0 00-2-2m-2 5c-.27 0-.5.11-.69.28H9.3L4 11.59 5.42 13 9 9.41V22h2v-7h2v7h2V9.41L18.58 13 20 11.59l-5.3-5.31c-.2-.17-.43-.28-.7-.28"/>
     </SvgIcon>
 );
 

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const MapMarkerPlus: React.StatelessComponent<SvgIconProps>;
+declare const MapMarkerPlus: React.FunctionComponent<SvgIconProps>;
 export default MapMarkerPlus;

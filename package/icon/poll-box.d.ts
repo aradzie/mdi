@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const PollBox: React.StatelessComponent<SvgIconProps>;
+declare const PollBox: React.FunctionComponent<SvgIconProps>;
 export default PollBox;

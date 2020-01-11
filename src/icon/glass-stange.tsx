@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const GlassStange: React.StatelessComponent<SvgIconProps> = (props) => (
+const GlassStange: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M8 2h8v20H8V2zm2 2v3h4V4h-4z"/>
+        <path d="M8 2h8v20H8V2m2 2v3h4V4h-4z"/>
     </SvgIcon>
 );
 

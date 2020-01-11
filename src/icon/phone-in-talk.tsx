@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const PhoneInTalk: React.StatelessComponent<SvgIconProps> = (props) => (
+const PhoneInTalk: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M15 11.998h2a5 5 0 0 0-5-5v2c1.655 0 3 1.344 3 3zm4 0h2a9 9 0 0 0-9-9v2a7 7 0 0 1 7 7zm1 3.5c-1.248 0-2.448-.2-3.573-.568a1 1 0 0 0-1.016.245l-2.2 2.203a15.073 15.073 0 0 1-6.589-6.585l2.2-2.208a.996.996 0 0 0 .244-1.015A11.492 11.492 0 0 1 8.5 3.998a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1c0 9.389 7.611 17 17 17a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1z"/>
+        <path d="M15 12h2a5 5 0 00-5-5v2a3 3 0 013 3m4 0h2c0-5-4.03-9-9-9v2c3.86 0 7 3.13 7 7m1 3.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.25l-2.2 2.2a15.097 15.097 0 01-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.36 11.36 0 018.5 4a1 1 0 00-1-1H4a1 1 0 00-1 1 17 17 0 0017 17 1 1 0 001-1v-3.5a1 1 0 00-1-1z"/>
     </SvgIcon>
 );
 

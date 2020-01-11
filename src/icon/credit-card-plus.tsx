@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CreditCardPlus: React.StatelessComponent<SvgIconProps> = (props) => (
+const CreditCardPlus: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M21 18h3v2h-3v3h-2v-3h-3v-2h3v-3h2v3zM19 7.998v-2H3v2h16zm0 4H3v6h11v2H3c-1.106 0-2-.894-2-2l.01-12c0-1.106.884-2 1.99-2h16c1.104 0 2 .894 2 2V13h-2v-1.002z"/>
+        <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h9.09a5.47 5.47 0 01-.09-1 6 6 0 016-6 5.88 5.88 0 013 .81V6a2 2 0 00-2-2m0 7H4V8h16m0 7v3h3v2h-3v3h-2v-3h-3v-2h3v-3z"/>
     </SvgIcon>
 );
 

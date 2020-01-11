@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const KeyboardOff: React.StatelessComponent<SvgIconProps> = (props) => (
+const KeyboardOff: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M1 4.268L2.277 3 20 20.723 18.732 22l-3.002-3.002H4a2 2 0 0 1-2-2l.01-10a2 2 0 0 1 .45-1.27L1 4.268zm18 5.73v-2h-2v2h2zm0 3v-2h-2v2h2zm-3-3v-2h-2v2h2zm0 3v-2h-2v1.179l-2.18-2.179H13v-2h-2v1.179L9.82 7.998l-3-3H20a2 2 0 0 1 2 2v10c0 .86-.543 1.592-1.304 1.875l-5.875-5.875h1.178zm-8 2v2h5.73l-2-2H8zm-3-5h1.73L5 8.268v1.73zm2 3v-2H5v2h2zm1 0h1.73L8 11.268v1.73z"/>
+        <path d="M1 4.27L2.28 3 20 20.72 18.73 22l-3-3H4a2 2 0 01-2-2V7c0-.5.18-.93.46-1.27L1 4.27M19 10V8h-2v2h2m0 3v-2h-2v2h2m-3-3V8h-2v2h2m0 3v-2h-2v1.18L11.82 10H13V8h-2v1.18L9.82 8l-3-3H20a2 2 0 012 2v10c0 .86-.54 1.59-1.3 1.87L14.82 13H16m-8 2v2h5.73l-2-2H8m-3-5h1.73L5 8.27V10m2 3v-2H5v2h2m1 0h1.73L8 11.27V13z"/>
     </SvgIcon>
 );
 

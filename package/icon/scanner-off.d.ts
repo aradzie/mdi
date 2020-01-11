@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ScannerOff: React.StatelessComponent<SvgIconProps>;
+declare const ScannerOff: React.FunctionComponent<SvgIconProps>;
 export default ScannerOff;

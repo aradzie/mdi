@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Jeepney: React.StatelessComponent<SvgIconProps> = (props) => (
+const Jeepney: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M19 13V7h1V4H4v3h1v6H2c0 .93.5 1.705 1.5 1.929V20c0 .55.448 1 1 1h1c.552 0 1-.45 1-1v-1h11v1a1 1 0 0 0 1 1h1c.55 0 1-.45 1-1v-5.071c1-.224 1.5-1 1.5-1.929h-3zM8 15A1.5 1.5 0 1 1 7.998 12 1.5 1.5 0 0 1 8 14.999zm8 0a1.5 1.5 0 1 1 .002-3.002A1.5 1.5 0 0 1 16 15zm1.5-4.505C15.922 10.18 14.03 10 12 10c-2.033 0-4 .184-5.5.495V7h11v3.495z"/>
+        <path d="M19 13V7h1V4H4v3h1v6H2c0 .93.5 1.71 1.5 1.93V20a1 1 0 001 1h1a1 1 0 001-1v-1h11v1a1 1 0 001 1h1a1 1 0 001-1v-5.07c1-.23 1.5-1 1.5-1.93h-3M8 15a1.5 1.5 0 01-1.5-1.5A1.5 1.5 0 018 12a1.5 1.5 0 011.5 1.5A1.5 1.5 0 018 15m8 0a1.5 1.5 0 01-1.5-1.5A1.5 1.5 0 0116 12a1.5 1.5 0 011.5 1.5A1.5 1.5 0 0116 15m1.5-4.5c-1.58-.32-3.47-.5-5.5-.5s-4 .18-5.5.5V7h11v3.5z"/>
     </SvgIcon>
 );
 

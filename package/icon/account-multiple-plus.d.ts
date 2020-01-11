@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const AccountMultiplePlus: React.StatelessComponent<SvgIconProps>;
+declare const AccountMultiplePlus: React.FunctionComponent<SvgIconProps>;
 export default AccountMultiplePlus;

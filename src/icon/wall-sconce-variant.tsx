@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const WallSconceVariant: React.StatelessComponent<SvgIconProps> = (props) => (
+const WallSconceVariant: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M11 4.5v3h2v-3h-2zM4.914 7L3.5 8.414l1.768 1.768 1.414-1.414L4.914 7zm14.172 0l-1.768 1.768 1.414 1.414L20.5 8.414 19.086 7zM4 11.5a8 8 0 0 0 16 0H4z"/>
+        <path d="M11 4.5v3h2v-3h-2M4.91 7L3.5 8.41l1.77 1.77 1.41-1.41L4.91 7m14.18 0l-1.77 1.77 1.41 1.41 1.77-1.77L19.09 7M4 11.5c0 2.86 1.5 5.5 4 6.93 2.5 1.43 5.5 1.43 8 0s4-4.07 4-6.93H4z"/>
     </SvgIcon>
 );
 

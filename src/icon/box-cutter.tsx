@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const BoxCutter: React.StatelessComponent<SvgIconProps> = (props) => (
+const BoxCutter: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M7.222 11.906c-.33.33-.513.744-.565 1.172l5.515 2.364 8.485-8.486a1.996 1.996 0 0 0 0-2.828l-1.414-1.414a1.996 1.996 0 0 0-2.829 0l-9.192 9.192zM5 16v5.75l5.813-5.219-5-2L5 16zM17.121 4.835a1 1 0 1 1 1.415 1.414 1 1 0 0 1-1.415-1.414z"/>
+        <path d="M7.22 11.91c-.33.33-.51.74-.56 1.17l5.51 2.36 8.49-8.48c.78-.79.78-2.05 0-2.83l-1.42-1.42c-.78-.78-2.04-.78-2.83 0l-9.19 9.2M5 16v5.75l5.81-5.22-5-2L5 16M17.12 4.83c.38-.39 1.03-.39 1.42 0 .39.4.39 1.03 0 1.42-.39.39-1.04.39-1.42 0-.39-.39-.39-1.02 0-1.42z"/>
     </SvgIcon>
 );
 

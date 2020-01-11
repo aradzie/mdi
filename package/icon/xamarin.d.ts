@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Xamarin: React.StatelessComponent<SvgIconProps>;
+declare const Xamarin: React.FunctionComponent<SvgIconProps>;
 export default Xamarin;

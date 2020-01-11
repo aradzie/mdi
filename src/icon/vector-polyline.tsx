@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const VectorPolyline: React.StatelessComponent<SvgIconProps> = (props) => (
+const VectorPolyline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M16.001 2.002v5.995h1.074l-2.129 5h-.684l-2.26-3.026V5h-6v6.001h.912l-2.036 5H2.002v6.002h5.995V16h-.96l2.035-5h1.202l1.729 2.314v5.684h5.994v-6.001h-.878l2.128-5h2.756V2.002m-4.006 1.996H20V6h-2.003m-10 1.002H10v1.996H7.997M14 15H16v2.003H14m-10 .994H6V20H4"/>
+        <path d="M2 3v6h2.95l2 6H6v6h6v-4.59L17.41 11H22V5h-6v4.57L10.59 15H9.06l-2-6H8V3M4 5h2v2H4m14 0h2v2h-2M8 17h2v2H8z"/>
     </SvgIcon>
 );
 

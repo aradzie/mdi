@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FlashRedEye: React.StatelessComponent<SvgIconProps> = (props) => (
+const FlashRedEye: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M16 4.98a1.02 1.02 0 1 0-.002 2.038A1.02 1.02 0 0 0 16 4.98zM16 2c-2.727 0-5.056 1.658-6 4 .944 2.342 3.273 4 6 4s5.056-1.658 6-4c-.944-2.342-3.273-4-6-4zm0 1.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 2v12h3v9l7-12H9l1.12-2.525C9.44 7.757 8.875 6.93 8.5 6c.69-1.712 1.983-3.116 3.61-4H3z"/>
+        <path d="M16 5c-.56 0-1 .44-1 1s.44 1 1 1 1-.44 1-1-.44-1-1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 1.5A2.5 2.5 0 0118.5 6 2.5 2.5 0 0116 8.5 2.5 2.5 0 0113.5 6 2.5 2.5 0 0116 3.5M3 2v12h3v9l7-12H9l1.12-2.5C9.44 7.76 8.88 6.93 8.5 6c.69-1.71 2-3.12 3.61-4H3z"/>
     </SvgIcon>
 );
 

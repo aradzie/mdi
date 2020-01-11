@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Highway: React.StatelessComponent<SvgIconProps>;
+declare const Highway: React.FunctionComponent<SvgIconProps>;
 export default Highway;

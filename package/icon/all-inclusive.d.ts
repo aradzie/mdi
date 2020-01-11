@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const AllInclusive: React.StatelessComponent<SvgIconProps>;
+declare const AllInclusive: React.FunctionComponent<SvgIconProps>;
 export default AllInclusive;

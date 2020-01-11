@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const SeatFlatAngled: React.StatelessComponent<SvgIconProps> = (props) => (
+const SeatFlatAngled: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M22.251 14.293l-.694 1.888L9.2 11.71l2.08-5.659 8.56 3.09a4.008 4.008 0 0 1 2.412 5.152zM1.5 12.139l6.498 2.344v4.516h8.004v-1.63l4.516 1.63.694-1.89-19.018-6.86M7.3 10.2a3.011 3.011 0 0 0 1.411-3.999A3.009 3.009 0 0 0 4.702 4.8a2.983 2.983 0 0 0-1.4 3.999A2.993 2.993 0 0 0 7.3 10.2z"/>
+        <path d="M22.25 14.29l-.69 1.89L9.2 11.71l2.08-5.66 8.56 3.09c2.1.76 3.16 3.06 2.41 5.15M1.5 12.14L8 14.5V19h8v-1.63L20.5 19l.71-1.89-19.02-6.86m5.11-.05c1.49-.7 2.12-2.51 1.41-4C8 4.71 6.2 4.08 4.7 4.8c-1.49.7-2.12 2.5-1.4 4 .7 1.49 2.5 2.12 4 1.4z"/>
     </SvgIcon>
 );
 

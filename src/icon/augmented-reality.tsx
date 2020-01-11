@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const AugmentedReality: React.StatelessComponent<SvgIconProps> = (props) => (
+const AugmentedReality: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M5 3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H5zm2.75 6h1.5L11 15H9.5l-.291-1H7.791L7.5 15H6l1.75-6zM13 9h3.5c.85 0 1.5.65 1.5 1.5v1c0 .6-.4 1.15-.9 1.4L18 15h-1.5l-.85-2H14.5v2H13V9zm1.5 1.5v1h2v-1h-2zm-6 1.07l-.271.93h.542l-.271-.93z"/>
+        <path d="M5 3a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2H5m2 6h3c.6 0 1 .5 1 1v5H9.5v-1.5h-2V15H6v-5c0-.5.4-1 1-1m6 0h3.5c.85 0 1.5.65 1.5 1.5v1c0 .6-.4 1.15-.9 1.4L18 15h-1.5l-.85-2H14.5v2H13V9m-5.5 1.5V12h2v-1.5h-2m7 0v1h2v-1h-2"/>
     </SvgIcon>
 );
 

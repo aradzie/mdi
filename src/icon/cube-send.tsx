@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CubeSend: React.StatelessComponent<SvgIconProps> = (props) => (
+const CubeSend: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M16.001 3.999L9 8.043v7.915L16 20l6.996-4.043V8.043M16.002 6.31L19.795 8.5l-3.794 2.188L12.207 8.5M0 7.003v1.996h7.003V7.002M11 10.113L15 12.423v4.687l-3.999-2.304m10-4.692v4.692l-3.998 2.304V12.42m-15-1.42v1.997h5V11M3.999 15v2.003h3.004V15"/>
+        <path d="M16 4L9 8.04v7.92L16 20l7-4.04V8.04m-7-1.73l3.8 2.19-3.8 2.19-3.79-2.19M0 7v2h7V7m4 3.11l4 2.31v4.69l-4-2.3m10-4.7v4.7l-4 2.3v-4.69M2 11v2h5v-2m-3 4v2h3v-2"/>
     </SvgIcon>
 );
 

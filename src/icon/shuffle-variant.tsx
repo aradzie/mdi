@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ShuffleVariant: React.StatelessComponent<SvgIconProps> = (props) => (
+const ShuffleVariant: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M17 3l5.25 4.5L17 12l5.25 4.5L17 21v-3h-2.743l-2.818-2.818 2.122-2.121L15.5 15H17V9h-1.5l-9 9H2v-3h3.257l9-9H17V3zM2 6h4.5l2.818 2.818-2.121 2.121L5.257 9H2V6z"/>
+        <path d="M17 3l5.25 4.5L17 12l5.25 4.5L17 21v-3h-2.74l-2.82-2.82 2.12-2.12L15.5 15H17V9h-1.5l-9 9H2v-3h3.26l9-9H17V3M2 6h4.5l2.82 2.82-2.12 2.12L5.26 9H2V6z"/>
     </SvgIcon>
 );
 

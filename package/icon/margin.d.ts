@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Margin: React.StatelessComponent<SvgIconProps>;
+declare const Margin: React.FunctionComponent<SvgIconProps>;
 export default Margin;

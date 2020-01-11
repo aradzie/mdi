@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const BluetoothOff: React.StatelessComponent<SvgIconProps> = (props) => (
+const BluetoothOff: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12.998 5.83l1.88 1.88-1.597 1.601 1.412 1.406L17.71 7.7l-5.708-5.697h-1V7.03l1.995 1.998M5.41 3.999L3.999 5.41l6.592 6.592L5 17.587 6.411 19l4.59-4.59v7.594h1.002l4.286-4.293 2.3 2.29L20 18.589m-7.002-.42v-3.76l1.88 1.88"/>
+        <path d="M13 5.83l1.88 1.88-1.6 1.6 1.41 1.41 3.02-3.02L12 2h-1v5.03l2 2M5.41 4L4 5.41 10.59 12 5 17.59 6.41 19 11 14.41V22h1l4.29-4.29 2.3 2.29L20 18.59m-7-.42v-3.76l1.88 1.88"/>
     </SvgIcon>
 );
 

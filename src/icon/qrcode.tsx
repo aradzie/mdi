@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Qrcode: React.StatelessComponent<SvgIconProps> = (props) => (
+const Qrcode: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M5 5h2v2H5V5zM1 1h10v10H1V1zm2 2v6h6V3H3zm2 14h2v2H5v-2zm-4-4h10v10H1V13zm2 2v6h6v-6H3zM17 5h2v2h-2V5zm-4-4h10v10H13V1zm2 2v6h6V3h-6zm-2 10h4v2h2v-2h4v2h-4v2h4v6h-4v-2h-4v2h-2v-2h2v-2h-2v-6zm8 8v-2h-2v2h2zm-2-4h-2v-2h-2v4h4v-2z"/>
+        <path d="M3 11h2v2H3v-2m8-6h2v4h-2V5m-2 6h4v4h-2v-2H9v-2m6 0h2v2h2v-2h2v2h-2v2h2v4h-2v2h-2v-2h-4v2h-2v-4h4v-2h2v-2h-2v-2m4 8v-4h-2v4h2M15 3h6v6h-6V3m2 2v2h2V5h-2M3 3h6v6H3V3m2 2v2h2V5H5M3 15h6v6H3v-6m2 2v2h2v-2H5z"/>
     </SvgIcon>
 );
 

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const PanTopRight: React.StatelessComponent<SvgIconProps>;
+declare const PanTopRight: React.FunctionComponent<SvgIconProps>;
 export default PanTopRight;

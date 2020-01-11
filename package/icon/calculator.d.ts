@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Calculator: React.StatelessComponent<SvgIconProps>;
+declare const Calculator: React.FunctionComponent<SvgIconProps>;
 export default Calculator;

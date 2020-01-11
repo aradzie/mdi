@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var ArrowVerticalLock = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M18.8 11V9.5C18.8 8.1 17.4 7 16 7s-2.8 1.1-2.8 2.5V11c-.6 0-1.2.6-1.2 1.2v3.5c0 .7.6 1.3 1.2 1.3h5.5c.7 0 1.3-.6 1.3-1.2v-3.5c0-.7-.6-1.3-1.2-1.3m-1.3 0h-3V9.5c0-.8.7-1.3 1.5-1.3s1.5.5 1.5 1.3V11M9 6h3L8 2 4 6h3v12H4l4 4 4-4H9V6z" }))); };
+ArrowVerticalLock.displayName = "ArrowVerticalLock";
+exports.default = ArrowVerticalLock;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXJyb3ctdmVydGljYWwtbG9jay5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pY29uL2Fycm93LXZlcnRpY2FsLWxvY2sudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVBLHdDQUFvRDtBQUNwRCw2QkFBK0I7QUFFL0IsSUFBTSxpQkFBaUIsR0FBMEMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUN4RSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLHVPQUF1TyxHQUFFLENBQzNPLENBQ2IsRUFKMkUsQ0FJM0UsQ0FBQztBQUVGLGlCQUFpQixDQUFDLFdBQVcsR0FBRyxtQkFBbUIsQ0FBQztBQUVwRCxrQkFBZSxpQkFBaUIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgYXJyb3ctdmVydGljYWwtbG9jay5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEFycm93VmVydGljYWxMb2NrOiBSZWFjdC5GdW5jdGlvbkNvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0xOC44IDExVjkuNUMxOC44IDguMSAxNy40IDcgMTYgN3MtMi44IDEuMS0yLjggMi41VjExYy0uNiAwLTEuMi42LTEuMiAxLjJ2My41YzAgLjcuNiAxLjMgMS4yIDEuM2g1LjVjLjcgMCAxLjMtLjYgMS4zLTEuMnYtMy41YzAtLjctLjYtMS4zLTEuMi0xLjNtLTEuMyAwaC0zVjkuNWMwLS44LjctMS4zIDEuNS0xLjNzMS41LjUgMS41IDEuM1YxMU05IDZoM0w4IDIgNCA2aDN2MTJINGw0IDQgNC00SDlWNnpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuQXJyb3dWZXJ0aWNhbExvY2suZGlzcGxheU5hbWUgPSBcIkFycm93VmVydGljYWxMb2NrXCI7XG5cbmV4cG9ydCBkZWZhdWx0IEFycm93VmVydGljYWxMb2NrO1xuIl19

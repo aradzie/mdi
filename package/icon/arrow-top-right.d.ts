@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ArrowTopRight: React.StatelessComponent<SvgIconProps>;
+declare const ArrowTopRight: React.FunctionComponent<SvgIconProps>;
 export default ArrowTopRight;

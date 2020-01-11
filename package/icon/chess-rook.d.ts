@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ChessRook: React.StatelessComponent<SvgIconProps>;
+declare const ChessRook: React.FunctionComponent<SvgIconProps>;
 export default ChessRook;

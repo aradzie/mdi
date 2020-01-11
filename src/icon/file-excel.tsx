@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FileExcel: React.StatelessComponent<SvgIconProps> = (props) => (
+const FileExcel: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V9h5.5L13 3.5zm4 7.5h-4v2h1l-2 1.667L10 13h1v-2H7v2h1l3 2.5L8 18H7v2h4v-2h-1l2-1.667L14 18h-1v2h4v-2h-1l-3-2.5 3-2.5h1v-2z"/>
+        <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6m1.8 18H14l-2-3.4-2 3.4H8.2l2.9-4.5L8.2 11H10l2 3.4 2-3.4h1.8l-2.9 4.5 2.9 4.5M13 9V3.5L18.5 9H13z"/>
     </SvgIcon>
 );
 

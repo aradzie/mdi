@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Factory: React.StatelessComponent<SvgIconProps>;
+declare const Factory: React.FunctionComponent<SvgIconProps>;
 export default Factory;

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const PauseCircleOutline: React.StatelessComponent<SvgIconProps>;
+declare const PauseCircleOutline: React.FunctionComponent<SvgIconProps>;
 export default PauseCircleOutline;

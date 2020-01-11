@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const VideoInputHdmi: React.StatelessComponent<SvgIconProps>;
+declare const VideoInputHdmi: React.FunctionComponent<SvgIconProps>;
 export default VideoInputHdmi;

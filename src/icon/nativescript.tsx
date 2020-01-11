@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Nativescript: React.StatelessComponent<SvgIconProps> = (props) => (
+const Nativescript: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M7.5 3h9A4.5 4.5 0 0 1 21 7.5v9a4.5 4.5 0 0 1-4.5 4.5h-9A4.5 4.5 0 0 1 3 16.5v-9A4.5 4.5 0 0 1 7.5 3zM6 13.5v3A1.5 1.5 0 0 0 7.5 18H9v-7.5l6 7.5h1.5a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 1 1.5-1.5 1.5 1.5 0 0 1-1.5-1.5v-3A1.5 1.5 0 0 0 16.5 6H15v7.5L9 6H7.5A1.5 1.5 0 0 0 6 7.5v3A1.5 1.5 0 0 1 4.5 12 1.5 1.5 0 0 1 6 13.5z"/>
+        <path d="M7.5 3h9C19 3 21 5 21 7.5v9c0 2.5-2 4.5-4.5 4.5h-9C5 21 3 19 3 16.5v-9C3 5 5 3 7.5 3M6 13.5v3A1.5 1.5 0 007.5 18H9v-7.5l6 7.5h1.5a1.5 1.5 0 001.5-1.5v-3a1.5 1.5 0 011.5-1.5 1.5 1.5 0 01-1.5-1.5v-3A1.5 1.5 0 0016.5 6H15v7.5L9 6H7.5A1.5 1.5 0 006 7.5v3A1.5 1.5 0 014.5 12 1.5 1.5 0 016 13.5z"/>
     </SvgIcon>
 );
 

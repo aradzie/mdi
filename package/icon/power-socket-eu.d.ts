@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const PowerSocketEu: React.StatelessComponent<SvgIconProps>;
+declare const PowerSocketEu: React.FunctionComponent<SvgIconProps>;
 export default PowerSocketEu;

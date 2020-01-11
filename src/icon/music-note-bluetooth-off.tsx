@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const MusicNoteBluetoothOff: React.StatelessComponent<SvgIconProps> = (props) => (
+const MusicNoteBluetoothOff: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M10 3v5.676l3 3V6h4V3h-7zM3.277 4.5L2 5.768l6.256 6.257C5.886 12.155 4 14.098 4 16.5A4.5 4.5 0 0 0 8.5 21c2.402 0 4.345-1.887 4.475-4.256l4.709 4.71 1.273-1.274L13 14.223l-3-3L3.277 4.5zM20 7v3.79L17.71 8.5l-.71.71L19.79 12 17 14.79l.71.71L20 13.21V17h.5l2.85-2.85L21.21 12l2.15-2.15L20.5 7H20zm1 1.91l.94.94-.94.94V8.91zm0 4.3l.94.94-.94.94v-1.88z"/>
+        <path d="M22 9.85L19.14 7h-.5v3.79L16.35 8.5l-.71.71L18.43 12l-2.79 2.79.71.71 2.29-2.29V17h.5L22 14.15 19.85 12 22 9.85m-2.36-.94l.94.94-.94.94V8.91m.94 5.24l-.94.94v-1.88l.94.94M1.96 3L.687 4.27l9.003 9v.28c-.59-.34-1.27-.55-2-.55-2.19 0-4 1.79-4 4s1.81 4 4 4 4-1.79 4-4v-1.73L17.42 21l1.27-1.27L1.96 3m9.73 4h4V3h-6v5.18l2 2V7z"/>
     </SvgIcon>
 );
 

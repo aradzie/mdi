@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Playstation: React.StatelessComponent<SvgIconProps>;
+declare const Playstation: React.FunctionComponent<SvgIconProps>;
 export default Playstation;

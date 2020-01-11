@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ChartLine: React.StatelessComponent<SvgIconProps> = (props) => (
+const ChartLine: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M16.007 11.778l4.233-7.332 1.732 1-5.233 9.064-6.512-3.76L5.464 19H22v2H2V3h2v14.536l5.495-9.518 6.512 3.76z"/>
+        <path d="M16 11.78l4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8l6.5 3.78z"/>
     </SvgIcon>
 );
 

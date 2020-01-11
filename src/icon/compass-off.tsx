@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CompassOff: React.StatelessComponent<SvgIconProps> = (props) => (
+const CompassOff: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M1 3.518L2.277 2.25 21.75 21.723 20.482 23l-2.784-2.783A9.953 9.953 0 0 1 12 21.999c-5.523 0-10-4.479-10-10 0-2.118.658-4.082 1.781-5.7L1 3.52zm5 14.48l6.472-3.008-3.465-3.464L6 17.999zm12-12L11.562 8.99l-5.23-5.231A9.954 9.954 0 0 1 12 1.999c5.523 0 10 4.476 10 10 0 2.104-.65 4.056-1.76 5.667l-5.232-5.23L18 5.997z"/>
+        <path d="M1 3.5l1.28-1.25 19.47 19.47L20.5 23l-2.8-2.78A9.983 9.983 0 0112 22 10 10 0 012 12c0-2.12.66-4.08 1.78-5.7L1 3.5M6 18l6.47-3L9 11.53 6 18M18 6l-6.44 3-5.23-5.24A9.97 9.97 0 0112 2a10 10 0 0110 10c0 2.1-.65 4.06-1.76 5.67L15 12.44 18 6z"/>
     </SvgIcon>
 );
 

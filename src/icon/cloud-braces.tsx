@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CloudBraces: React.StatelessComponent<SvgIconProps> = (props) => (
+const CloudBraces: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M6 20a6 6 0 0 1-.653-11.965 7.502 7.502 0 0 1 14.006 1.977A5 5 0 0 1 19 20H6zm12.5-8H18a1 1 0 0 1-1-1v-1a2 2 0 0 0-2-2h-1.5v2H15v1a2 2 0 0 0 2 2 2 2 0 0 0-2 2v1h-1.5v2H15a2 2 0 0 0 2-2v-1a1 1 0 0 1 1-1h.5v-2zm-13 0v2H6a1 1 0 0 1 1 1v1a2 2 0 0 0 2 2h1.5v-2H9v-1a2 2 0 0 0-2-2 2 2 0 0 0 2-2v-1h1.5V8H9a2 2 0 0 0-2 2v1a1 1 0 0 1-1 1h-.5z"/>
+        <path d="M6 20a6 6 0 01-6-6c0-3.09 2.34-5.64 5.35-5.96A7.496 7.496 0 0112 4a7.5 7.5 0 017.35 6A5.02 5.02 0 0124 15a5 5 0 01-5 5H6m12.5-8H18a1 1 0 01-1-1v-1a2 2 0 00-2-2h-1.5v2H15v1a2 2 0 002 2 2 2 0 00-2 2v1h-1.5v2H15a2 2 0 002-2v-1a1 1 0 011-1h.5v-2m-13 0v2H6a1 1 0 011 1v1a2 2 0 002 2h1.5v-2H9v-1a2 2 0 00-2-2 2 2 0 002-2v-1h1.5V8H9a2 2 0 00-2 2v1a1 1 0 01-1 1h-.5z"/>
     </SvgIcon>
 );
 

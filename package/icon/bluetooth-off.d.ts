@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const BluetoothOff: React.StatelessComponent<SvgIconProps>;
+declare const BluetoothOff: React.FunctionComponent<SvgIconProps>;
 export default BluetoothOff;

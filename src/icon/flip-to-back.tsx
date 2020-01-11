@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FlipToBack: React.StatelessComponent<SvgIconProps> = (props) => (
+const FlipToBack: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M15 16.998h2v-2h-2m0-10h2v-2h-2m-10 4H3v12a2 2 0 0 0 2 2h12v-2H5m14-2c1.102 0 2-.896 2-2h-2m0-6h2v-2h-2m0 6h2v-2h-2m-10 6v-2H7a2 2 0 0 0 2 2zm4-14h-2v2h2m6-2v2h2c0-1.104-.898-2-2-2zm-6 12h-2v2h2m-4-14a2 2 0 0 0-2 2h2m0 6H7v2h2m0-6H7v2h2v-2z"/>
+        <path d="M15 17h2v-2h-2m0-10h2V3h-2M5 7H3v12a2 2 0 002 2h12v-2H5m14-2a2 2 0 002-2h-2m0-6h2V7h-2m0 6h2v-2h-2M9 17v-2H7a2 2 0 002 2m4-14h-2v2h2m6-2v2h2a2 2 0 00-2-2m-6 12h-2v2h2M9 3c-1.11 0-2 .89-2 2h2m0 6H7v2h2m0-6H7v2h2V7z"/>
     </SvgIcon>
 );
 

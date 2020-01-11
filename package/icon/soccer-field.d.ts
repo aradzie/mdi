@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const SoccerField: React.StatelessComponent<SvgIconProps>;
+declare const SoccerField: React.FunctionComponent<SvgIconProps>;
 export default SoccerField;

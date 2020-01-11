@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const FilterOutline: React.StatelessComponent<SvgIconProps>;
+declare const FilterOutline: React.FunctionComponent<SvgIconProps>;
 export default FilterOutline;

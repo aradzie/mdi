@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CameraMeteringPartial: React.StatelessComponent<SvgIconProps> = (props) => (
+const CameraMeteringPartial: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v12h16V6H4zm8 1.5a4.502 4.502 0 0 1 4.389 3.5h-1.56a3.001 3.001 0 0 0-5.658 0H7.61A4.502 4.502 0 0 1 12 7.5zm0 9A4.502 4.502 0 0 1 7.612 13H9.17a3.001 3.001 0 0 0 5.658 0h1.56A4.502 4.502 0 0 1 12 16.5z"/>
+        <path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2m0 2v12h16V6H4m8 1.5c2.14 0 3.93 1.5 4.39 3.5h-1.56A2.99 2.99 0 0012 9c-1.31 0-2.42.83-2.83 2H7.61C8.07 9 9.86 7.5 12 7.5m0 9c-2.14 0-3.93-1.5-4.39-3.5h1.56c.41 1.17 1.52 2 2.83 2s2.42-.83 2.83-2h1.56c-.46 2-2.25 3.5-4.39 3.5z"/>
     </SvgIcon>
 );
 

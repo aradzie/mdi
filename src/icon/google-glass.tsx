@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const GoogleGlass: React.StatelessComponent<SvgIconProps> = (props) => (
+const GoogleGlass: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M13 10.998v2.5h5.868c-.613 3.507-3.36 6-6.869 6-4.136 0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5c2.087 0 3.9.888 5.16 2.341l1.775-1.776C17.244 3.176 14.826 1.998 12 1.998c-5.523 0-10 4.477-10 10s4.477 10 10 10c5.522 0 9.5-4.477 9.5-10v-1H13z"/>
+        <path d="M13 11v2.5h5.87c-.61 3.5-3.37 6-6.87 6A7.5 7.5 0 014.5 12 7.5 7.5 0 0112 4.5c2.09 0 3.9.89 5.16 2.34l1.77-1.78C17.24 3.18 14.83 2 12 2A10 10 0 002 12a10 10 0 0010 10c5.5 0 9.5-4.5 9.5-10v-1H13z"/>
     </SvgIcon>
 );
 

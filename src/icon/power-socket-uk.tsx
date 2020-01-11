@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const PowerSocketUk: React.StatelessComponent<SvgIconProps> = (props) => (
+const PowerSocketUk: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M14.5 13.75H18V16h-3.5v-2.25zm-8.5 0h3.5V16H6v-2.25zM11 6h2v4h-2V6zM4.223 2C2.989 2 2 2.99 2 4.223v15.554C2 21.005 2.995 22 4.223 22h15.554A2.223 2.223 0 0 0 22 19.777V4.223C22 2.989 21 2 19.777 2H4.223zM12 4a8 8 0 1 1 0 16 8 8 0 0 1 0-16z"/>
+        <path d="M4 2a2 2 0 00-2 2v16a2 2 0 002 2h16a2 2 0 002-2V4a2 2 0 00-2-2H4m0 2h16v16H4V4m7 3v4h2V7h-2m-5 7.75V17h3.5v-2.25H6m8.5 0V17H18v-2.25h-3.5z"/>
     </SvgIcon>
 );
 

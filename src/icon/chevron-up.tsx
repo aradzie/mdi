@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ChevronUp: React.StatelessComponent<SvgIconProps> = (props) => (
+const ChevronUp: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M7.414 15.412l4.585-4.586 4.586 4.586L18 13.998l-6-6-6 6 1.414 1.414z"/>
+        <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"/>
     </SvgIcon>
 );
 

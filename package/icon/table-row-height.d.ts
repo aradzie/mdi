@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const TableRowHeight: React.StatelessComponent<SvgIconProps>;
+declare const TableRowHeight: React.FunctionComponent<SvgIconProps>;
 export default TableRowHeight;

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Plex: React.StatelessComponent<SvgIconProps>;
+declare const Plex: React.FunctionComponent<SvgIconProps>;
 export default Plex;

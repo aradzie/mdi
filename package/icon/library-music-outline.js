@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var LibraryMusicOutline = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M20 2H8a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2m0 14H8V4h12m-7.5 11a2.5 2.5 0 002.5-2.5V7h3V5h-4v5.5c-.42-.31-.93-.5-1.5-.5a2.5 2.5 0 00-2.5 2.5 2.5 2.5 0 002.5 2.5M4 6H2v14a2 2 0 002 2h14v-2H4" }))); };
+LibraryMusicOutline.displayName = "LibraryMusicOutline";
+exports.default = LibraryMusicOutline;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGlicmFyeS1tdXNpYy1vdXRsaW5lLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vbGlicmFyeS1tdXNpYy1vdXRsaW5lLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sbUJBQW1CLEdBQTBDLFVBQUMsS0FBSyxJQUFLLE9BQUEsQ0FDMUUsb0JBQUMsa0JBQU8sdUJBQUssS0FBSztJQUNkLDhCQUFNLENBQUMsRUFBQyxxTkFBcU4sR0FBRSxDQUN6TixDQUNiLEVBSjZFLENBSTdFLENBQUM7QUFFRixtQkFBbUIsQ0FBQyxXQUFXLEdBQUcscUJBQXFCLENBQUM7QUFFeEQsa0JBQWUsbUJBQW1CLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBHZW5lcmF0ZWQgZnJvbSBmaWxlIGxpYnJhcnktbXVzaWMtb3V0bGluZS5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IExpYnJhcnlNdXNpY091dGxpbmU6IFJlYWN0LkZ1bmN0aW9uQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTIwIDJIOGEyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoMTJhMiAyIDAgMDAyLTJWNGEyIDIgMCAwMC0yLTJtMCAxNEg4VjRoMTJtLTcuNSAxMWEyLjUgMi41IDAgMDAyLjUtMi41VjdoM1Y1aC00djUuNWMtLjQyLS4zMS0uOTMtLjUtMS41LS41YTIuNSAyLjUgMCAwMC0yLjUgMi41IDIuNSAyLjUgMCAwMDIuNSAyLjVNNCA2SDJ2MTRhMiAyIDAgMDAyIDJoMTR2LTJINFwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5MaWJyYXJ5TXVzaWNPdXRsaW5lLmRpc3BsYXlOYW1lID0gXCJMaWJyYXJ5TXVzaWNPdXRsaW5lXCI7XG5cbmV4cG9ydCBkZWZhdWx0IExpYnJhcnlNdXNpY091dGxpbmU7XG4iXX0=

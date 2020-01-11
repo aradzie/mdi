@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CommentRemoveOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const CommentRemoveOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M9 22a1 1 0 0 1-1-1v-3H4a2 2 0 0 1-2-2l.01-12.002c0-1.105.885-2 1.99-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2L13.903 18l-3.706 3.706a.997.997 0 0 1-.697.293L9.5 22H9zm1-6v3.075L13.075 16H20V4H4v12h6zM9.414 6L12 8.586 14.586 6 16 7.414 13.414 10 16 12.586 14.586 14 12 11.414 9.414 14 8 12.586 10.586 10 8 7.414 9.414 6z"/>
+        <path d="M9 22a1 1 0 01-1-1v-3H4a2 2 0 01-2-2V4a2 2 0 012-2h16a2 2 0 012 2v12a2 2 0 01-2 2h-6.1l-3.7 3.71c-.2.19-.45.29-.7.29H9m1-6v3.08L13.08 16H20V4H4v12h6M9.41 6L12 8.59 14.59 6 16 7.41 13.41 10 16 12.59 14.59 14 12 11.41 9.41 14 8 12.59 10.59 10 8 7.41 9.41 6z"/>
     </SvgIcon>
 );
 

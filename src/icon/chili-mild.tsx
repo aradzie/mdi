@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ChiliMild: React.StatelessComponent<SvgIconProps> = (props) => (
+const ChiliMild: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M13.75 9l1.2-.76A2 2 0 0 1 16 10v11.75S8 20 8 11v-1c0-.73.39-1.368.974-1.717L10.427 9l1.562-1 1.761 1zM10 2a3 3 0 0 1 2.979 2.639 3.51 3.51 0 0 1 2.241 1.987l-1.47.874-1.76-1-1.563 1-1.667-.826a3.51 3.51 0 0 1 2.182-2.011A1 1 0 0 0 10 4V2z"/>
+        <path d="M13.75 9l1.2-.76c.63.34 1.05 1 1.05 1.76v11.75S8 20 8 11v-1c0-.73.39-1.37.97-1.72l1.46.72L12 8l1.75 1M10 2c1.53 0 2.8 1.15 3 2.64 1 .29 1.81 1.03 2.22 1.99l-1.47.87-1.75-1-1.57 1-1.67-.83c.39-.95 1.19-1.67 2.18-2.01A1.01 1.01 0 0010 4V2z"/>
     </SvgIcon>
 );
 

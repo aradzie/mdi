@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Quadcopter: React.StatelessComponent<SvgIconProps>;
+declare const Quadcopter: React.FunctionComponent<SvgIconProps>;
 export default Quadcopter;

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ViewGrid: React.StatelessComponent<SvgIconProps> = (props) => (
+const ViewGrid: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M3 5h8v7H3V5zm9 0h8v7h-8V5zm-9 8h8v7H3v-7zm9 0h8v7h-8v-7z"/>
+        <path d="M3 11h8V3H3m0 18h8v-8H3m10 8h8v-8h-8m0-10v8h8V3"/>
     </SvgIcon>
 );
 

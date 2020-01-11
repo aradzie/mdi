@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const VkCircle: React.StatelessComponent<SvgIconProps>;
+declare const VkCircle: React.FunctionComponent<SvgIconProps>;
 export default VkCircle;

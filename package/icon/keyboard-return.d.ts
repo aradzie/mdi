@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const KeyboardReturn: React.StatelessComponent<SvgIconProps>;
+declare const KeyboardReturn: React.FunctionComponent<SvgIconProps>;
 export default KeyboardReturn;

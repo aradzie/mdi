@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Multiplication: React.StatelessComponent<SvgIconProps>;
+declare const Multiplication: React.FunctionComponent<SvgIconProps>;
 export default Multiplication;

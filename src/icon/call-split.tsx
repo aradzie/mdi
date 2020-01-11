@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CallSplit: React.StatelessComponent<SvgIconProps> = (props) => (
+const CallSplit: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M13.999 3.999l2.29 2.29-2.88 2.881 1.42 1.421L17.71 7.71 20 10V3.999m-10 0H3.999V10l2.29-2.29L11 12.412V20h1.997v-8.409L7.71 6.29"/>
+        <path d="M14 4l2.29 2.29-2.88 2.88 1.42 1.42 2.88-2.88L20 10V4M10 4H4v6l2.29-2.29 4.71 4.7V20h2v-8.41l-5.29-5.3"/>
     </SvgIcon>
 );
 

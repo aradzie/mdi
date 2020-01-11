@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Foursquare: React.StatelessComponent<SvgIconProps>;
+declare const Foursquare: React.FunctionComponent<SvgIconProps>;
 export default Foursquare;

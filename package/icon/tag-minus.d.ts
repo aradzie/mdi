@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const TagMinus: React.StatelessComponent<SvgIconProps>;
+declare const TagMinus: React.FunctionComponent<SvgIconProps>;
 export default TagMinus;

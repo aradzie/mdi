@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Unity: React.StatelessComponent<SvgIconProps> = (props) => (
+const Unity: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M9.113 17H6.5l-4.914-5L6.5 7h2.613l1.307-2.263 6.787-1.756 1.873 6.756L17.774 12l1.306 2.263-1.873 6.756-6.787-1.756L9.113 17zm.142-.245l5.129 1.374L11.423 13H5.5l3.755 3.755zm6.861.374L17.49 12l-1.374-5.13L13.155 12l2.961 5.13zM9.255 7.245L5.5 11h5.923l2.961-5.13-5.13 1.375z"/>
+        <path d="M10.11 17H7.5l-4.91-5L7.5 7h2.61l1.31-2.26L18.21 3l1.87 6.74L18.77 12l1.31 2.26L18.21 21l-6.79-1.74L10.11 17m.14-.25l5.13 1.38L12.42 13H6.5l3.75 3.75m6.87.38L18.5 12l-1.38-5.13L14.15 12l2.97 5.13m-6.87-9.88L6.5 11h5.92l2.96-5.13-5.13 1.38z"/>
     </SvgIcon>
 );
 

@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var Hiking = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M9.8 8.9L7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3a7.3 7.3 0 004.65 2.45L16 23h1l3-14-.96-.2-.46 2.2c-1.72-.15-3.14-1.11-3.88-2.4l-1-1.6c-.2-.35-.5-.63-.86-.8-.34-.2-.76-.24-1.16-.2-.4.09-.76.27-1.05.55-.29.28-.49.64-.57 1.03L9.8 8.9M7.08 6.92l2.32.46-1 5.08L6.08 12l1-5.08M13.5 5.5a2 2 0 002-2 2 2 0 00-2-2 2 2 0 00-2 2 2 2 0 002 2z" }))); };
+Hiking.displayName = "Hiking";
+exports.default = Hiking;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaGlraW5nLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vaGlraW5nLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sTUFBTSxHQUEwQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQzdELG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsK1VBQStVLEdBQUUsQ0FDblYsQ0FDYixFQUpnRSxDQUloRSxDQUFDO0FBRUYsTUFBTSxDQUFDLFdBQVcsR0FBRyxRQUFRLENBQUM7QUFFOUIsa0JBQWUsTUFBTSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBoaWtpbmcuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBIaWtpbmc6IFJlYWN0LkZ1bmN0aW9uQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTkuOCA4LjlMNyAyM2gyLjFsMS44LTggMi4xIDJ2Nmgydi03LjVsLTIuMS0yIC42LTNhNy4zIDcuMyAwIDAwNC42NSAyLjQ1TDE2IDIzaDFsMy0xNC0uOTYtLjItLjQ2IDIuMmMtMS43Mi0uMTUtMy4xNC0xLjExLTMuODgtMi40bC0xLTEuNmMtLjItLjM1LS41LS42My0uODYtLjgtLjM0LS4yLS43Ni0uMjQtMS4xNi0uMi0uNC4wOS0uNzYuMjctMS4wNS41NS0uMjkuMjgtLjQ5LjY0LS41NyAxLjAzTDkuOCA4LjlNNy4wOCA2LjkybDIuMzIuNDYtMSA1LjA4TDYuMDggMTJsMS01LjA4TTEzLjUgNS41YTIgMiAwIDAwMi0yIDIgMiAwIDAwLTItMiAyIDIgMCAwMC0yIDIgMiAyIDAgMDAyIDJ6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkhpa2luZy5kaXNwbGF5TmFtZSA9IFwiSGlraW5nXCI7XG5cbmV4cG9ydCBkZWZhdWx0IEhpa2luZztcbiJdfQ==

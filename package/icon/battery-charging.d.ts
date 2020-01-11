@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const BatteryCharging: React.StatelessComponent<SvgIconProps>;
+declare const BatteryCharging: React.FunctionComponent<SvgIconProps>;
 export default BatteryCharging;

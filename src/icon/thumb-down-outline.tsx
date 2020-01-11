@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ThumbDownOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const ThumbDownOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M19 14.998v-12h4v12h-4zm-4-12a2 2 0 0 1 2 2v10c0 .552-.225 1.052-.587 1.414l-6.586 6.586-1.06-1.055a1.491 1.491 0 0 1-.44-1.06l.033-.316.954-4.569H3a2 2 0 0 1-2-2v-2c0-.257.053-.502.141-.727l3.017-7.053A2 2 0 0 1 6 2.998h9zM15 5H5.974L3 12.006V14h8.785l-1.13 5.317L15 14.972V5z"/>
+        <path d="M19 15V3h4v12h-4M15 3a2 2 0 012 2v10c0 .55-.22 1.05-.59 1.41L9.83 23l-1.06-1.06c-.27-.27-.44-.64-.44-1.06l.03-.31.95-4.57H3a2 2 0 01-2-2v-2c0-.26.05-.5.14-.73l3.02-7.05C4.46 3.5 5.17 3 6 3h9m0 2H5.97L3 12v2h8.78l-1.13 5.32L15 14.97V5z"/>
     </SvgIcon>
 );
 

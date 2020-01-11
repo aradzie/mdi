@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const MapMarkerCircle: React.StatelessComponent<SvgIconProps> = (props) => (
+const MapMarkerCircle: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12 19.998a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm0-18c-5.524 0-10 4.477-10 10s4.476 10 10 10c5.522 0 10-4.477 10-10s-4.478-10-10-10zm0 10.5a1.5 1.5 0 1 1 0-3.001 1.5 1.5 0 0 1 0 3.001zm0-5.3a3.8 3.8 0 0 0-3.8 3.8c0 3 3.8 6.5 3.8 6.5s3.8-3.5 3.8-6.5a3.8 3.8 0 0 0-3.8-3.8z"/>
+        <path d="M12 20a8 8 0 01-8-8 8 8 0 018-8 8 8 0 018 8 8 8 0 01-8 8m0-18A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10A10 10 0 0012 2m0 10.5a1.5 1.5 0 01-1.5-1.5A1.5 1.5 0 0112 9.5a1.5 1.5 0 011.5 1.5 1.5 1.5 0 01-1.5 1.5m0-5.3c-2.1 0-3.8 1.7-3.8 3.8 0 3 3.8 6.5 3.8 6.5s3.8-3.5 3.8-6.5c0-2.1-1.7-3.8-3.8-3.8z"/>
     </SvgIcon>
 );
 

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Umbraco: React.StatelessComponent<SvgIconProps>;
+declare const Umbraco: React.FunctionComponent<SvgIconProps>;
 export default Umbraco;

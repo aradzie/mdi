@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Pinwheel: React.StatelessComponent<SvgIconProps>;
+declare const Pinwheel: React.FunctionComponent<SvgIconProps>;
 export default Pinwheel;

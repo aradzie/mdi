@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const InvertColors: React.StatelessComponent<SvgIconProps> = (props) => (
+const InvertColors: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12 19.583a5.955 5.955 0 0 1-4.243-1.758A5.956 5.956 0 0 1 6 13.583c0-1.602.624-3.109 1.758-4.242L12 5.098m5.656 2.828L12 2.27v.001L6.342 7.926a7.999 7.999 0 0 0 0 11.314A7.97 7.97 0 0 0 12 21.583a8 8 0 0 0 5.657-13.657z"/>
+        <path d="M12 19.58c-1.6 0-3.11-.62-4.24-1.75A5.951 5.951 0 016 13.58c0-1.58.62-3.11 1.76-4.24L12 5.1m5.66 2.83L12 2.27 6.34 7.93c-3.12 3.12-3.12 8.19 0 11.31A7.98 7.98 0 0012 21.58c2.05 0 4.1-.78 5.66-2.34 3.12-3.12 3.12-8.19 0-11.31z"/>
     </SvgIcon>
 );
 

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const GridOff: React.StatelessComponent<SvgIconProps> = (props) => (
+const GridOff: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M0 2.768L1.277 1.5 22.5 22.723 21.232 24l-2-2H4.023a2 2 0 0 1-2-2L2.001 4.77 0 2.769zM10 4v3.677l-2-2V4H6.323l-2-2H20a2 2 0 0 1 2 2l.023 15.7-2.003-2.003L20.018 16h-1.695l-2-2h3.692l-.006-4H16v3.677l-2-2V10h-1.677l-2-2H14V4h-4zm6 0v4h4.006L20 4h-4zm0 16h1.232L16 18.768V20zM4.006 8h1.226L4.004 6.773 4.006 8zM10 14h1.232L10 12.768V14zm4 6v-3.232L13.232 16H10v4h4zm-6 0v-4H4.018l.005 4H8zm0-6v-3.232L7.232 10H4.009l.006 4H8z"/>
+        <path d="M0 2.77L1.28 1.5 22.5 22.72 21.23 24l-2-2H4c-1.08 0-2-.9-2-2V4.77l-2-2M10 4v3.68l-2-2V4H6.32l-2-2H20a2 2 0 012 2v15.7l-2-2V16h-1.68l-2-2H20v-4h-4v3.68l-2-2V10h-1.68l-2-2H14V4h-4m6 0v4h4V4h-4m0 16h1.23L16 18.77V20M4 8h1.23L4 6.77V8m6 6h1.23L10 12.77V14m4 6v-3.23l-.77-.77H10v4h4m-6 0v-4H4v4h4m0-6v-3.23L7.23 10H4v4h4z"/>
     </SvgIcon>
 );
 

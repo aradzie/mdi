@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const AppleKeyboardControl: React.StatelessComponent<SvgIconProps> = (props) => (
+const AppleKeyboardControl: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M19.778 11.778l-1.414 1.414L12 6.828l-6.364 6.364-1.414-1.414L12 4l7.778 7.778z"/>
+        <path d="M19.78 11.78l-1.42 1.41L12 6.83l-6.36 6.36-1.42-1.41L12 4l7.78 7.78z"/>
     </SvgIcon>
 );
 

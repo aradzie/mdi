@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var FileDocumentBoxPlus = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M17 14h2v3h3v2h-3v3h-2v-3h-3v-2h3v-3m-5 3v-2H7v2h5m5-6H7v2h7.69A5.983 5.983 0 0012 18c0 1.09.29 2.12.8 3H5a2 2 0 01-2-2V5c0-1.11.89-2 2-2h14a2 2 0 012 2v7.8c-.88-.51-1.91-.8-3-.8l-1 .08V11m0-2V7H7v2h10z" }))); };
+FileDocumentBoxPlus.displayName = "FileDocumentBoxPlus";
+exports.default = FileDocumentBoxPlus;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZmlsZS1kb2N1bWVudC1ib3gtcGx1cy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pY29uL2ZpbGUtZG9jdW1lbnQtYm94LXBsdXMudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVBLHdDQUFvRDtBQUNwRCw2QkFBK0I7QUFFL0IsSUFBTSxtQkFBbUIsR0FBMEMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUMxRSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLDRNQUE0TSxHQUFFLENBQ2hOLENBQ2IsRUFKNkUsQ0FJN0UsQ0FBQztBQUVGLG1CQUFtQixDQUFDLFdBQVcsR0FBRyxxQkFBcUIsQ0FBQztBQUV4RCxrQkFBZSxtQkFBbUIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgZmlsZS1kb2N1bWVudC1ib3gtcGx1cy5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEZpbGVEb2N1bWVudEJveFBsdXM6IFJlYWN0LkZ1bmN0aW9uQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTE3IDE0aDJ2M2gzdjJoLTN2M2gtMnYtM2gtM3YtMmgzdi0zbS01IDN2LTJIN3YyaDVtNS02SDd2Mmg3LjY5QTUuOTgzIDUuOTgzIDAgMDAxMiAxOGMwIDEuMDkuMjkgMi4xMi44IDNINWEyIDIgMCAwMS0yLTJWNWMwLTEuMTEuODktMiAyLTJoMTRhMiAyIDAgMDEyIDJ2Ny44Yy0uODgtLjUxLTEuOTEtLjgtMy0uOGwtMSAuMDhWMTFtMC0yVjdIN3YyaDEwelwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5GaWxlRG9jdW1lbnRCb3hQbHVzLmRpc3BsYXlOYW1lID0gXCJGaWxlRG9jdW1lbnRCb3hQbHVzXCI7XG5cbmV4cG9ydCBkZWZhdWx0IEZpbGVEb2N1bWVudEJveFBsdXM7XG4iXX0=

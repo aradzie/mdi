@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CloudPrintOutline: React.StatelessComponent<SvgIconProps>;
+declare const CloudPrintOutline: React.FunctionComponent<SvgIconProps>;
 export default CloudPrintOutline;

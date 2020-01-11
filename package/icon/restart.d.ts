@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Restart: React.StatelessComponent<SvgIconProps>;
+declare const Restart: React.FunctionComponent<SvgIconProps>;
 export default Restart;

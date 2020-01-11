@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const HeartHalfOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const HeartHalfOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M4 8.498c0 2.704 2.75 5.373 7 9.242V7.2c-.58-1.286-2.023-2.202-3.5-2.202-1.996 0-3.5 1.505-3.5 3.5zm9-1.3V20.44l-1 .908-1.45-1.316C5.401 15.36 2 12.273 2 8.498c0-3.084 2.415-5.5 5.5-5.5C10 3 13 5 13 7.198z"/>
+        <path d="M4 8.5c0 2.7 2.75 5.37 7 9.24V7.2C10.42 5.91 9 5 7.5 5 5.5 5 4 6.5 4 8.5m9-1.3V20.44l-1 .91-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3 10 3 13 5 13 7.2z"/>
     </SvgIcon>
 );
 

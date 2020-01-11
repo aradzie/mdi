@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const TowerFire: React.StatelessComponent<SvgIconProps> = (props) => (
+const TowerFire: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M17 4v4h1v2h-.362L21 23h-2.066l-.56-2.165L12 17.155l-6.374 3.68L5.066 23H3l3.362-13H6V8h1V4H6V3l6-2 6 2v1h-1zM7.282 14.43l-.954 3.69L10 16l-2.718-1.57zm8.29-4.43H8.428l-.626 2.421L12 14.845l4.198-2.424L15.572 10zm2.1 8.12l-.954-3.69L14 16l3.672 2.12z"/>
+        <path d="M17 4v4h1v2h-.36L21 23h-2.07l-.56-2.17L12 17.15l-6.37 3.68L5.07 23H3l3.36-13H6V8h1V4H6V3l6-2 6 2v1h-1M7.28 14.43l-.95 3.69L10 16l-2.72-1.57M15.57 10H8.43l-.63 2.42 4.2 2.43 4.2-2.43-.63-2.42m2.1 8.12l-.95-3.69L14 16l3.67 2.12z"/>
     </SvgIcon>
 );
 

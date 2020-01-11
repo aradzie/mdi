@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FormatColorText: React.StatelessComponent<SvgIconProps> = (props) => (
+const FormatColorText: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M9.624 11.998L12 5.665l2.375 6.333m-3.375-9l-5.5 14h2.25l1.125-3h6.25l1.125 3h2.25l-5.5-14h-2z"/>
+        <path d="M9.62 12L12 5.67 14.37 12M11 3L5.5 17h2.25l1.12-3h6.25l1.13 3h2.25L13 3h-2z"/>
     </SvgIcon>
 );
 

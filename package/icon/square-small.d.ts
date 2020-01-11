@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const SquareSmall: React.StatelessComponent<SvgIconProps>;
+declare const SquareSmall: React.FunctionComponent<SvgIconProps>;
 export default SquareSmall;

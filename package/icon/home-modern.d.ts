@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const HomeModern: React.StatelessComponent<SvgIconProps>;
+declare const HomeModern: React.FunctionComponent<SvgIconProps>;
 export default HomeModern;

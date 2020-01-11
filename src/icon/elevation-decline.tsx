@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ElevationDecline: React.StatelessComponent<SvgIconProps> = (props) => (
+const ElevationDecline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M21 21H3v-9.75l6.455 3.726 3.768-2.175L21 17.291V21zM3 8.94V6.75l6.455 3.726 3.768-2.175L21 12.791v2.191l-7.777-4.49-3.768 2.175L3 8.941z"/>
+        <path d="M21 21H3v-9.75L9.45 15l3.77-2.2L21 17.29V21M3 8.94V6.75l6.45 3.75 3.77-2.2L21 12.79V15l-7.78-4.5-3.77 2.17L3 8.94z"/>
     </SvgIcon>
 );
 

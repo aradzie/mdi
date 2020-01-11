@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CalendarEdit: React.StatelessComponent<SvgIconProps>;
+declare const CalendarEdit: React.FunctionComponent<SvgIconProps>;
 export default CalendarEdit;

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FlaskEmptyOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const FlaskEmptyOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M5 19a1 1 0 0 0 1 1h12a1 1 0 0 0 .819-1.575L13 8.348V4h-2v4.347L5.181 18.426A.996.996 0 0 0 5 19zm1 3a3 3 0 0 1-2.516-4.635L9 7.811V6a1 1 0 0 1-1-1V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1v1.811l5.516 9.554A3 3 0 0 1 18 22H6z"/>
+        <path d="M5 19a1 1 0 001 1h12a1 1 0 001-1c0-.21-.07-.41-.18-.57L13 8.35V4h-2v4.35L5.18 18.43c-.11.16-.18.36-.18.57m1 3a3 3 0 01-3-3c0-.6.18-1.16.5-1.63L9 7.81V6a1 1 0 01-1-1V4a2 2 0 012-2h4a2 2 0 012 2v1a1 1 0 01-1 1v1.81l5.5 9.56c.32.47.5 1.03.5 1.63a3 3 0 01-3 3H6z"/>
     </SvgIcon>
 );
 

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Wiiu: React.StatelessComponent<SvgIconProps> = (props) => (
+const Wiiu: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M2 15.964c0 2.226 1.537 3.55 3.787 3.55h12.781c1.898 0 3.432-1.31 3.432-3.194V6.97c0-1.135-.846-2.366-1.893-2.366h-2.96v7.692c0 5.842-10.177 5.797-10.177.118V4.485H4.722C3.258 4.485 2 5.413 2 6.852v9.112zm7.337-4.733c0 4.504 5.326 3.86 5.326.71V4.485H9.337v6.746z"/>
+        <path d="M2 15.96c0 2.23 1.54 3.54 3.79 3.54h12.78c1.9 0 3.43-1.3 3.43-3.18V6.97c0-1.14-.85-2.37-1.89-2.37h-2.96v7.7c0 5.84-10.18 5.79-10.18.11V4.5H4.72C3.26 4.5 2 5.41 2 6.85v9.11m7.34-4.73c0 4.51 5.32 3.86 5.32.71V4.5H9.34v6.73z"/>
     </SvgIcon>
 );
 

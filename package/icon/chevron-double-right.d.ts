@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ChevronDoubleRight: React.StatelessComponent<SvgIconProps>;
+declare const ChevronDoubleRight: React.FunctionComponent<SvgIconProps>;
 export default ChevronDoubleRight;

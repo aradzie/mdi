@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ArrowDownBold: React.StatelessComponent<SvgIconProps> = (props) => (
+const ArrowDownBold: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M9 4h6v8h4.839L12 19.839 4.161 12H9V4z"/>
+        <path d="M9 4h6v8h4.84L12 19.84 4.16 12H9V4z"/>
     </SvgIcon>
 );
 

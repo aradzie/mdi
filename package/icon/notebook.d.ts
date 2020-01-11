@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Notebook: React.StatelessComponent<SvgIconProps>;
+declare const Notebook: React.FunctionComponent<SvgIconProps>;
 export default Notebook;

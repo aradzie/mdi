@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Cloud: React.StatelessComponent<SvgIconProps>;
+declare const Cloud: React.FunctionComponent<SvgIconProps>;
 export default Cloud;

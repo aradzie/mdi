@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const GasStation: React.StatelessComponent<SvgIconProps> = (props) => (
+const GasStation: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M18 9.998a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm-6 0H6v-5h6m7.767 2.232l.012-.012-3.72-3.72L15 4.56l2.11 2.11A2.496 2.496 0 1 0 19 11.286v7.211a1 1 0 0 1-2 0v-4.5a2 2 0 0 0-2-2h-1v-7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v16h10v-7.5h1.5v5a2.5 2.5 0 1 0 5 0v-9.5c0-.69-.28-1.315-.732-1.768z"/>
+        <path d="M18 10a1 1 0 01-1-1 1 1 0 011-1 1 1 0 011 1 1 1 0 01-1 1m-6 0H6V5h6m7.77 2.23l.01-.01-3.72-3.72L15 4.56l2.11 2.11C16.17 7 15.5 7.93 15.5 9a2.5 2.5 0 002.5 2.5c.36 0 .69-.08 1-.21v7.21a1 1 0 01-1 1 1 1 0 01-1-1V14a2 2 0 00-2-2h-1V5a2 2 0 00-2-2H6c-1.11 0-2 .89-2 2v16h10v-7.5h1.5v5A2.5 2.5 0 0018 21a2.5 2.5 0 002.5-2.5V9c0-.69-.28-1.32-.73-1.77z"/>
     </SvgIcon>
 );
 

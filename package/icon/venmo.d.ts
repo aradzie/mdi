@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Venmo: React.StatelessComponent<SvgIconProps>;
+declare const Venmo: React.FunctionComponent<SvgIconProps>;
 export default Venmo;

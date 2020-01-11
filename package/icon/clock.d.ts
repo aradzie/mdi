@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Clock: React.StatelessComponent<SvgIconProps>;
+declare const Clock: React.FunctionComponent<SvgIconProps>;
 export default Clock;

@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var TelevisionClean = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M21 17H3V5h18m0-2H3c-1.1 0-2 .9-2 2v12a2 2 0 002 2h5v2h8v-2h5c1.11 0 2-.89 2-2V5a2 2 0 00-2-2m-6 3.5l-.62 1.37L13 8.5l1.38.63.62 1.37.63-1.37L17 8.5l-1.37-.63L15 6.5m-4.5 2l-1.09 2.41L7 12l2.41 1.09 1.09 2.41 1.1-2.41L14 12l-2.4-1.09-1.1-2.41" }))); };
+TelevisionClean.displayName = "TelevisionClean";
+exports.default = TelevisionClean;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGVsZXZpc2lvbi1jbGVhbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pY29uL3RlbGV2aXNpb24tY2xlYW4udHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVBLHdDQUFvRDtBQUNwRCw2QkFBK0I7QUFFL0IsSUFBTSxlQUFlLEdBQTBDLFVBQUMsS0FBSyxJQUFLLE9BQUEsQ0FDdEUsb0JBQUMsa0JBQU8sdUJBQUssS0FBSztJQUNkLDhCQUFNLENBQUMsRUFBQyxvUEFBb1AsR0FBRSxDQUN4UCxDQUNiLEVBSnlFLENBSXpFLENBQUM7QUFFRixlQUFlLENBQUMsV0FBVyxHQUFHLGlCQUFpQixDQUFDO0FBRWhELGtCQUFlLGVBQWUsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgdGVsZXZpc2lvbi1jbGVhbi5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IFRlbGV2aXNpb25DbGVhbjogUmVhY3QuRnVuY3Rpb25Db21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMjEgMTdIM1Y1aDE4bTAtMkgzYy0xLjEgMC0yIC45LTIgMnYxMmEyIDIgMCAwMDIgMmg1djJoOHYtMmg1YzEuMTEgMCAyLS44OSAyLTJWNWEyIDIgMCAwMC0yLTJtLTYgMy41bC0uNjIgMS4zN0wxMyA4LjVsMS4zOC42My42MiAxLjM3LjYzLTEuMzdMMTcgOC41bC0xLjM3LS42M0wxNSA2LjVtLTQuNSAybC0xLjA5IDIuNDFMNyAxMmwyLjQxIDEuMDkgMS4wOSAyLjQxIDEuMS0yLjQxTDE0IDEybC0yLjQtMS4wOS0xLjEtMi40MVwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5UZWxldmlzaW9uQ2xlYW4uZGlzcGxheU5hbWUgPSBcIlRlbGV2aXNpb25DbGVhblwiO1xuXG5leHBvcnQgZGVmYXVsdCBUZWxldmlzaW9uQ2xlYW47XG4iXX0=

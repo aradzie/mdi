@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const DeleteRestore: React.StatelessComponent<SvgIconProps> = (props) => (
+const DeleteRestore: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M14.016 14.016h1.968L12 9.984l-3.984 4.032h1.968V18h4.032v-3.984zM6 6.984h12v12c0 .532-.203 1-.61 1.407-.406.406-.874.609-1.406.609H8.016c-.532 0-1-.203-1.407-.61-.406-.406-.609-.874-.609-1.406v-12zm12.984-3V6H5.016V3.984h3.468L9.516 3h4.968l1.032.984h3.468z"/>
+        <path d="M14 14h2l-4-4-4 4h2v4h4v-4M6 7h12v12c0 .5-.2 1-.61 1.39-.39.41-.89.61-1.39.61H8c-.5 0-1-.2-1.39-.61C6.2 20 6 19.5 6 19V7m13-3v2H5V4h3.5l1-1h5l1 1H19z"/>
     </SvgIcon>
 );
 

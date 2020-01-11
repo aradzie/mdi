@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Glasses: React.StatelessComponent<SvgIconProps>;
+declare const Glasses: React.FunctionComponent<SvgIconProps>;
 export default Glasses;

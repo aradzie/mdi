@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Beaker: React.StatelessComponent<SvgIconProps>;
+declare const Beaker: React.FunctionComponent<SvgIconProps>;
 export default Beaker;

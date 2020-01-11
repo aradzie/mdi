@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CurrencyPhp: React.StatelessComponent<SvgIconProps>;
+declare const CurrencyPhp: React.FunctionComponent<SvgIconProps>;
 export default CurrencyPhp;

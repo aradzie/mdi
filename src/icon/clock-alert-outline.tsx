@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ClockAlertOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const ClockAlertOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M11.994 1.998C6.467 1.998 2 6.475 2 11.998s4.467 10 9.994 10A9.95 9.95 0 0 0 18 19.982v-2.705a7.972 7.972 0 0 1-6 2.721c-4.42 0-8-3.582-8-8A7.998 7.998 0 1 1 19.414 9h2.127a10.007 10.007 0 0 0-9.547-7.002zm-.994 5v6l5.246 3.15.754-1.23-4.5-2.67v-5.25H11zM20 11v7h2v-7h-2zm0 9v2h2v-2h-2z"/>
+        <path d="M12 2C6.47 2 2 6.5 2 12a10 10 0 0010 10c2.25 0 4.33-.76 6-2v-2.72C16.53 18.94 14.39 20 12 20a8 8 0 01-8-8 8 8 0 018-8c3.36 0 6.23 2.07 7.41 5h2.13C20.27 4.94 16.5 2 12 2m-1 5v6l5.25 3.15.75-1.23-4.5-2.67V7H11m9 4v7h2v-7h-2m0 9v2h2v-2h-2z"/>
     </SvgIcon>
 );
 

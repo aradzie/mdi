@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const VideoOutline: React.StatelessComponent<SvgIconProps>;
+declare const VideoOutline: React.FunctionComponent<SvgIconProps>;
 export default VideoOutline;

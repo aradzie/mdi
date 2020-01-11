@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Trademark: React.StatelessComponent<SvgIconProps>;
+declare const Trademark: React.FunctionComponent<SvgIconProps>;
 export default Trademark;

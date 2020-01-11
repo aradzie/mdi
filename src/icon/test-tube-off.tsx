@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const TestTubeOff: React.StatelessComponent<SvgIconProps> = (props) => (
+const TestTubeOff: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M2 5.268L3.277 4 20 20.723 18.732 22l-2.89-2.89A4.016 4.016 0 0 1 12 22c-2.2 0-4-1.8-4-4v-6.732l-6-6zM7 2h10v2h-1v10.177l-2.37-2.37c.233-.174.37-.456.37-.807 0-.6-.4-1-1-1-.35 0-.633.137-.807.37L8 6.177V4H7V2zm4 14c.514 0 .882-.294.976-.755l-1.22-1.221c-.462.095-.756.462-.756.976 0 .6.4 1 1 1zm3-9V4h-4v3h4z"/>
+        <path d="M2 5.27L3.28 4 20 20.72 18.73 22l-2.89-2.89A4.01 4.01 0 0112 22a4 4 0 01-4-4v-6.73l-6-6M7 2h10v2h-1v10.18l-2.37-2.37c.23-.18.37-.46.37-.81 0-.6-.4-1-1-1-.35 0-.63.14-.81.37L8 6.18V4H7V2m4 14c.5 0 .88-.29 1-.76L10.76 14c-.47.12-.76.5-.76 1 0 .6.4 1 1 1m3-9V4h-4v3h4z"/>
     </SvgIcon>
 );
 

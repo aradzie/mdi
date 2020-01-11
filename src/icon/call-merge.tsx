@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CallMerge: React.StatelessComponent<SvgIconProps> = (props) => (
+const CallMerge: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M17.003 20.41l1.406-1.411L15 15.59l-1.411 1.412M7.5 7.997h3.501v5.592l-5.41 5.41 1.412 1.411 5.995-6.001V7.997h3.5l-4.496-4.496"/>
+        <path d="M17 20.41L18.41 19 15 15.59 13.59 17M7.5 8H11v5.59L5.59 19 7 20.41l6-6V8h3.5L12 3.5"/>
     </SvgIcon>
 );
 

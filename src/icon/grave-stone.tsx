@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const GraveStone: React.StatelessComponent<SvgIconProps> = (props) => (
+const GraveStone: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M10 2h4c3.314 0 5 2.686 5 6v10.655C16.877 17.625 15.073 17 12 17s-4.877.626-7 1.655V8c0-3.314 1.686-6 5-6zM8 8v1.5h8V8H8zm1 4v1.5h6V12H9zM3 22v-.693c2.658-1.683 10.228-5.47 18-.055V22H3z"/>
+        <path d="M10 2h4c3.31 0 5 2.69 5 6v10.66C16.88 17.63 15.07 17 12 17s-4.88.63-7 1.66V8c0-3.31 1.69-6 5-6M8 8v1.5h8V8H8m1 4v1.5h6V12H9M3 22v-.69c2.66-1.69 10.23-5.47 18-.06V22H3z"/>
     </SvgIcon>
 );
 

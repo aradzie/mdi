@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CommentArrowRightOutline: React.StatelessComponent<SvgIconProps>;
+declare const CommentArrowRightOutline: React.FunctionComponent<SvgIconProps>;
 export default CommentArrowRightOutline;

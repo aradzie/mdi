@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const HandPeaceVariant: React.StatelessComponent<SvgIconProps>;
+declare const HandPeaceVariant: React.FunctionComponent<SvgIconProps>;
 export default HandPeaceVariant;

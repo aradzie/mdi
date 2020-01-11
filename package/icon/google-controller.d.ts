@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const GoogleController: React.StatelessComponent<SvgIconProps>;
+declare const GoogleController: React.FunctionComponent<SvgIconProps>;
 export default GoogleController;

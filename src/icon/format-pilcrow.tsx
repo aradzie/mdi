@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FormatPilcrow: React.StatelessComponent<SvgIconProps> = (props) => (
+const FormatPilcrow: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M10 11a4 4 0 1 1 0-8h8v2h-2v16h-2V5h-2v16h-2V11z"/>
+        <path d="M10 11a4 4 0 01-4-4 4 4 0 014-4h8v2h-2v16h-2V5h-2v16h-2V11z"/>
     </SvgIcon>
 );
 

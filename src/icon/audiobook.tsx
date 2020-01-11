@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Audiobook: React.StatelessComponent<SvgIconProps> = (props) => (
+const Audiobook: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M18 21.998H6c-1.104 0-2-.896-2-2v-16c0-1.104.896-2 2-2h1v7l2.5-1.5 2.5 1.5v-7h6a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2zM13 15a2 2 0 1 0 2 2v-5h3v-2h-4v5.268A1.99 1.99 0 0 0 13 15z"/>
+        <path d="M18 22H6a2 2 0 01-2-2V4a2 2 0 012-2h1v7l2.5-1.5L12 9V2h6a2 2 0 012 2v16a2 2 0 01-2 2m-5-7a2 2 0 00-2 2 2 2 0 002 2 2 2 0 002-2v-5h3v-2h-4v5.27c-.29-.17-.64-.27-1-.27z"/>
     </SvgIcon>
 );
 

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Video4kBox: React.StatelessComponent<SvgIconProps> = (props) => (
+const Video4kBox: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm13.094 12l-2.016-3 2.016-3h-1.735l-1.968 3V9h-1.5v6h1.5v-3l1.968 3h1.735zm-6.235-1.5V12h-.984V9h-1.5v3h-1.5V9h-1.5v4.5h3V15h1.5v-1.5h.984z"/>
+        <path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2m-7 10.5h-1V15H9.5v-1.5h-3V9H8v3h1.5V9H11v3h1v1.5m6 1.5h-1.8l-1.8-2.2V15H13V9h1.5v2.2L16.2 9H18l-2.2 3 2.2 3z"/>
     </SvgIcon>
 );
 

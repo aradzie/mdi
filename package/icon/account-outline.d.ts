@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const AccountOutline: React.StatelessComponent<SvgIconProps>;
+declare const AccountOutline: React.FunctionComponent<SvgIconProps>;
 export default AccountOutline;

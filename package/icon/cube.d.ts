@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Cube: React.StatelessComponent<SvgIconProps>;
+declare const Cube: React.FunctionComponent<SvgIconProps>;
 export default Cube;

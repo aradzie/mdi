@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FileUndo: React.StatelessComponent<SvgIconProps> = (props) => (
+const FileUndo: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M13 8.998h5.5l-5.5-5.5v5.5zm-7-7h8l6 6v12a2 2 0 0 1-2 2H5.99a1.992 1.992 0 0 1-1.99-2l.01-16c0-1.104.884-2 1.99-2zm6.155 12.312c-1.553 0-2.96.58-4.045 1.524L6 13.724V19h5.276l-2.122-2.122a4.663 4.663 0 0 1 3.001-1.102A4.697 4.697 0 0 1 16.611 19L18 18.543c-.815-2.456-3.119-4.233-5.845-4.233z"/>
+        <path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 01-2 2H6a2 2 0 01-2-2V4c0-1.11.89-2 2-2m6.16 12.31c-1.56 0-2.97.58-4.05 1.52L6 13.72V19h5.28l-2.13-2.12c.82-.68 1.85-1.1 3.01-1.1 2.07 0 3.84 1.35 4.45 3.22l1.39-.46c-.81-2.45-3.12-4.23-5.84-4.23z"/>
     </SvgIcon>
 );
 

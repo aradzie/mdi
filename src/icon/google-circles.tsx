@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const GoogleCircles: React.StatelessComponent<SvgIconProps> = (props) => (
+const GoogleCircles: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M16.657 14.98l.342.018a7.98 7.98 0 0 0 2.871-.54c-.699 4.275-4.399 7.54-8.87 7.54a9 9 0 0 1-9-9c0-4.472 3.265-8.172 7.54-8.871A7.98 7.98 0 0 0 9 6.997l.016.344A5.995 5.995 0 0 0 11 18.998a5.998 5.998 0 0 0 5.658-4.017zM17 9.999a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-9a6 6 0 1 1 0 12 6 6 0 0 1 0-12z"/>
+        <path d="M16.66 15H17c1 0 2-.2 2.87-.54-.7 4.27-4.4 7.54-8.87 7.54-5 0-9-4.03-9-9 0-4.47 3.27-8.17 7.54-8.87C9.2 5 9 6 9 7v.34c-2.32.82-4 3.04-4 5.66a6 6 0 006 6c2.62 0 4.84-1.68 5.66-4m.34-5a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0-9a6 6 0 016 6 6 6 0 01-6 6 6 6 0 01-6-6c0-3.32 2.69-6 6-6z"/>
     </SvgIcon>
 );
 

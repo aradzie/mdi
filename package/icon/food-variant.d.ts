@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const FoodVariant: React.StatelessComponent<SvgIconProps>;
+declare const FoodVariant: React.FunctionComponent<SvgIconProps>;
 export default FoodVariant;

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Numeric3Box: React.StatelessComponent<SvgIconProps>;
+declare const Numeric3Box: React.FunctionComponent<SvgIconProps>;
 export default Numeric3Box;

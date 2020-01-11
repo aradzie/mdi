@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const MushroomOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const MushroomOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M4 12h16a8.003 8.003 0 0 0-6.015-7.752 2 2 0 0 1-3.97 0A8.003 8.003 0 0 0 4 12zm8-10c5.523 0 10 4.477 10 10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2C2 6.477 6.477 2 12 2zm1.49 15h-2.98l-.59 2-.27 1h4.7l-.27-1-.59-2zM15 15l1 3.5.27.95.077.547A2 2 0 0 1 14.35 22h-4.7l-.484-.064A2 2 0 0 1 7.73 19.5l.27-1L9 15h6zm1-8a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM8 7a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
+        <path d="M4 12h16c0-3.73-2.56-6.87-6-7.75-.14.99-1 1.75-2 1.75s-1.86-.76-2-1.75C6.56 5.13 4 8.27 4 12m8-10a10 10 0 0110 10 2 2 0 01-2 2H4a2 2 0 01-2-2A10 10 0 0112 2m1.5 15h-3l-.58 2-.27 1h4.7l-.27-1-.58-2m1.5-2l1 3.5.27.95.08.55c0 1.1-.9 2-2 2h-4.7l-.48-.06a2.004 2.004 0 01-1.44-2.44l.27-1L9 15h6m1-8a2 2 0 012 2 2 2 0 01-2 2 2 2 0 01-2-2 2 2 0 012-2M8 7a2 2 0 012 2 2 2 0 01-2 2 2 2 0 01-2-2 2 2 0 012-2z"/>
     </SvgIcon>
 );
 

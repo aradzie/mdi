@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CurrencyTry: React.StatelessComponent<SvgIconProps>;
+declare const CurrencyTry: React.FunctionComponent<SvgIconProps>;
 export default CurrencyTry;

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const DeskLamp: React.StatelessComponent<SvgIconProps> = (props) => (
+const DeskLamp: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M10.85 2L9.184 4.494l1.136.76-3.175 4.754A2.051 2.051 0 0 0 7 10a2 2 0 0 0-.424 3.953L10.616 20H7v2h10v-2h-3.979l-4.488-6.717A2 2 0 0 0 9 12a2 2 0 0 0-.201-.87l3.183-4.765c-.204 1.68.77 3.52 2.463 4.653l4.446-6.653c-1.694-1.13-3.767-1.325-5.24-.494L10.85 2zm7.484 5l-1.668 2.494A1.5 1.5 0 0 0 18.334 7z"/>
+        <path d="M10.85 2L9.18 4.5l1.14.75L7.14 10H7a2 2 0 00-2 2 2 2 0 001.58 1.95L10.62 20H7v2h10v-2h-4l-4.47-6.72A2 2 0 009 12c0-.3-.07-.6-.2-.87L12 6.37c-.22 1.68.75 3.52 2.45 4.63l4.44-6.63c-1.69-1.13-3.77-1.33-5.24-.5L10.85 2m7.48 5l-1.66 2.5c.68.45 1.62.27 2.08-.42.46-.69.25-1.62-.42-2.08z"/>
     </SvgIcon>
 );
 

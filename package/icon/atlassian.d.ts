@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Atlassian: React.StatelessComponent<SvgIconProps>;
+declare const Atlassian: React.FunctionComponent<SvgIconProps>;
 export default Atlassian;

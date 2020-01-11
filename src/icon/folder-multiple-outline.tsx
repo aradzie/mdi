@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FolderMultipleOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const FolderMultipleOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M22 4c1.1 0 2 .9 2 2v10c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2l.01-12c0-1.1.89-2 1.99-2h6l2 2h8zM2 6v14h18v2H2c-1.1 0-2-.9-2-2l.01-9H0V6h2zm4 0v10h16V6H6z"/>
+        <path d="M22 4a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V4a2 2 0 012-2h6l2 2h8M2 6v14h18v2H2a2 2 0 01-2-2V6h2m4 0v10h16V6H6z"/>
     </SvgIcon>
 );
 

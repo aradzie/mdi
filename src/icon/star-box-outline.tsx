@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const StarBoxOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const StarBoxOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M15.58 17L12 14.842 8.42 17l.948-4.07-3.156-2.733 4.163-.355L12 6l1.625 3.833 4.163.355-3.156 2.733.947 4.079zM19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2l.01-14c0-1.105.885-2 1.99-2h14zM5 5v14h14V5H5z"/>
+        <path d="M15.58 17L12 14.84 8.42 17l.95-4.07-3.16-2.73 4.17-.36L12 6l1.62 3.83 4.17.36-3.16 2.73.95 4.08M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14M5 5v14h14V5H5z"/>
     </SvgIcon>
 );
 

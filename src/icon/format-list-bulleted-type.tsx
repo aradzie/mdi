@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FormatListBulletedType: React.StatelessComponent<SvgIconProps> = (props) => (
+const FormatListBulletedType: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M5 9.5L7.5 14h-5L5 9.5zM3 4h4v4H3V4zm2 16c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM9 5v2h12V5H9zm0 14h12v-2H9v2zm0-6h12v-2H9v2z"/>
+        <path d="M5 9.5L7.5 14h-5L5 9.5M3 4h4v4H3V4m2 16a2 2 0 002-2 2 2 0 00-2-2 2 2 0 00-2 2 2 2 0 002 2M9 5v2h12V5H9m0 14h12v-2H9v2m0-6h12v-2H9v2z"/>
     </SvgIcon>
 );
 

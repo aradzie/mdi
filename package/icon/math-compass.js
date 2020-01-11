@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var MathCompass = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M20 19.88V22l-1.8-1.17-4.79-9c.66-.21 1.26-.55 1.78-1L20 19.88M15 7a3 3 0 01-3 3h-.44L5.8 20.83 4 22v-2.12L9.79 9c-1.1-1.23-1-3.13.24-4.24C10.57 4.28 11.27 4 12 4V2a1 1 0 011 1v1.18c1.2.42 2 1.55 2 2.82m-2 0a1 1 0 00-1-1 1 1 0 00-1 1 1 1 0 001 1 1 1 0 001-1z" }))); };
+MathCompass.displayName = "MathCompass";
+exports.default = MathCompass;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWF0aC1jb21wYXNzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vbWF0aC1jb21wYXNzLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sV0FBVyxHQUEwQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ2xFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsb1FBQW9RLEdBQUUsQ0FDeFEsQ0FDYixFQUpxRSxDQUlyRSxDQUFDO0FBRUYsV0FBVyxDQUFDLFdBQVcsR0FBRyxhQUFhLENBQUM7QUFFeEMsa0JBQWUsV0FBVyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBtYXRoLWNvbXBhc3Muc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBNYXRoQ29tcGFzczogUmVhY3QuRnVuY3Rpb25Db21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMjAgMTkuODhWMjJsLTEuOC0xLjE3LTQuNzktOWMuNjYtLjIxIDEuMjYtLjU1IDEuNzgtMUwyMCAxOS44OE0xNSA3YTMgMyAwIDAxLTMgM2gtLjQ0TDUuOCAyMC44MyA0IDIydi0yLjEyTDkuNzkgOWMtMS4xLTEuMjMtMS0zLjEzLjI0LTQuMjRDMTAuNTcgNC4yOCAxMS4yNyA0IDEyIDRWMmExIDEgMCAwMTEgMXYxLjE4YzEuMi40MiAyIDEuNTUgMiAyLjgybS0yIDBhMSAxIDAgMDAtMS0xIDEgMSAwIDAwLTEgMSAxIDEgMCAwMDEgMSAxIDEgMCAwMDEtMXpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuTWF0aENvbXBhc3MuZGlzcGxheU5hbWUgPSBcIk1hdGhDb21wYXNzXCI7XG5cbmV4cG9ydCBkZWZhdWx0IE1hdGhDb21wYXNzO1xuIl19

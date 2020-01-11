@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const AvTimer: React.StatelessComponent<SvgIconProps>;
+declare const AvTimer: React.FunctionComponent<SvgIconProps>;
 export default AvTimer;

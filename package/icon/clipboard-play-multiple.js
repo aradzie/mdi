@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var ClipboardPlayMultiple = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M4 21h14v2H4c-1.1 0-2-.9-2-2V7h2m18-2v12c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h3.2c.4-1.2 1.5-2 2.8-2 1.3 0 2.4.8 2.8 2H20c1.1 0 2 .9 2 2m-9-1c0 .5.5 1 1 1s1-.5 1-1-.4-1-1-1-1 .5-1 1m4 8l-5-4v8" }))); };
+ClipboardPlayMultiple.displayName = "ClipboardPlayMultiple";
+exports.default = ClipboardPlayMultiple;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2xpcGJvYXJkLXBsYXktbXVsdGlwbGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi9jbGlwYm9hcmQtcGxheS1tdWx0aXBsZS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLHFCQUFxQixHQUEwQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQzVFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsOE1BQThNLEdBQUUsQ0FDbE4sQ0FDYixFQUorRSxDQUkvRSxDQUFDO0FBRUYscUJBQXFCLENBQUMsV0FBVyxHQUFHLHVCQUF1QixDQUFDO0FBRTVELGtCQUFlLHFCQUFxQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBjbGlwYm9hcmQtcGxheS1tdWx0aXBsZS5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IENsaXBib2FyZFBsYXlNdWx0aXBsZTogUmVhY3QuRnVuY3Rpb25Db21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNNCAyMWgxNHYySDRjLTEuMSAwLTItLjktMi0yVjdoMm0xOC0ydjEyYzAgMS4xLS45IDItMiAySDhjLTEuMSAwLTItLjktMi0yVjVjMC0xLjEuOS0yIDItMmgzLjJjLjQtMS4yIDEuNS0yIDIuOC0yIDEuMyAwIDIuNC44IDIuOCAySDIwYzEuMSAwIDIgLjkgMiAybS05LTFjMCAuNS41IDEgMSAxczEtLjUgMS0xLS40LTEtMS0xLTEgLjUtMSAxbTQgOGwtNS00djhcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuQ2xpcGJvYXJkUGxheU11bHRpcGxlLmRpc3BsYXlOYW1lID0gXCJDbGlwYm9hcmRQbGF5TXVsdGlwbGVcIjtcblxuZXhwb3J0IGRlZmF1bHQgQ2xpcGJvYXJkUGxheU11bHRpcGxlO1xuIl19

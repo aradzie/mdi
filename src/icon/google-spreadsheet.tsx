@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const GoogleSpreadsheet: React.StatelessComponent<SvgIconProps> = (props) => (
+const GoogleSpreadsheet: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M18.984 11.016V9h-7.968V5.016H9V9H5.016v2.016H9v7.968h2.016v-7.968h7.968zm0-8.016c.532 0 1 .203 1.407.61.406.406.609.874.609 1.406v13.968c0 .532-.203 1-.61 1.407-.406.406-.874.609-1.406.609H5.016c-.532 0-1-.203-1.407-.61-.406-.406-.609-.874-.609-1.406V5.016c0-.532.203-1 .61-1.407C4.015 3.203 4.483 3 5.015 3h13.968z"/>
+        <path d="M19 11V9h-8V5H9v4H5v2h4v8h2v-8h8m0-8c.5 0 1 .2 1.39.61C20.8 4 21 4.5 21 5v14c0 .5-.2 1-.61 1.39-.39.41-.89.61-1.39.61H5c-.5 0-1-.2-1.39-.61C3.2 20 3 19.5 3 19V5c0-.5.2-1 .61-1.39C4 3.2 4.5 3 5 3h14z"/>
     </SvgIcon>
 );
 

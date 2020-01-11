@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const PlusCircleMultipleOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const PlusCircleMultipleOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M16.001 7.997H14v3.004H11v1.997H14V16H16v-3.004H19v-1.996H16M2.002 12.003a6.987 6.987 0 0 1 4.01-6.324V3.52C2.52 4.761 0 8.091 0 12.002c0 3.907 2.52 7.237 6.011 8.477V18.32a6.98 6.98 0 0 1-4.009-6.318zM15 2.997c-4.961 0-8.999 4.043-8.999 9.005C6.001 16.956 10.04 21 15 21s8.999-4.044 8.999-8.999c0-4.96-4.038-9.004-8.999-9.004zm0 16c-3.863 0-7.003-3.14-7.003-6.996A7.009 7.009 0 0 1 15 5a7.009 7.009 0 0 1 7.003 7.002C22.003 15.86 18.863 19 15 19z"/>
+        <path d="M16 8h-2v3h-3v2h3v3h2v-3h3v-2h-3M2 12c0-2.79 1.64-5.2 4-6.32V3.5C2.5 4.76 0 8.09 0 12s2.5 7.24 6 8.5v-2.18C3.64 17.2 2 14.79 2 12m13-9c-4.96 0-9 4.04-9 9s4.04 9 9 9 9-4.04 9-9-4.04-9-9-9m0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7z"/>
     </SvgIcon>
 );
 

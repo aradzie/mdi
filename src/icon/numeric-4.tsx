@@ -3,7 +3,7 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Numeric4: React.StatelessComponent<SvgIconProps> = (props) => (
+const Numeric4: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
         <path d="M9 7v6h4v4h2V7h-2v4h-2V7H9z"/>
     </SvgIcon>

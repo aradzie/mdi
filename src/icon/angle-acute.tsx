@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const AngleAcute: React.StatelessComponent<SvgIconProps> = (props) => (
+const AngleAcute: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M20 18.999H4.091L14.178 4.431l1.644 1.138-4.539 6.556c1.607.831 2.716 2.495 2.716 4.42 0 .153-.009.305-.025.454H20v2zm-12.091-2h4.054a2.967 2.967 0 0 0-1.823-3.222l-2.231 3.222z"/>
+        <path d="M20 19H4.09L14.18 4.43l1.64 1.14-4.54 6.56c1.61.83 2.72 2.49 2.72 4.41 0 .16 0 .31-.03.46H20v2M7.91 17h4.05c.04-.15.04-.3.04-.46 0-1.26-.76-2.32-1.86-2.76L7.91 17z"/>
     </SvgIcon>
 );
 

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const SimOff: React.StatelessComponent<SvgIconProps>;
+declare const SimOff: React.FunctionComponent<SvgIconProps>;
 export default SimOff;

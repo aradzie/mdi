@@ -1,19 +1,14 @@
-// File contains invalid SVG content.
-/*
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" width="24" height="24" viewBox="0 0 24.00 24.00" enable-background="new 0 0 24.00 24.00" xml:space="preserve">
-	<g>
-		<defs>
-			<rect id="SVG_CLIPPER1_" x="1.27157e-006" y="0" width="24" height="24"/>
-		</defs>
-		<clipPath id="SVG_CLIPPER2_">
-			<use xlink:href="#SVG_CLIPPER1_" overflow="visible"/>
-		</clipPath>
-		<g clip-path="url(#SVG_CLIPPER2_)">
-			<path fill="#000000" fill-opacity="1" stroke-width="1.33333" stroke-linejoin="miter" d="M 21,10.12L 14.22,10.12L 16.96,7.3C 14.23,4.6 9.81,4.5 7.08,7.2C 4.35,9.91 4.35,14.28 7.08,16.99C 9.81,19.7 14.23,19.7 16.96,16.99C 18.32,15.65 19,14.08 19,12.1L 21,12.1C 21,14.08 20.12,16.65 18.36,18.39C 14.85,21.87 9.15,21.87 5.64,18.39C 2.14,14.92 2.11,9.28 5.62,5.81C 9.13,2.34 14.76,2.34 18.27,5.81L 21,3L 21,10.12 Z M 12.5,8L 12.5,12.25L 16,14.33L 15.28,15.54L 11,13L 11,8L 12.5,8 Z "/>
-		</g>
-	</g>
-</svg>
+/* Generated from file update.svg. */
 
-*/
+import { SvgIcon, SvgIconProps } from "../svg-icon";
+import * as React from "react";
+
+const Update: React.FunctionComponent<SvgIconProps> = (props) => (
+    <SvgIcon {...props}>
+        <path d="M21 10.12h-6.78l2.74-2.82c-2.73-2.7-7.15-2.8-9.88-.1a6.887 6.887 0 000 9.8c2.73 2.7 7.15 2.7 9.88 0 1.36-1.35 2.04-2.92 2.04-4.9h2c0 1.98-.88 4.55-2.64 6.29-3.51 3.48-9.21 3.48-12.72 0-3.5-3.47-3.53-9.11-.02-12.58a8.987 8.987 0 0112.65 0L21 3v7.12M12.5 8v4.25l3.5 2.08-.72 1.21L11 13V8h1.5z"/>
+    </SvgIcon>
+);
+
+Update.displayName = "Update";
+
+export default Update;

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const RayEnd: React.StatelessComponent<SvgIconProps>;
+declare const RayEnd: React.FunctionComponent<SvgIconProps>;
 export default RayEnd;

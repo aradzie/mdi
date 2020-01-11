@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const GoogleSpreadsheet: React.StatelessComponent<SvgIconProps>;
+declare const GoogleSpreadsheet: React.FunctionComponent<SvgIconProps>;
 export default GoogleSpreadsheet;

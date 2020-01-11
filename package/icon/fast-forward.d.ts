@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const FastForward: React.StatelessComponent<SvgIconProps>;
+declare const FastForward: React.FunctionComponent<SvgIconProps>;
 export default FastForward;

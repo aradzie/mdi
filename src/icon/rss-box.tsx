@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const RssBox: React.StatelessComponent<SvgIconProps> = (props) => (
+const RssBox: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm2.5 12a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM6 10v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8zm0-4v2c5.523 0 10 4.477 10 10h2c0-6.627-5.373-12-12-12z"/>
+        <path d="M5 3h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2m2.5 12A1.5 1.5 0 006 16.5 1.5 1.5 0 007.5 18 1.5 1.5 0 009 16.5 1.5 1.5 0 007.5 15M6 10v2a6 6 0 016 6h2a8 8 0 00-8-8m0-4v2a10 10 0 0110 10h2A12 12 0 006 6z"/>
     </SvgIcon>
 );
 

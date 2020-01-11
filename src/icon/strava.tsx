@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Strava: React.StatelessComponent<SvgIconProps> = (props) => (
+const Strava: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M14.923 17.161l1.824-3.634h2.708L14.936 22.5l-4.565-8.973h2.702l1.85 3.634zm-4.295-8.5l-2.453 4.884h-3.63L10.61 1.5l6.125 12.045h-3.624L10.628 8.66z"/>
+        <path d="M14.92 17.16l1.83-3.63h2.7l-4.51 8.97-4.57-8.97h2.7l1.85 3.63m-4.29-8.5l-2.45 4.89H4.55L10.61 1.5l6.13 12.05h-3.63l-2.48-4.89z"/>
     </SvgIcon>
 );
 

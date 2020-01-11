@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const BusAlert: React.StatelessComponent<SvgIconProps>;
+declare const BusAlert: React.FunctionComponent<SvgIconProps>;
 export default BusAlert;

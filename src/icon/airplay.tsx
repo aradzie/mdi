@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Airplay: React.StatelessComponent<SvgIconProps> = (props) => (
+const Airplay: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M6 22.005h11.996l-5.995-6.001M21 3H2.996A2.007 2.007 0 0 0 1 5.003v12.002c0 1.098.899 1.996 1.996 1.996h4.005v-1.996H2.996V5.003H21v12.002h-3.999v1.996H21a2.002 2.002 0 0 0 1.996-1.996V5.003A2.006 2.006 0 0 0 21 3z"/>
+        <path d="M6 22h12l-6-6m9-13H3a2 2 0 00-2 2v12a2 2 0 002 2h4v-2H3V5h18v12h-4v2h4a2 2 0 002-2V5a2 2 0 00-2-2z"/>
     </SvgIcon>
 );
 

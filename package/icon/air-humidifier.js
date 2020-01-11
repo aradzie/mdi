@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var AirHumidifier = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M11 9c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4m0 6c-1.1 0-2-.89-2-2s.9-2 2-2 2 .9 2 2-.89 2-2 2M7 4h7c2.21 0 4 1.79 4 4v1h-2V8a2 2 0 00-2-2H7c-1.1 0-2 .9-2 2v12h11v-2h2v4H3V8c0-2.21 1.79-4 4-4m12 6.5s2 2.17 2 3.5c0 1.1-.9 2-2 2s-2-.9-2-2c0-1.33 2-3.5 2-3.5" }))); };
+AirHumidifier.displayName = "AirHumidifier";
+exports.default = AirHumidifier;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWlyLWh1bWlkaWZpZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi9haXItaHVtaWRpZmllci50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLGFBQWEsR0FBMEMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUNwRSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLDZRQUE2USxHQUFFLENBQ2pSLENBQ2IsRUFKdUUsQ0FJdkUsQ0FBQztBQUVGLGFBQWEsQ0FBQyxXQUFXLEdBQUcsZUFBZSxDQUFDO0FBRTVDLGtCQUFlLGFBQWEsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgYWlyLWh1bWlkaWZpZXIuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBBaXJIdW1pZGlmaWVyOiBSZWFjdC5GdW5jdGlvbkNvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0xMSA5Yy0yLjIxIDAtNCAxLjc5LTQgNHMxLjc5IDQgNCA0IDQtMS43OSA0LTQtMS43OS00LTQtNG0wIDZjLTEuMSAwLTItLjg5LTItMnMuOS0yIDItMiAyIC45IDIgMi0uODkgMi0yIDJNNyA0aDdjMi4yMSAwIDQgMS43OSA0IDR2MWgtMlY4YTIgMiAwIDAwLTItMkg3Yy0xLjEgMC0yIC45LTIgMnYxMmgxMXYtMmgydjRIM1Y4YzAtMi4yMSAxLjc5LTQgNC00bTEyIDYuNXMyIDIuMTcgMiAzLjVjMCAxLjEtLjkgMi0yIDJzLTItLjktMi0yYzAtMS4zMyAyLTMuNSAyLTMuNVwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5BaXJIdW1pZGlmaWVyLmRpc3BsYXlOYW1lID0gXCJBaXJIdW1pZGlmaWVyXCI7XG5cbmV4cG9ydCBkZWZhdWx0IEFpckh1bWlkaWZpZXI7XG4iXX0=

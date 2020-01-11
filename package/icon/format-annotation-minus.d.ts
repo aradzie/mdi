@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const FormatAnnotationMinus: React.StatelessComponent<SvgIconProps>;
+declare const FormatAnnotationMinus: React.FunctionComponent<SvgIconProps>;
 export default FormatAnnotationMinus;

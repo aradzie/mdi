@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CircleMedium: React.StatelessComponent<SvgIconProps>;
+declare const CircleMedium: React.FunctionComponent<SvgIconProps>;
 export default CircleMedium;

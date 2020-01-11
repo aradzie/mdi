@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CheckboxBlank: React.StatelessComponent<SvgIconProps> = (props) => (
+const CheckboxBlank: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M19 2.998H5a1.99 1.99 0 0 0-1.99 2l-.01 14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-14a2 2 0 0 0-2-2z"/>
+        <path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2z"/>
     </SvgIcon>
 );
 

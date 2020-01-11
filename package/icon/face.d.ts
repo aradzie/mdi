@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Face: React.StatelessComponent<SvgIconProps>;
+declare const Face: React.FunctionComponent<SvgIconProps>;
 export default Face;

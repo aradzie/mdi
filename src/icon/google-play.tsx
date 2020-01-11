@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const GooglePlay: React.StatelessComponent<SvgIconProps> = (props) => (
+const GooglePlay: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M3 20.5v-17a1.5 1.5 0 0 1 .844-1.35l9.846 9.847-9.85 9.85A1.5 1.5 0 0 1 3 20.5zm13.814-5.38L6.048 21.338l8.491-8.491 2.275 2.275zm3.347-4.312a1.498 1.498 0 0 1 .016 2.371L17.89 14.5l-2.502-2.502 2.5-2.5 2.273 1.311zM6.054 2.664l10.759 6.211-2.274 2.274-8.485-8.485z"/>
+        <path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.25-.84-.76-.84-1.35m13.81-5.38L6.05 21.34l8.49-8.49 2.27 2.27m3.35-4.31c.34.27.59.69.59 1.19s-.22.9-.57 1.18l-2.29 1.32-2.5-2.5 2.5-2.5 2.27 1.31M6.05 2.66l10.76 6.22-2.27 2.27-8.49-8.49z"/>
     </SvgIcon>
 );
 

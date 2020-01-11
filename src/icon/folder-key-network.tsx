@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FolderKeyNetwork: React.StatelessComponent<SvgIconProps> = (props) => (
+const FolderKeyNetwork: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M6.002 3.998a1.991 1.991 0 0 0-1.994 1.998l-.01 8.002a2 2 0 0 0 2.004 1.998h5v2.002H10c-.551 0-1.002.449-1.002 1H2.002v2.004h6.996c0 .551.45 1 1.002 1h3.998c.553 0 1.002-.449 1.002-1h7.002v-2.004H15c0-.551-.45-1-1.002-1h-1v-2.002h5A2.001 2.001 0 0 0 20 13.998v-6a2.005 2.005 0 0 0-2.002-2.002h-5.996L10 3.998H6.002zm3 4.002c1.304 0 2.415.835 2.826 2.002h5.17v1.996h-1v2.004h-1.996v-2.004h-2.174a3 3 0 0 1-5.83-1A3 3 0 0 1 9.002 8zm0 2.002a.999.999 0 1 0 0 1.996.997.997 0 1 0 0-1.996z"/>
+        <path d="M6 5c-1.11 0-2 .89-2 2v8a2 2 0 002 2h5v2h-1a1 1 0 00-1 1H2v2h7a1 1 0 001 1h4a1 1 0 001-1h7v-2h-7a1 1 0 00-1-1h-1v-2h5a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H6m3 4c1.31 0 2.42.83 2.83 2H17v2h-1v2h-2v-2h-2.17A2.99 2.99 0 019 15a3 3 0 01-3-3 3 3 0 013-3m0 2a1 1 0 00-1 1c0 .56.45 1 1 1a1 1 0 001-1 1 1 0 00-1-1z"/>
     </SvgIcon>
 );
 

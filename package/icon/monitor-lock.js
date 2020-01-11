@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var MonitorLock = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M20.5 13a2.5 2.5 0 012.5 2.5v.5a1 1 0 011 1v4a1 1 0 01-1 1h-5a1 1 0 01-1-1v-4a1 1 0 011-1v-.5a2.5 2.5 0 012.5-2.5m0 1a1.5 1.5 0 00-1.5 1.5v.5h3v-.5a1.5 1.5 0 00-1.5-1.5M20 4H2v12h13v2h-2v2h2v2H7v-2h2v-2H2a2 2 0 01-2-2V4c0-1.11.89-2 2-2h18a2 2 0 012 2v7.53c-.59-.34-1.27-.53-2-.53V4z" }))); };
+MonitorLock.displayName = "MonitorLock";
+exports.default = MonitorLock;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibW9uaXRvci1sb2NrLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vbW9uaXRvci1sb2NrLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sV0FBVyxHQUEwQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ2xFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsNFJBQTRSLEdBQUUsQ0FDaFMsQ0FDYixFQUpxRSxDQUlyRSxDQUFDO0FBRUYsV0FBVyxDQUFDLFdBQVcsR0FBRyxhQUFhLENBQUM7QUFFeEMsa0JBQWUsV0FBVyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBtb25pdG9yLWxvY2suc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBNb25pdG9yTG9jazogUmVhY3QuRnVuY3Rpb25Db21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMjAuNSAxM2EyLjUgMi41IDAgMDEyLjUgMi41di41YTEgMSAwIDAxMSAxdjRhMSAxIDAgMDEtMSAxaC01YTEgMSAwIDAxLTEtMXYtNGExIDEgMCAwMTEtMXYtLjVhMi41IDIuNSAwIDAxMi41LTIuNW0wIDFhMS41IDEuNSAwIDAwLTEuNSAxLjV2LjVoM3YtLjVhMS41IDEuNSAwIDAwLTEuNS0xLjVNMjAgNEgydjEyaDEzdjJoLTJ2MmgydjJIN3YtMmgydi0ySDJhMiAyIDAgMDEtMi0yVjRjMC0xLjExLjg5LTIgMi0yaDE4YTIgMiAwIDAxMiAydjcuNTNjLS41OS0uMzQtMS4yNy0uNTMtMi0uNTNWNHpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuTW9uaXRvckxvY2suZGlzcGxheU5hbWUgPSBcIk1vbml0b3JMb2NrXCI7XG5cbmV4cG9ydCBkZWZhdWx0IE1vbml0b3JMb2NrO1xuIl19

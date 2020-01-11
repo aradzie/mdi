@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const TooltipEdit: React.StatelessComponent<SvgIconProps> = (props) => (
+const TooltipEdit: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4l-4 4-4-4H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm14 12v-2h-5.5l-2 2H18zM6 14h2.475l6.878-6.879a.499.499 0 0 0 0-.707l-1.767-1.768a.502.502 0 0 0-.708 0L6 11.525V14z"/>
+        <path d="M20 2H4c-1.1 0-2 .9-2 2v12a2 2 0 002 2h4l4 4 4-4h4c1.11 0 2-.89 2-2V4a2 2 0 00-2-2M9.08 15H7v-2.09l6.17-6.19 2.07 2.08L9.08 15m7.76-7.8l-1.01 1.01-2.07-2.03 1.01-1.02c.2-.21.54-.22.78 0l1.29 1.25c.21.21.22.55 0 .79z"/>
     </SvgIcon>
 );
 

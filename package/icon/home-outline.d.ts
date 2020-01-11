@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const HomeOutline: React.StatelessComponent<SvgIconProps>;
+declare const HomeOutline: React.FunctionComponent<SvgIconProps>;
 export default HomeOutline;

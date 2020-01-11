@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const VectorEllipse: React.StatelessComponent<SvgIconProps> = (props) => (
+const VectorEllipse: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M23 9v6h-2.654c-.963 2.115-2.915 3.781-5.346 4.545V22H9v-2.455C5.504 18.447 3 15.483 3 12c0-4.418 4.03-8 9-8 3.777 0 7.01 2.068 8.346 5H23zm-6 6V9h1.064C16.854 7.207 14.59 6 12 6c-3.866 0-7 2.686-7 6 0 2.393 1.635 4.46 4 5.423V16h6v1.423c1.285-.524 2.355-1.373 3.064-2.423H17zm2-2h2v-2h-2v2zm-8 7h2v-2h-2v2z"/>
+        <path d="M23 9v6h-2.65c-.97 2.12-2.92 3.78-5.35 4.54V22H9v-2.46C5.5 18.45 3 15.5 3 12c0-4.42 4.03-8 9-8 3.78 0 7 2.07 8.35 5H23m-6 6V9h1.06C16.85 7.21 14.59 6 12 6c-3.87 0-7 2.69-7 6 0 2.39 1.64 4.46 4 5.42V16h6v1.42c1.29-.52 2.35-1.37 3.06-2.42H17m2-2h2v-2h-2v2m-8 7h2v-2h-2v2z"/>
     </SvgIcon>
 );
 

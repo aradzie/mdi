@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const VideoStabilization: React.StatelessComponent<SvgIconProps> = (props) => (
+const VideoStabilization: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v12h16V6H4zm3.24.583L18.83 9.69l-2.07 7.728L5.17 14.31l2.07-7.728z"/>
+        <path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2m0 2v12h16V6H4m3.24.58l11.59 3.11-2.07 7.73-11.59-3.11 2.07-7.73z"/>
     </SvgIcon>
 );
 

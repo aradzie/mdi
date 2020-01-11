@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const IceCream: React.StatelessComponent<SvgIconProps> = (props) => (
+const IceCream: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12 2c2.21 0 4 1.79 4 4.05a2.5 2.5 0 0 1-.5 4.95h-7A2.5 2.5 0 0 1 6 8.5c0-1.21.859-2.218 2-2.5a4 4 0 0 1 4-4zM9 12h6l-2 10h-2L9 12z"/>
+        <path d="M12 2c2.21 0 4 1.79 4 4.05a2.5 2.5 0 012 2.45 2.5 2.5 0 01-2.5 2.5h-7A2.5 2.5 0 016 8.5c0-1.21.86-2.22 2-2.5a4 4 0 014-4M9 12h6l-2 10h-2L9 12z"/>
     </SvgIcon>
 );
 

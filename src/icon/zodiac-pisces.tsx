@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ZodiacPisces: React.StatelessComponent<SvgIconProps> = (props) => (
+const ZodiacPisces: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M20 11h-2a23.73 23.73 0 0 1 1.81-8.18L18 2.06A25.822 25.822 0 0 0 16 11H8a25.82 25.82 0 0 0-2-8.94l-1.86.76A23.73 23.73 0 0 1 6 11H4v2h2a23.73 23.73 0 0 1-1.81 8.18l1.81.76A25.82 25.82 0 0 0 8 13h8a25.822 25.822 0 0 0 2 8.94l1.86-.76A23.729 23.729 0 0 1 18 13h2v-2z"/>
+        <path d="M20 11h-2c.11-2.81.73-5.58 1.81-8.18L18 2.06A25.943 25.943 0 0016 11H8c-.13-3.08-.81-6.1-2-8.94l-1.86.76C5.24 5.41 5.87 8.18 6 11H4v2h2a23.76 23.76 0 01-1.81 8.18l1.81.76C7.19 19.1 7.87 16.08 8 13h8c.13 3.08.81 6.1 2 8.94l1.86-.76c-1.1-2.59-1.73-5.36-1.86-8.18h2v-2z"/>
     </SvgIcon>
 );
 

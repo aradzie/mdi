@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const AccountCircleOutline: React.StatelessComponent<SvgIconProps>;
+declare const AccountCircleOutline: React.FunctionComponent<SvgIconProps>;
 export default AccountCircleOutline;

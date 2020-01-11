@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const SeatIndividualSuite: React.StatelessComponent<SvgIconProps>;
+declare const SeatIndividualSuite: React.FunctionComponent<SvgIconProps>;
 export default SeatIndividualSuite;

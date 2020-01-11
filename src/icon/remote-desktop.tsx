@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const RemoteDesktop: React.StatelessComponent<SvgIconProps> = (props) => (
+const RemoteDesktop: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M2.998 1.998a2 2 0 0 0-1.997 2v11.998c0 1.109.894 2.001 1.997 2.001H10V20H7.997v1.997h8.004V20H14v-2.003H21a1.996 1.996 0 0 0 1.996-2V3.998a2 2 0 0 0-1.996-2.002M2.997 4h18.004v11.997H2.997M15 5l-3.501 3.501L15 12.003l1.401-1.403-2.1-2.099 2.1-2.1M9 7.997L7.597 9.4l2.1 2.099-2.1 2.1L9 15l3.501-3.501"/>
+        <path d="M3 2a2 2 0 00-2 2v12a2 2 0 002 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 002-2V4a2 2 0 00-2-2M3 4h18v12H3M15 5l-3.5 3.5L15 12l1.4-1.4-2.1-2.1 2.1-2.1M9 8L7.6 9.4l2.1 2.1-2.1 2.1L9 15l3.5-3.5"/>
     </SvgIcon>
 );
 

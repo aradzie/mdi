@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const MusicNote: React.StatelessComponent<SvgIconProps> = (props) => (
+const MusicNote: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12 3v9.264A4.5 4.5 0 0 0 10.5 12a4.5 4.5 0 1 0 4.5 4.5V6h4V3h-7z"/>
+        <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
     </SvgIcon>
 );
 

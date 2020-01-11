@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const VectorDifferenceBa: React.StatelessComponent<SvgIconProps>;
+declare const VectorDifferenceBa: React.FunctionComponent<SvgIconProps>;
 export default VectorDifferenceBa;

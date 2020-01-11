@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const VolumeMute: React.StatelessComponent<SvgIconProps>;
+declare const VolumeMute: React.FunctionComponent<SvgIconProps>;
 export default VolumeMute;

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const TshirtVOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const TshirtVOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M16 21H8a1 1 0 0 1-1-1v-7.927L5.703 13.12a1 1 0 0 1-1.414 0L1.461 10.29a1 1 0 0 1 0-1.414L7.338 3H9c0 1.105 1 3 3 4.25C14 6 15 4.105 15 3h1.662l5.877 5.877a1 1 0 0 1 0 1.414l-2.828 2.829a1 1 0 0 1-1.414 0L17 12.073V20a1 1 0 0 1-1 1zm4.418-11.416L16.11 5.277C15 7 14 8.25 12 9.25c-2-1-3-2.25-4.111-3.973L3.582 9.584 4.996 11 7.995 9H9v10h6V9h1.005l2.999 1.998 1.414-1.414z"/>
+        <path d="M16 21H8a1 1 0 01-1-1v-7.93l-1.3 1.05c-.39.38-1.02.38-1.41 0l-2.83-2.83a.996.996 0 010-1.41L7.34 3H9c0 1.1 1 3 3 4.25C14 6 15 4.1 15 3h1.66l5.88 5.88c.39.39.39 1.02 0 1.41l-2.83 2.83c-.39.38-1.02.38-1.41 0L17 12.07V20a1 1 0 01-1 1m4.42-11.42l-4.31-4.3C15 7 14 8.25 12 9.25c-2-1-3-2.25-4.11-3.97l-4.31 4.3L5 11l3-2h1v10h6V9h1l3 2 1.42-1.42z"/>
     </SvgIcon>
 );
 

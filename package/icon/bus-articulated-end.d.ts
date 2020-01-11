@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const BusArticulatedEnd: React.StatelessComponent<SvgIconProps>;
+declare const BusArticulatedEnd: React.FunctionComponent<SvgIconProps>;
 export default BusArticulatedEnd;

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const EmailPlus: React.StatelessComponent<SvgIconProps>;
+declare const EmailPlus: React.FunctionComponent<SvgIconProps>;
 export default EmailPlus;

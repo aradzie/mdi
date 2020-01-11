@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const EggEaster: React.StatelessComponent<SvgIconProps>;
+declare const EggEaster: React.FunctionComponent<SvgIconProps>;
 export default EggEaster;

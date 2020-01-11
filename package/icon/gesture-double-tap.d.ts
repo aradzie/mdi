@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const GestureDoubleTap: React.StatelessComponent<SvgIconProps>;
+declare const GestureDoubleTap: React.FunctionComponent<SvgIconProps>;
 export default GestureDoubleTap;

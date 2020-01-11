@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const DecimalDecrease: React.StatelessComponent<SvgIconProps> = (props) => (
+const DecimalDecrease: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12 17l3 3v-2h6v-2h-6v-2l-3 3zM9 5a3 3 0 0 1 3 3v3a3 3 0 0 1-6 0V8a3 3 0 0 1 3-3zm0 2a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0V8a1 1 0 0 0-1-1zm-5 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        <path d="M12 17l3 3v-2h6v-2h-6v-2l-3 3M9 5a3 3 0 013 3v3a3 3 0 01-3 3 3 3 0 01-3-3V8a3 3 0 013-3m0 2a1 1 0 00-1 1v3a1 1 0 001 1 1 1 0 001-1V8a1 1 0 00-1-1m-5 5a1 1 0 011 1 1 1 0 01-1 1 1 1 0 01-1-1 1 1 0 011-1z"/>
     </SvgIcon>
 );
 

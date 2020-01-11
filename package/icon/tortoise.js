@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var Tortoise = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M19.31 5.6c-1.22-.04-2.43.9-2.81 2.4-.5 2-.5 2-1.5 3-2 2-5 3-11 4-1 .16-1.5.5-2 1 2 0 4 0 2.5 1.5L3 19h3l2-2c2 1 3.33 1 5.33 0l.67 2h3l-1-3s1-4 2-5 1 0 2 0 2-1 2-2.5C22 8 22 7 20.5 6c-.35-.24-.76-.38-1.19-.4M9 6a6 6 0 00-6 6c0 .6.13 1.08.23 1.6 5.92-.98 9.06-2.01 10.7-3.66l.5-.5A6.007 6.007 0 009 6z" }))); };
+Tortoise.displayName = "Tortoise";
+exports.default = Tortoise;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidG9ydG9pc2UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi90b3J0b2lzZS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLFFBQVEsR0FBMEMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUMvRCxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLDhTQUE4UyxHQUFFLENBQ2xULENBQ2IsRUFKa0UsQ0FJbEUsQ0FBQztBQUVGLFFBQVEsQ0FBQyxXQUFXLEdBQUcsVUFBVSxDQUFDO0FBRWxDLGtCQUFlLFFBQVEsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgdG9ydG9pc2Uuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBUb3J0b2lzZTogUmVhY3QuRnVuY3Rpb25Db21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMTkuMzEgNS42Yy0xLjIyLS4wNC0yLjQzLjktMi44MSAyLjQtLjUgMi0uNSAyLTEuNSAzLTIgMi01IDMtMTEgNC0xIC4xNi0xLjUuNS0yIDEgMiAwIDQgMCAyLjUgMS41TDMgMTloM2wyLTJjMiAxIDMuMzMgMSA1LjMzIDBsLjY3IDJoM2wtMS0zczEtNCAyLTUgMSAwIDIgMCAyLTEgMi0yLjVDMjIgOCAyMiA3IDIwLjUgNmMtLjM1LS4yNC0uNzYtLjM4LTEuMTktLjRNOSA2YTYgNiAwIDAwLTYgNmMwIC42LjEzIDEuMDguMjMgMS42IDUuOTItLjk4IDkuMDYtMi4wMSAxMC43LTMuNjZsLjUtLjVBNi4wMDcgNi4wMDcgMCAwMDkgNnpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuVG9ydG9pc2UuZGlzcGxheU5hbWUgPSBcIlRvcnRvaXNlXCI7XG5cbmV4cG9ydCBkZWZhdWx0IFRvcnRvaXNlO1xuIl19

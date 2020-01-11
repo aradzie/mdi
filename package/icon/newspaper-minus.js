@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var NewspaperMinus = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M22 17v2h-8v-2h8m-2-6V8H4v3h16m-7 2v1.68c-.63.95-1 2.09-1 3.32 0 1.09.29 2.12.8 3H4a2 2 0 01-2-2V3l1.67 1.67L5.33 3 7 4.67 8.67 3l1.66 1.67L12 3l1.67 1.67L15.33 3 17 4.67 18.67 3l1.66 1.67L22 3v10.5a6.137 6.137 0 00-4-1.5c-1.23 0-2.37.37-3.32 1H13m-2 6v-6H4v6h7z" }))); };
+NewspaperMinus.displayName = "NewspaperMinus";
+exports.default = NewspaperMinus;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmV3c3BhcGVyLW1pbnVzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vbmV3c3BhcGVyLW1pbnVzLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sY0FBYyxHQUEwQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ3JFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsd1FBQXdRLEdBQUUsQ0FDNVEsQ0FDYixFQUp3RSxDQUl4RSxDQUFDO0FBRUYsY0FBYyxDQUFDLFdBQVcsR0FBRyxnQkFBZ0IsQ0FBQztBQUU5QyxrQkFBZSxjQUFjLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBHZW5lcmF0ZWQgZnJvbSBmaWxlIG5ld3NwYXBlci1taW51cy5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IE5ld3NwYXBlck1pbnVzOiBSZWFjdC5GdW5jdGlvbkNvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0yMiAxN3YyaC04di0yaDhtLTItNlY4SDR2M2gxNm0tNyAydjEuNjhjLS42My45NS0xIDIuMDktMSAzLjMyIDAgMS4wOS4yOSAyLjEyLjggM0g0YTIgMiAwIDAxLTItMlYzbDEuNjcgMS42N0w1LjMzIDMgNyA0LjY3IDguNjcgM2wxLjY2IDEuNjdMMTIgM2wxLjY3IDEuNjdMMTUuMzMgMyAxNyA0LjY3IDE4LjY3IDNsMS42NiAxLjY3TDIyIDN2MTAuNWE2LjEzNyA2LjEzNyAwIDAwLTQtMS41Yy0xLjIzIDAtMi4zNy4zNy0zLjMyIDFIMTNtLTIgNnYtNkg0djZoN3pcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuTmV3c3BhcGVyTWludXMuZGlzcGxheU5hbWUgPSBcIk5ld3NwYXBlck1pbnVzXCI7XG5cbmV4cG9ydCBkZWZhdWx0IE5ld3NwYXBlck1pbnVzO1xuIl19

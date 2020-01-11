@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ClosedCaption: React.StatelessComponent<SvgIconProps>;
+declare const ClosedCaption: React.FunctionComponent<SvgIconProps>;
 export default ClosedCaption;

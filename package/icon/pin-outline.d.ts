@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const PinOutline: React.StatelessComponent<SvgIconProps>;
+declare const PinOutline: React.FunctionComponent<SvgIconProps>;
 export default PinOutline;

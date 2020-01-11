@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CameraAccount: React.StatelessComponent<SvgIconProps>;
+declare const CameraAccount: React.FunctionComponent<SvgIconProps>;
 export default CameraAccount;

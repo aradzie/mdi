@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const BorderColor: React.StatelessComponent<SvgIconProps> = (props) => (
+const BorderColor: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M20.706 4.041a.999.999 0 0 0 0-1.414L18.37.291a.999.999 0 0 0-1.414 0L15 2.248l3.75 3.75m-1 1L14 3.248l-10 10v3.75h3.75l10-10z"/>
+        <path d="M20.71 4.04c.39-.39.39-1.04 0-1.41L18.37.29C18-.1 17.35-.1 16.96.29L15 2.25 18.75 6m-1 1L14 3.25l-10 10V17h3.75l10-10z"/>
     </SvgIcon>
 );
 

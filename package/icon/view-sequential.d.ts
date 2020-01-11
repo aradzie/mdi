@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ViewSequential: React.StatelessComponent<SvgIconProps>;
+declare const ViewSequential: React.FunctionComponent<SvgIconProps>;
 export default ViewSequential;

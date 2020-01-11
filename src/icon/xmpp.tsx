@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Xmpp: React.StatelessComponent<SvgIconProps> = (props) => (
+const Xmpp: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M11.998 15.397C9.745 13.09 8 9.545 8 6L2 4.003c0 5.646 4.332 10.111 8.547 12.655-1.17.845-2.4 1.339-3.547 1.339v1c1.199 0 3.025-.54 4.997-1.536C13.97 18.461 15.8 19 17 19v-1c-1.149 0-2.38-.495-3.552-1.343C17.665 14.114 22 9.647 22 4l-6 1.997c0 3.546-1.747 7.093-4.002 9.4z"/>
+        <path d="M12 15.4C9.75 13.09 8 9.54 8 6L2 4c0 5.65 4.33 10.11 8.55 12.66C9.38 17.5 8.15 18 7 18v1c1.2 0 3.03-.54 5-1.54 1.97 1 3.8 1.54 5 1.54v-1c-1.15 0-2.38-.5-3.55-1.34C17.66 14.11 22 9.65 22 4l-6 2c0 3.54-1.75 7.09-4 9.4z"/>
     </SvgIcon>
 );
 

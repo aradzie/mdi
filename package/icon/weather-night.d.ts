@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const WeatherNight: React.StatelessComponent<SvgIconProps>;
+declare const WeatherNight: React.FunctionComponent<SvgIconProps>;
 export default WeatherNight;

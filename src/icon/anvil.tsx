@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Anvil: React.StatelessComponent<SvgIconProps> = (props) => (
+const Anvil: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M9 5v5c4.027 2.466-.56 4.974-3 6v3h15v-3c-6.408-2.734-3.534-6.982 1-8V5H9zM2 6c.813 2.13 2.42 3.519 5 4V6H2z"/>
+        <path d="M9 5v5c4.03 2.47-.56 4.97-3 6v3h15v-3c-6.41-2.73-3.53-7 1-8V5H9M2 6c.81 2.13 2.42 3.5 5 4V6H2z"/>
     </SvgIcon>
 );
 

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ShapeCirclePlus: React.StatelessComponent<SvgIconProps> = (props) => (
+const ShapeCirclePlus: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M11 19c3.3 0 6-2.7 6-6h2c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8v2c-3.3 0-6 2.7-6 6s2.7 6 6 6zm8-14h3v2h-3v3h-2V7h-3V5h3V2h2v3z"/>
+        <path d="M11 19a6 6 0 006-6h2a8 8 0 01-8 8 8 8 0 01-8-8 8 8 0 018-8v2a6 6 0 00-6 6 6 6 0 006 6m8-14h3v2h-3v3h-2V7h-3V5h3V2h2v3z"/>
     </SvgIcon>
 );
 

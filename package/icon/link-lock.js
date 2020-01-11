@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var LinkLock = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M23 16v-.5a2.5 2.5 0 00-5 0v.5a1 1 0 00-1 1v4a1 1 0 001 1h5a1 1 0 001-1v-4a1 1 0 00-1-1m-1 0h-3v-.5a1.5 1.5 0 013 0M7 8.9h4V7H7a5 5 0 000 10h4v-1.9H7a3.1 3.1 0 010-6.2M8 11v2h8v-2m-3 4.1V17h2v-1.9M17 7h-4v1.9h4a3.09 3.09 0 012.94 2.1 5.12 5.12 0 01.56 0h1.4A5 5 0 0017 7z" }))); };
+LinkLock.displayName = "LinkLock";
+exports.default = LinkLock;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGluay1sb2NrLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vbGluay1sb2NrLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sUUFBUSxHQUEwQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQy9ELG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsaVJBQWlSLEdBQUUsQ0FDclIsQ0FDYixFQUprRSxDQUlsRSxDQUFDO0FBRUYsUUFBUSxDQUFDLFdBQVcsR0FBRyxVQUFVLENBQUM7QUFFbEMsa0JBQWUsUUFBUSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBsaW5rLWxvY2suc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBMaW5rTG9jazogUmVhY3QuRnVuY3Rpb25Db21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMjMgMTZ2LS41YTIuNSAyLjUgMCAwMC01IDB2LjVhMSAxIDAgMDAtMSAxdjRhMSAxIDAgMDAxIDFoNWExIDEgMCAwMDEtMXYtNGExIDEgMCAwMC0xLTFtLTEgMGgtM3YtLjVhMS41IDEuNSAwIDAxMyAwTTcgOC45aDRWN0g3YTUgNSAwIDAwMCAxMGg0di0xLjlIN2EzLjEgMy4xIDAgMDEwLTYuMk04IDExdjJoOHYtMm0tMyA0LjFWMTdoMnYtMS45TTE3IDdoLTR2MS45aDRhMy4wOSAzLjA5IDAgMDEyLjk0IDIuMSA1LjEyIDUuMTIgMCAwMS41NiAwaDEuNEE1IDUgMCAwMDE3IDd6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkxpbmtMb2NrLmRpc3BsYXlOYW1lID0gXCJMaW5rTG9ja1wiO1xuXG5leHBvcnQgZGVmYXVsdCBMaW5rTG9jaztcbiJdfQ==

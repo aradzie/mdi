@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var ShieldAccount = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4m0 4a3 3 0 013 3 3 3 0 01-3 3 3 3 0 01-3-3 3 3 0 013-3m5.13 12A9.69 9.69 0 0112 20.92 9.69 9.69 0 016.87 17c-.34-.5-.63-1-.87-1.53 0-1.65 2.71-3 6-3s6 1.32 6 3c-.24.53-.53 1.03-.87 1.53z" }))); };
+ShieldAccount.displayName = "ShieldAccount";
+exports.default = ShieldAccount;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2hpZWxkLWFjY291bnQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi9zaGllbGQtYWNjb3VudC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLGFBQWEsR0FBMEMsVUFBQyxLQUFLLElBQUssT0FBQSxDQUNwRSxvQkFBQyxrQkFBTyx1QkFBSyxLQUFLO0lBQ2QsOEJBQU0sQ0FBQyxFQUFDLDJQQUEyUCxHQUFFLENBQy9QLENBQ2IsRUFKdUUsQ0FJdkUsQ0FBQztBQUVGLGFBQWEsQ0FBQyxXQUFXLEdBQUcsZUFBZSxDQUFDO0FBRTVDLGtCQUFlLGFBQWEsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qIEdlbmVyYXRlZCBmcm9tIGZpbGUgc2hpZWxkLWFjY291bnQuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBTaGllbGRBY2NvdW50OiBSZWFjdC5GdW5jdGlvbkNvbXBvbmVudDxTdmdJY29uUHJvcHM+ID0gKHByb3BzKSA9PiAoXG4gICAgPFN2Z0ljb24gey4uLnByb3BzfT5cbiAgICAgICAgPHBhdGggZD1cIk0xMiAxTDMgNXY2YzAgNS41NSAzLjg0IDEwLjc0IDkgMTIgNS4xNi0xLjI2IDktNi40NSA5LTEyVjVsLTktNG0wIDRhMyAzIDAgMDEzIDMgMyAzIDAgMDEtMyAzIDMgMyAwIDAxLTMtMyAzIDMgMCAwMTMtM201LjEzIDEyQTkuNjkgOS42OSAwIDAxMTIgMjAuOTIgOS42OSA5LjY5IDAgMDE2Ljg3IDE3Yy0uMzQtLjUtLjYzLTEtLjg3LTEuNTMgMC0xLjY1IDIuNzEtMyA2LTNzNiAxLjMyIDYgM2MtLjI0LjUzLS41MyAxLjAzLS44NyAxLjUzelwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5TaGllbGRBY2NvdW50LmRpc3BsYXlOYW1lID0gXCJTaGllbGRBY2NvdW50XCI7XG5cbmV4cG9ydCBkZWZhdWx0IFNoaWVsZEFjY291bnQ7XG4iXX0=

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Netflix: React.StatelessComponent<SvgIconProps>;
+declare const Netflix: React.FunctionComponent<SvgIconProps>;
 export default Netflix;

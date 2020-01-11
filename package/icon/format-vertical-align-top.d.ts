@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const FormatVerticalAlignTop: React.StatelessComponent<SvgIconProps>;
+declare const FormatVerticalAlignTop: React.FunctionComponent<SvgIconProps>;
 export default FormatVerticalAlignTop;

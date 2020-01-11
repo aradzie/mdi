@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const ArrowUpBoldBox: React.StatelessComponent<SvgIconProps>;
+declare const ArrowUpBoldBox: React.FunctionComponent<SvgIconProps>;
 export default ArrowUpBoldBox;

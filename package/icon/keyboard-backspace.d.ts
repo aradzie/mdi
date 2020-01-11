@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const KeyboardBackspace: React.StatelessComponent<SvgIconProps>;
+declare const KeyboardBackspace: React.FunctionComponent<SvgIconProps>;
 export default KeyboardBackspace;

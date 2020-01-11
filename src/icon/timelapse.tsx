@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Timelapse: React.StatelessComponent<SvgIconProps> = (props) => (
+const Timelapse: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M12 19.998a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm0-18c-5.524 0-10 4.477-10 10s4.476 10 10 10c5.522 0 10-4.477 10-10s-4.478-10-10-10zm4.242 5.757A5.99 5.99 0 0 0 12 5.998v6l-4.243 4.243a6.001 6.001 0 0 0 8.486-8.486z"/>
+        <path d="M12 20a8 8 0 01-8-8 8 8 0 018-8 8 8 0 018 8 8 8 0 01-8 8m0-18A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10A10 10 0 0012 2m4.24 5.76A5.95 5.95 0 0012 6v6l-4.24 4.24a6 6 0 008.48 0 5.981 5.981 0 000-8.48z"/>
     </SvgIcon>
 );
 

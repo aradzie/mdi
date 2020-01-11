@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const TicketPercent: React.StatelessComponent<SvgIconProps> = (props) => (
+const TicketPercent: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M4 4a2 2 0 0 0-2 2v4a2 2 0 1 1 0 4v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 1 1 0-4V6a2 2 0 0 0-2-2H4zm11.498 3L17 8.502 8.502 17 7 15.498 15.498 7zm-6.685.043a1.77 1.77 0 1 1 .001 3.541 1.77 1.77 0 0 1-.002-3.541zm6.374 6.373a1.77 1.77 0 1 1-.002 3.541 1.77 1.77 0 0 1 .002-3.541z"/>
+        <path d="M4 4a2 2 0 00-2 2v4a2 2 0 012 2 2 2 0 01-2 2v4a2 2 0 002 2h16a2 2 0 002-2v-4a2 2 0 01-2-2 2 2 0 012-2V6a2 2 0 00-2-2H4m11.5 3L17 8.5 8.5 17 7 15.5 15.5 7m-6.69.04c.98 0 1.77.79 1.77 1.77a1.77 1.77 0 01-1.77 1.77c-.98 0-1.77-.79-1.77-1.77a1.77 1.77 0 011.77-1.77m6.38 6.38c.98 0 1.77.79 1.77 1.77a1.77 1.77 0 01-1.77 1.77c-.98 0-1.77-.79-1.77-1.77a1.77 1.77 0 011.77-1.77z"/>
     </SvgIcon>
 );
 

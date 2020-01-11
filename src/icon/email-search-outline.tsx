@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const EmailSearchOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const EmailSearchOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M3 4h16a2 2 0 0 1 2 2v4.82a6.5 6.5 0 0 0-2-1.318V8.369l-1.217.758a6.497 6.497 0 0 0-7.295 3.912L3 8.37V18h7.506c.308.742.751 1.42 1.306 2H3a2 2 0 0 1-2-2V6c0-1.11.89-2 2-2zm0 2l8 5 8-5H3zm13.5 5a4.5 4.5 0 0 1 3.807 6.9l3.084 3.084-1.407 1.407-3.108-3.069A4.5 4.5 0 1 1 16.5 11zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/>
+        <path d="M16.5 11c2.5 0 4.5 2 4.5 4.5 0 .88-.25 1.71-.69 2.4l3.08 3.1L22 22.39l-3.12-3.07c-.69.43-1.51.68-2.38.68-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5m0 2a2.5 2.5 0 000 5 2.5 2.5 0 000-5m-6 5H3V8l7.62 4.76A6.486 6.486 0 0116.5 9c.27 0 .54 0 .81.06L19 8v1.5c.75.31 1.42.77 2 1.32V6c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h8.82c-.55-.58-1-1.25-1.32-2M19 6l-8 5-8-5h16z"/>
     </SvgIcon>
 );
 

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const DoorbellVideo: React.StatelessComponent<SvgIconProps> = (props) => (
+const DoorbellVideo: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M7.968 1.992a1.985 1.985 0 0 0-1.992 1.992V19.92c0 1.106.887 1.992 1.992 1.992h7.968a1.985 1.985 0 0 0 1.992-1.992V3.984a1.985 1.985 0 0 0-1.992-1.992H7.968zm3.984 3.486a1.494 1.494 0 1 1 0 2.988 1.494 1.494 0 0 1 0-2.988zM7.968 9.96h7.968v9.96H7.968V9.96zm4.035 3.021a1.992 1.992 0 1 0 0 3.984 1.992 1.992 0 0 0 0-3.984z"/>
+        <path d="M14 15c0 1.11-.89 2-2 2s-2-.89-2-2 .9-2 2-2 2 .9 2 2m4-11v16a2 2 0 01-2 2H8a2 2 0 01-2-2V4c0-1.1.9-2 2-2h8a2 2 0 012 2m-7.5 3c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5m5.5 3H8v10h8V10z"/>
     </SvgIcon>
 );
 

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const PhoneSettings: React.StatelessComponent<SvgIconProps> = (props) => (
+const PhoneSettings: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M19 10.998h2v-2h-2m1 6.5c-1.248 0-2.448-.2-3.573-.568a1 1 0 0 0-1.016.245l-2.2 2.203a15.073 15.073 0 0 1-6.589-6.585l2.2-2.208a.995.995 0 0 0 .244-1.015A11.492 11.492 0 0 1 8.5 3.998a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1c0 9.389 7.611 17 17 17a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1zm-3-6.5h-2v2h2m-4-2h-2v2h2v-2z"/>
+        <path d="M19 11h2V9h-2m1 6.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.25l-2.2 2.2a15.097 15.097 0 01-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.36 11.36 0 018.5 4a1 1 0 00-1-1H4a1 1 0 00-1 1 17 17 0 0017 17 1 1 0 001-1v-3.5a1 1 0 00-1-1M17 9h-2v2h2m-4-2h-2v2h2V9z"/>
     </SvgIcon>
 );
 

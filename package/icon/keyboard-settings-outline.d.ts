@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const KeyboardSettingsOutline: React.StatelessComponent<SvgIconProps>;
+declare const KeyboardSettingsOutline: React.FunctionComponent<SvgIconProps>;
 export default KeyboardSettingsOutline;

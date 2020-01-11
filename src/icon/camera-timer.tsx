@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CameraTimer: React.StatelessComponent<SvgIconProps> = (props) => (
+const CameraTimer: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M4.936 6.346a1 1 0 1 1 1.415-1.414l6.723 5.378.348.279a2 2 0 0 1-2.829 2.828l-.278-.348-5.379-6.723zM12 19.998a8 8 0 0 0 5.659-13.656l1.414-1.414a9.969 9.969 0 0 1 2.927 7.07c0 5.523-4.477 10-10 10C6.477 21.998 2 17.522 2 12h2a8 8 0 0 0 8 7.998zM12 1a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
+        <path d="M4.94 6.35c-.39-.39-.39-1.03 0-1.42a.996.996 0 011.41 0l6.72 5.38.35.28c.78.78.78 2.05 0 2.83-.78.78-2.05.78-2.83 0l-.28-.35-5.37-6.72M12 20a8 8 0 008-8c0-2.21-.9-4.21-2.34-5.66l1.41-1.41A9.969 9.969 0 0122 12a10 10 0 01-10 10A10 10 0 012 12h2a8 8 0 008 8m0-19a2 2 0 012 2 2 2 0 01-2 2 2 2 0 01-2-2 2 2 0 012-2z"/>
     </SvgIcon>
 );
 

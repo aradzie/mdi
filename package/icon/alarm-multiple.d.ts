@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const AlarmMultiple: React.StatelessComponent<SvgIconProps>;
+declare const AlarmMultiple: React.FunctionComponent<SvgIconProps>;
 export default AlarmMultiple;

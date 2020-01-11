@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const CheckboxMarkedCircleOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const CheckboxMarkedCircleOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M20 11.998a8 8 0 1 1-8-8c.763 0 1.5.114 2.2.314l1.572-1.572A9.96 9.96 0 0 0 12 1.998c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10M7.913 10.084L6.5 11.498l4.5 4.5 10-10-1.414-1.414L11 13.17l-3.086-3.086z"/>
+        <path d="M20 12a8 8 0 01-8 8 8 8 0 01-8-8 8 8 0 018-8c.76 0 1.5.11 2.2.31l1.57-1.57A9.822 9.822 0 0012 2 10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10M7.91 10.08L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09z"/>
     </SvgIcon>
 );
 

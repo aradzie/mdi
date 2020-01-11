@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const AndroidDebugBridge: React.StatelessComponent<SvgIconProps> = (props) => (
+const AndroidDebugBridge: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M15 8.998a1 1 0 1 1-.001-2 1 1 0 0 1 0 2zm-6 0a1 1 0 1 1-.001-2 1 1 0 0 1 0 2zm7.122-4.63l2.1-2.1-.826-.826-2.304 2.305c-.937-.464-1.978-.749-3.093-.749s-2.156.285-3.093.75L6.601 1.441l-.824.826 2.1 2.1C6.14 5.64 4.998 7.678 4.998 9.997v1h14v-1c0-2.319-1.14-4.358-2.877-5.63zM5 15.997a7 7 0 1 0 14 0v-4H5v4z"/>
+        <path d="M15 9a1 1 0 01-1-1 1 1 0 011-1 1 1 0 011 1 1 1 0 01-1 1M9 9a1 1 0 01-1-1 1 1 0 011-1 1 1 0 011 1 1 1 0 01-1 1m7.12-4.63l2.1-2.1-.82-.83-2.31 2.31C14.16 3.28 13.11 3 12 3c-1.12 0-2.16.28-3.09.75L6.6 1.44l-.82.83 2.1 2.1C6.14 5.64 5 7.68 5 10v1h14v-1c0-2.32-1.14-4.36-2.88-5.63M5 16c0 3.86 3.13 7 7 7a7 7 0 007-7v-4H5v4z"/>
     </SvgIcon>
 );
 

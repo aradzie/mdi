@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var TurnstileOutline = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M13.41 10.41c-.37.38-.88.59-1.41.59a2 2 0 01-2-2c0-.53.21-1.04.59-1.41L9.17 6.17C8.42 6.92 8 7.94 8 9H2v2h6.55c.35.6.85 1.1 1.45 1.45V19h2v-6c1.06 0 2.08-.42 2.83-1.17l-1.42-1.42M10 2v3l6 6v11h6V2H10m10 18h-2v-9.83l-6-6V4h8v16z" }))); };
+TurnstileOutline.displayName = "TurnstileOutline";
+exports.default = TurnstileOutline;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHVybnN0aWxlLW91dGxpbmUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaWNvbi90dXJuc3RpbGUtb3V0bGluZS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBRUEsd0NBQW9EO0FBQ3BELDZCQUErQjtBQUUvQixJQUFNLGdCQUFnQixHQUEwQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ3ZFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMscU9BQXFPLEdBQUUsQ0FDek8sQ0FDYixFQUowRSxDQUkxRSxDQUFDO0FBRUYsZ0JBQWdCLENBQUMsV0FBVyxHQUFHLGtCQUFrQixDQUFDO0FBRWxELGtCQUFlLGdCQUFnQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSB0dXJuc3RpbGUtb3V0bGluZS5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IFR1cm5zdGlsZU91dGxpbmU6IFJlYWN0LkZ1bmN0aW9uQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTEzLjQxIDEwLjQxYy0uMzcuMzgtLjg4LjU5LTEuNDEuNTlhMiAyIDAgMDEtMi0yYzAtLjUzLjIxLTEuMDQuNTktMS40MUw5LjE3IDYuMTdDOC40MiA2LjkyIDggNy45NCA4IDlIMnYyaDYuNTVjLjM1LjYuODUgMS4xIDEuNDUgMS40NVYxOWgydi02YzEuMDYgMCAyLjA4LS40MiAyLjgzLTEuMTdsLTEuNDItMS40Mk0xMCAydjNsNiA2djExaDZWMkgxMG0xMCAxOGgtMnYtOS44M2wtNi02VjRoOHYxNnpcIi8+XG4gICAgPC9TdmdJY29uPlxuKTtcblxuVHVybnN0aWxlT3V0bGluZS5kaXNwbGF5TmFtZSA9IFwiVHVybnN0aWxlT3V0bGluZVwiO1xuXG5leHBvcnQgZGVmYXVsdCBUdXJuc3RpbGVPdXRsaW5lO1xuIl19

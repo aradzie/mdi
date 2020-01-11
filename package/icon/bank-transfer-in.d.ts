@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const BankTransferIn: React.StatelessComponent<SvgIconProps>;
+declare const BankTransferIn: React.FunctionComponent<SvgIconProps>;
 export default BankTransferIn;

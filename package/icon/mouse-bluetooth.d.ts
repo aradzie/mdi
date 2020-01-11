@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const MouseBluetooth: React.StatelessComponent<SvgIconProps>;
+declare const MouseBluetooth: React.FunctionComponent<SvgIconProps>;
 export default MouseBluetooth;

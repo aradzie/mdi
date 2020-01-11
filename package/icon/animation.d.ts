@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Animation: React.StatelessComponent<SvgIconProps>;
+declare const Animation: React.FunctionComponent<SvgIconProps>;
 export default Animation;

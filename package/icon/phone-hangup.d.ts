@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const PhoneHangup: React.StatelessComponent<SvgIconProps>;
+declare const PhoneHangup: React.FunctionComponent<SvgIconProps>;
 export default PhoneHangup;

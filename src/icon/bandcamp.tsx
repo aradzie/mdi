@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Bandcamp: React.StatelessComponent<SvgIconProps> = (props) => (
+const Bandcamp: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M22 6l-6.508 12H2L8.508 6H22z"/>
+        <path d="M22 6l-6.5 12H2L8.5 6H22z"/>
     </SvgIcon>
 );
 

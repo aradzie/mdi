@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const HelpCircle: React.StatelessComponent<SvgIconProps> = (props) => (
+const HelpCircle: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M15.066 11.252l-.895.918c-.724.724-1.172 1.328-1.172 2.828h-2v-.5c0-1.104.448-2.104 1.172-2.828l1.243-1.258A2 2 0 1 0 10 8.998H8a4 4 0 0 1 8 0c0 .88-.356 1.677-.933 2.254zM13 18.998h-2v-2h2m-1-15c-5.523 0-10 4.477-10 10 0 5.524 4.477 10 10 10 5.524 0 10-4.476 10-10 0-5.523-4.476-10-10-10z"/>
+        <path d="M15.07 11.25l-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 00-2-2 2 2 0 00-2 2H8a4 4 0 014-4 4 4 0 014 4 3.2 3.2 0 01-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10c0-5.53-4.5-10-10-10z"/>
     </SvgIcon>
 );
 

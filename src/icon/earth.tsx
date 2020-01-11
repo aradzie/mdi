@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Earth: React.StatelessComponent<SvgIconProps> = (props) => (
+const Earth: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M17.896 17.392A1.993 1.993 0 0 0 16 15.999h-1v-3a1 1 0 0 0-1-1H8v-2h2a1 1 0 0 0 1-1v-2h2a2 2 0 0 0 2-2v-.413a7.998 7.998 0 0 1 5 7.413c0 2.08-.801 3.97-2.104 5.393zM11 19.929c-3.945-.493-7-3.852-7-7.93 0-.617.076-1.215.208-1.792L9 14.999v1a2 2 0 0 0 2 2m1-16c-5.523 0-10 4.477-10 10 0 5.522 4.477 10 10 10s10-4.478 10-10c0-5.523-4.477-10-10-10z"/>
+        <path d="M17.9 17.39c-.26-.8-1.01-1.39-1.9-1.39h-1v-3a1 1 0 00-1-1H8v-2h2a1 1 0 001-1V7h2a2 2 0 002-2v-.41a7.984 7.984 0 012.9 12.8M11 19.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.22.21-1.79L9 15v1a2 2 0 002 2m1-16A10 10 0 002 12a10 10 0 0010 10 10 10 0 0010-10A10 10 0 0012 2z"/>
     </SvgIcon>
 );
 

@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ShuffleDisabled: React.StatelessComponent<SvgIconProps> = (props) => (
+const ShuffleDisabled: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M16.001 4.503v2.49L5 7.005V9h11.001v2.5l3.502-3.502M16 12.5v2.49L5 15.005v1.998h11.001v2.5L19.503 16"/>
+        <path d="M16 4.5V7H5v2h11v2.5L19.5 8M16 12.5V15H5v2h11v2.5l3.5-3.5"/>
     </SvgIcon>
 );
 

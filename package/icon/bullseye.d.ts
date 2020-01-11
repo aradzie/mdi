@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Bullseye: React.StatelessComponent<SvgIconProps>;
+declare const Bullseye: React.FunctionComponent<SvgIconProps>;
 export default Bullseye;

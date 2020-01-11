@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ArrowCollapseHorizontal: React.StatelessComponent<SvgIconProps> = (props) => (
+const ArrowCollapseHorizontal: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M13.016 20.017V3.985h2.015v16.032h-2.015zm-3 0V3.985h2.015v16.032h-2.015zM5 8.017L9.031 12 5 15.985v-3H2v-1.968h3v-3zm15 7.968l-3.984-3.984L20 8.017v3h3v1.968h-3v3z"/>
+        <path d="M13 20V4h2.03v16H13m-3 0V4h2.03v16H10M5 8l4.03 4L5 16v-3H2v-2h3V8m15 8l-4-4 4-4v3h3v2h-3v3z"/>
     </SvgIcon>
 );
 

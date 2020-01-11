@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const EmoticonCool: React.StatelessComponent<SvgIconProps>;
+declare const EmoticonCool: React.FunctionComponent<SvgIconProps>;
 export default EmoticonCool;

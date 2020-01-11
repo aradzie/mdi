@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const FloppyVariant: React.StatelessComponent<SvgIconProps> = (props) => (
+const FloppyVariant: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M3 3v18h18V3H3zm9 7a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm0 5a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0v-3a1 1 0 0 1 1-1z"/>
+        <path d="M3 3v18h18V3H3m9 7a2 2 0 012 2 2 2 0 01-2 2 2 2 0 01-2-2 2 2 0 012-2m0 5a1 1 0 011 1v3a1 1 0 01-1 1 1 1 0 01-1-1v-3a1 1 0 011-1z"/>
     </SvgIcon>
 );
 

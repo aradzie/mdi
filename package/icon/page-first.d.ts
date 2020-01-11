@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const PageFirst: React.StatelessComponent<SvgIconProps>;
+declare const PageFirst: React.FunctionComponent<SvgIconProps>;
 export default PageFirst;

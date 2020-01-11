@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const CommentProcessingOutline: React.StatelessComponent<SvgIconProps>;
+declare const CommentProcessingOutline: React.FunctionComponent<SvgIconProps>;
 export default CommentProcessingOutline;

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Basket: React.StatelessComponent<SvgIconProps>;
+declare const Basket: React.FunctionComponent<SvgIconProps>;
 export default Basket;

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Whatsapp: React.StatelessComponent<SvgIconProps>;
+declare const Whatsapp: React.FunctionComponent<SvgIconProps>;
 export default Whatsapp;

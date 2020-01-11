@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Thermometer: React.StatelessComponent<SvgIconProps> = (props) => (
+const Thermometer: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M17 17a5 5 0 1 1-8-4V5a3 3 0 1 1 6 0v8c1.214.912 2 2.364 2 4zm-6-9v6.17a3.001 3.001 0 1 0 2 0V8h-2z"/>
+        <path d="M15 13V5a3 3 0 00-6 0v8a5 5 0 106 0m-3-9a1 1 0 011 1v3h-2V5a1 1 0 011-1z"/>
     </SvgIcon>
 );
 

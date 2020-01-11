@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const BookmarkCheck: React.StatelessComponent<SvgIconProps> = (props) => (
+const BookmarkCheck: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M17 2.998a2 2 0 0 1 2 2v16l-7-3-7 3 .01-16c0-1.104.885-2 1.99-2h10zm-6 11.009l6.25-6.25-1.414-1.414L11 11.179 8.414 8.593 7 10.007l4 4z"/>
+        <path d="M17 3a2 2 0 012 2v16l-7-3-7 3V5a2 2 0 012-2h10m-6 11l6.25-6.24-1.41-1.42L11 11.18 8.41 8.59 7 10l4 4z"/>
     </SvgIcon>
 );
 

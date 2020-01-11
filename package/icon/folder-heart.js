@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var FolderHeart = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M20 6h-8l-2-2H4c-1.11 0-2 .89-2 2v12a2 2 0 002 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2m-1.58 7.5L15 17l-3.41-3.5c-.37-.38-.59-.88-.59-1.45 0-1.13.9-2.05 2-2.05.54 0 1.05.23 1.42.61l.58.59.59-.6c.36-.37.87-.6 1.41-.6 1.1 0 2 .92 2 2.05 0 .56-.22 1.08-.58 1.45z" }))); };
+FolderHeart.displayName = "FolderHeart";
+exports.default = FolderHeart;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZm9sZGVyLWhlYXJ0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vZm9sZGVyLWhlYXJ0LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sV0FBVyxHQUEwQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ2xFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsa1FBQWtRLEdBQUUsQ0FDdFEsQ0FDYixFQUpxRSxDQUlyRSxDQUFDO0FBRUYsV0FBVyxDQUFDLFdBQVcsR0FBRyxhQUFhLENBQUM7QUFFeEMsa0JBQWUsV0FBVyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBmb2xkZXItaGVhcnQuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBGb2xkZXJIZWFydDogUmVhY3QuRnVuY3Rpb25Db21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMjAgNmgtOGwtMi0ySDRjLTEuMTEgMC0yIC44OS0yIDJ2MTJhMiAyIDAgMDAyIDJoMTZjMS4xIDAgMi0uOSAyLTJWOGMwLTEuMS0uOS0yLTItMm0tMS41OCA3LjVMMTUgMTdsLTMuNDEtMy41Yy0uMzctLjM4LS41OS0uODgtLjU5LTEuNDUgMC0xLjEzLjktMi4wNSAyLTIuMDUuNTQgMCAxLjA1LjIzIDEuNDIuNjFsLjU4LjU5LjU5LS42Yy4zNi0uMzcuODctLjYgMS40MS0uNiAxLjEgMCAyIC45MiAyIDIuMDUgMCAuNTYtLjIyIDEuMDgtLjU4IDEuNDV6XCIvPlxuICAgIDwvU3ZnSWNvbj5cbik7XG5cbkZvbGRlckhlYXJ0LmRpc3BsYXlOYW1lID0gXCJGb2xkZXJIZWFydFwiO1xuXG5leHBvcnQgZGVmYXVsdCBGb2xkZXJIZWFydDtcbiJdfQ==

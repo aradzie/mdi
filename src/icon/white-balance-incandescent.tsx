@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const WhiteBalanceIncandescent: React.StatelessComponent<SvgIconProps> = (props) => (
+const WhiteBalanceIncandescent: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M17.242 18.155l1.795 1.795 1.414-1.415-1.795-1.794M20 12.498h3v-2h-3m-5-4.19v-4.81H9v4.81a5.994 5.994 0 0 0-3 5.19 6 6 0 0 0 12 0 5.992 5.992 0 0 0-3-5.19zm-11 4.19H1v2h3m7 9.95c.316.002 2 0 2 0v-2.95h-2m-7.45-.963l1.413 1.415 1.795-1.795-1.414-1.414-1.795 1.794z"/>
+        <path d="M17.24 18.15l1.8 1.8 1.41-1.42-1.79-1.79M20 12.5h3v-2h-3m-5-4.19V1.5H9v4.81C7.21 7.35 6 9.28 6 11.5a6 6 0 006 6 6 6 0 006-6c0-2.22-1.21-4.15-3-5.19M4 10.5H1v2h3m7 9.95h2V19.5h-2m-7.45-.97l1.41 1.42 1.8-1.8-1.42-1.41-1.79 1.79z"/>
     </SvgIcon>
 );
 

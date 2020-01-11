@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ColorHelper: React.StatelessComponent<SvgIconProps> = (props) => (
+const ColorHelper: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M0 23.998h24v-4L0 20v3.998z"/>
+        <path d="M0 24h24v-4H0v4z"/>
     </SvgIcon>
 );
 

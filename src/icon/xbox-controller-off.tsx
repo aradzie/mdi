@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const XboxControllerOff: React.StatelessComponent<SvgIconProps> = (props) => (
+const XboxControllerOff: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M2 5.268L3.277 4 20 20.723 18.732 22l-6.25-6.25H8.75C6.75 15.75 6 18 4 19c-1.985 0-3.478-2.956.419-11.313L2 5.268zm7.326.96h5.348c1.326-1.228 4.14.439 4.14.439l.436.833h.243c3.527 7.481 2.788 10.702 1.196 11.366L7.623 5.8c.627-.073 1.251.01 1.703.428zM12 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+        <path d="M2 5.27L3.28 4 20 20.72 18.73 22l-6.23-6.25H8.75C6.75 15.75 6 18 4 19c-2 0-3.5-2.96.42-11.31L2 5.27m7.33.96h5.34c1.33-1.23 4.14.44 4.14.44l.44.83h.25c3.5 7.5 2.78 10.7 1.19 11.37L7.62 5.8c.63-.07 1.25.01 1.71.43M12 7a1 1 0 00-1 1 1 1 0 001 1 1 1 0 001-1 1 1 0 00-1-1z"/>
     </SvgIcon>
 );
 

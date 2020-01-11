@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const HouzzBox: React.StatelessComponent<SvgIconProps> = (props) => (
+const HouzzBox: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M4.98 3h14.04C20.1 3 21 3.9 21 4.98v14.04c0 1.08-.9 1.98-1.98 1.98H4.98C3.9 21 3 20.1 3 19.02V4.98C3 3.9 3.9 3 4.98 3zm8.516 15.712H18v-7.625L8.986 8.502V5.29H6v13.423h4.504v-4.227h2.992v4.227z"/>
+        <path d="M5 3h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2m8.5 15.71H18v-7.62L9 8.5V5.29H6v13.42h4.5V14.5h3v4.21z"/>
     </SvgIcon>
 );
 

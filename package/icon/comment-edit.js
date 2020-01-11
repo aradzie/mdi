@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var CommentEdit = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M20 2H4c-1.11 0-2 .89-2 2v12a2 2 0 002 2h4v3c0 .55.45 1 1 1h.5c.25 0 .5-.1.7-.29L13.9 18H20c1.1 0 2-.9 2-2V4a2 2 0 00-2-2M9.08 15H7v-2.09l6.17-6.19 2.07 2.08L9.08 15m7.76-7.8l-1.01 1.01-2.07-2.03 1.01-1.02c.2-.21.54-.22.78 0l1.29 1.25c.21.21.22.55 0 .79z" }))); };
+CommentEdit.displayName = "CommentEdit";
+exports.default = CommentEdit;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tbWVudC1lZGl0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vY29tbWVudC1lZGl0LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sV0FBVyxHQUEwQyxVQUFDLEtBQUssSUFBSyxPQUFBLENBQ2xFLG9CQUFDLGtCQUFPLHVCQUFLLEtBQUs7SUFDZCw4QkFBTSxDQUFDLEVBQUMsZ1FBQWdRLEdBQUUsQ0FDcFEsQ0FDYixFQUpxRSxDQUlyRSxDQUFDO0FBRUYsV0FBVyxDQUFDLFdBQVcsR0FBRyxhQUFhLENBQUM7QUFFeEMsa0JBQWUsV0FBVyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyogR2VuZXJhdGVkIGZyb20gZmlsZSBjb21tZW50LWVkaXQuc3ZnLiAqL1xuXG5pbXBvcnQgeyBTdmdJY29uLCBTdmdJY29uUHJvcHMgfSBmcm9tIFwiLi4vc3ZnLWljb25cIjtcbmltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5jb25zdCBDb21tZW50RWRpdDogUmVhY3QuRnVuY3Rpb25Db21wb25lbnQ8U3ZnSWNvblByb3BzPiA9IChwcm9wcykgPT4gKFxuICAgIDxTdmdJY29uIHsuLi5wcm9wc30+XG4gICAgICAgIDxwYXRoIGQ9XCJNMjAgMkg0Yy0xLjExIDAtMiAuODktMiAydjEyYTIgMiAwIDAwMiAyaDR2M2MwIC41NS40NSAxIDEgMWguNWMuMjUgMCAuNS0uMS43LS4yOUwxMy45IDE4SDIwYzEuMSAwIDItLjkgMi0yVjRhMiAyIDAgMDAtMi0yTTkuMDggMTVIN3YtMi4wOWw2LjE3LTYuMTkgMi4wNyAyLjA4TDkuMDggMTVtNy43Ni03LjhsLTEuMDEgMS4wMS0yLjA3LTIuMDMgMS4wMS0xLjAyYy4yLS4yMS41NC0uMjIuNzggMGwxLjI5IDEuMjVjLjIxLjIxLjIyLjU1IDAgLjc5elwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5Db21tZW50RWRpdC5kaXNwbGF5TmFtZSA9IFwiQ29tbWVudEVkaXRcIjtcblxuZXhwb3J0IGRlZmF1bHQgQ29tbWVudEVkaXQ7XG4iXX0=

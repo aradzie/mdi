@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Artstation: React.StatelessComponent<SvgIconProps>;
+declare const Artstation: React.FunctionComponent<SvgIconProps>;
 export default Artstation;

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const AppleFinder: React.StatelessComponent<SvgIconProps>;
+declare const AppleFinder: React.FunctionComponent<SvgIconProps>;
 export default AppleFinder;

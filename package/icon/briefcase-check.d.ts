@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const BriefcaseCheck: React.StatelessComponent<SvgIconProps>;
+declare const BriefcaseCheck: React.FunctionComponent<SvgIconProps>;
 export default BriefcaseCheck;

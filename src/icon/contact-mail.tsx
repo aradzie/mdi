@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ContactMail: React.StatelessComponent<SvgIconProps> = (props) => (
+const ContactMail: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M21.001 7.997v-.994l-3.004 1.996L15 7.002v.995L17.997 10m4.006-7.002h-20A2.008 2.008 0 0 0 0 5v13.999C0 20.098.899 21 2.002 21h20A2 2 0 0 0 23.99 19L24 5a2.007 2.007 0 0 0-1.996-2.002zM7.997 6a3.002 3.002 0 1 1 0 0zM14 17.997H2.002v-.994c0-2.003 4-3.102 5.995-3.102C10 13.901 14 15 14 17.003m8.004-5h-8.004V6h8.004"/>
+        <path d="M21 8V7l-3 2-3-2v1l3 2m4-7H2a2 2 0 00-2 2v14a2 2 0 002 2h20a2 2 0 002-2V5a2 2 0 00-2-2M8 6a3 3 0 013 3 3 3 0 01-3 3 3 3 0 01-3-3 3 3 0 013-3m6 12H2v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1m8-5h-8V6h8"/>
     </SvgIcon>
 );
 

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const TooltipPlus: React.StatelessComponent<SvgIconProps>;
+declare const TooltipPlus: React.FunctionComponent<SvgIconProps>;
 export default TooltipPlus;

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Screwdriver: React.StatelessComponent<SvgIconProps>;
+declare const Screwdriver: React.FunctionComponent<SvgIconProps>;
 export default Screwdriver;

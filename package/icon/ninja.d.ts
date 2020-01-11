@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Ninja: React.StatelessComponent<SvgIconProps>;
+declare const Ninja: React.FunctionComponent<SvgIconProps>;
 export default Ninja;

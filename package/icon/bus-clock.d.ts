@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const BusClock: React.StatelessComponent<SvgIconProps>;
+declare const BusClock: React.FunctionComponent<SvgIconProps>;
 export default BusClock;

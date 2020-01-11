@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const ClockIn: React.StatelessComponent<SvgIconProps> = (props) => (
+const ClockIn: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M2.208.791L.79 2.208l4.004 3.998-1.797 1.791h5v-5L6.205 4.796m5.796 3.202a7.002 7.002 0 1 0 0 14.006A7.001 7.001 0 0 0 19 15a7.001 7.001 0 0 0-6.996-7.003zm-.005 2.154a4.852 4.852 0 0 1 0 9.703A4.849 4.849 0 0 1 7.15 15a4.848 4.848 0 0 1 4.849-4.849zm-.996 1.851v3.687l3.189 1.84.746-1.299-2.436-1.406v-2.822"/>
+        <path d="M2.21.79L.79 2.21l4.01 4L3 8h5V3L6.21 4.8M12 8c-3.86 0-7 3.13-7 7a7 7 0 007 7c3.86 0 7-3.13 7-7a7 7 0 00-7-7m0 2.15c2.67 0 4.85 2.17 4.85 4.85A4.85 4.85 0 0112 19.85c-2.68 0-4.85-2.17-4.85-4.85A4.85 4.85 0 0112 10.15M11 12v3.69l3.19 1.84.75-1.3-2.44-1.41V12"/>
     </SvgIcon>
 );
 

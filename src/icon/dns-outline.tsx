@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const DnsOutline: React.StatelessComponent<SvgIconProps> = (props) => (
+const DnsOutline: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M19 15v4H5v-4h14m1-2H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1zM7 18.5c-.82 0-1.5-.67-1.5-1.5s.68-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM19 5v4H5V5h14m1-2H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zM7 8.5c-.82 0-1.5-.67-1.5-1.5S6.18 5.5 7 5.5s1.5.68 1.5 1.5S7.83 8.5 7 8.5z"/>
+        <path d="M19 15v4H5v-4h14m1-2H4a1 1 0 00-1 1v6a1 1 0 001 1h16a1 1 0 001-1v-6a1 1 0 00-1-1M7 18.5A1.5 1.5 0 015.5 17 1.5 1.5 0 017 15.5 1.5 1.5 0 018.5 17 1.5 1.5 0 017 18.5M19 5v4H5V5h14m1-2H4a1 1 0 00-1 1v6a1 1 0 001 1h16a1 1 0 001-1V4a1 1 0 00-1-1M7 8.5A1.5 1.5 0 015.5 7 1.5 1.5 0 017 5.5 1.5 1.5 0 018.5 7 1.5 1.5 0 017 8.5z"/>
     </SvgIcon>
 );
 

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const Cupcake: React.StatelessComponent<SvgIconProps>;
+declare const Cupcake: React.FunctionComponent<SvgIconProps>;
 export default Cupcake;

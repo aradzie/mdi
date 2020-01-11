@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const TextToSpeechOff: React.StatelessComponent<SvgIconProps> = (props) => (
+const TextToSpeechOff: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M2 5.268L3.277 4 20 20.723 18.732 22l-5.348-5.348A6.008 6.008 0 0 1 9 19.917V22H7v-2.083A6.002 6.002 0 0 1 2 14h2a4 4 0 0 0 7.843 1.112L10 13.268V14a2 2 0 1 1-4 0V9.268l-4-4zm19.414 4.146l-4.242 4.243L18.176 10H14a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v4c0 .552-.224 1.052-.586 1.414z"/>
+        <path d="M2 5.27L3.28 4 20 20.72 18.73 22l-5.35-5.35A6 6 0 019 19.92V22H7v-2.08c-2.84-.48-5-2.95-5-5.92h2a4 4 0 004 4c1.82 0 3.36-1.22 3.84-2.89L10 13.27V14a2 2 0 01-2 2 2 2 0 01-2-2V9.27l-4-4m19.41 4.14l-4.24 4.25L18.18 10H14a2 2 0 01-2-2V4a2 2 0 012-2h6a2 2 0 012 2v4c0 .55-.22 1.05-.59 1.41z"/>
     </SvgIcon>
 );
 

@@ -1,4 +1,4 @@
 import { SvgIconProps } from "../svg-icon";
 import * as React from "react";
-declare const HandPointingUp: React.StatelessComponent<SvgIconProps>;
+declare const HandPointingUp: React.FunctionComponent<SvgIconProps>;
 export default HandPointingUp;

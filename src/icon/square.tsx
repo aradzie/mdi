@@ -3,7 +3,7 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const Square: React.StatelessComponent<SvgIconProps> = (props) => (
+const Square: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
         <path d="M3 3v18h18V3"/>
     </SvgIcon>

@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var svg_icon_1 = require("../svg-icon");
+var React = require("react");
+var InboxFullOutline = function (props) { return (React.createElement(svg_icon_1.SvgIcon, tslib_1.__assign({}, props),
+    React.createElement("path", { d: "M19 3c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14M5 19h4.4a4.126 4.126 0 01-1.27-2H5v2m14 0v-2h-3.13c-.22.78-.66 1.47-1.27 2H19m0-4V5H5v10h5v1c0 2.67 4 2.67 4 0v-1h5M7 7h10v2H7V7m10 4v2H7v-2h10z" }))); };
+InboxFullOutline.displayName = "InboxFullOutline";
+exports.default = InboxFullOutline;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5ib3gtZnVsbC1vdXRsaW5lLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2ljb24vaW5ib3gtZnVsbC1vdXRsaW5lLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFFQSx3Q0FBb0Q7QUFDcEQsNkJBQStCO0FBRS9CLElBQU0sZ0JBQWdCLEdBQTBDLFVBQUMsS0FBSyxJQUFLLE9BQUEsQ0FDdkUsb0JBQUMsa0JBQU8sdUJBQUssS0FBSztJQUNkLDhCQUFNLENBQUMsRUFBQyw4TkFBOE4sR0FBRSxDQUNsTyxDQUNiLEVBSjBFLENBSTFFLENBQUM7QUFFRixnQkFBZ0IsQ0FBQyxXQUFXLEdBQUcsa0JBQWtCLENBQUM7QUFFbEQsa0JBQWUsZ0JBQWdCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBHZW5lcmF0ZWQgZnJvbSBmaWxlIGluYm94LWZ1bGwtb3V0bGluZS5zdmcuICovXG5cbmltcG9ydCB7IFN2Z0ljb24sIFN2Z0ljb25Qcm9wcyB9IGZyb20gXCIuLi9zdmctaWNvblwiO1xuaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEluYm94RnVsbE91dGxpbmU6IFJlYWN0LkZ1bmN0aW9uQ29tcG9uZW50PFN2Z0ljb25Qcm9wcz4gPSAocHJvcHMpID0+IChcbiAgICA8U3ZnSWNvbiB7Li4ucHJvcHN9PlxuICAgICAgICA8cGF0aCBkPVwiTTE5IDNjMS4xIDAgMiAuOSAyIDJ2MTRjMCAxLjEtLjkgMi0yIDJINWMtMS4xIDAtMi0uOS0yLTJWNWMwLTEuMS45LTIgMi0yaDE0TTUgMTloNC40YTQuMTI2IDQuMTI2IDAgMDEtMS4yNy0ySDV2Mm0xNCAwdi0yaC0zLjEzYy0uMjIuNzgtLjY2IDEuNDctMS4yNyAySDE5bTAtNFY1SDV2MTBoNXYxYzAgMi42NyA0IDIuNjcgNCAwdi0xaDVNNyA3aDEwdjJIN1Y3bTEwIDR2Mkg3di0yaDEwelwiLz5cbiAgICA8L1N2Z0ljb24+XG4pO1xuXG5JbmJveEZ1bGxPdXRsaW5lLmRpc3BsYXlOYW1lID0gXCJJbmJveEZ1bGxPdXRsaW5lXCI7XG5cbmV4cG9ydCBkZWZhdWx0IEluYm94RnVsbE91dGxpbmU7XG4iXX0=

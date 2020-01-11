@@ -3,9 +3,9 @@
 import { SvgIcon, SvgIconProps } from "../svg-icon";
 import * as React from "react";
 
-const BriefcaseRemove: React.StatelessComponent<SvgIconProps> = (props) => (
+const BriefcaseRemove: React.FunctionComponent<SvgIconProps> = (props) => (
     <SvgIcon {...props}>
-        <path d="M14.464 15.879l1.415-1.415L18 16.587l2.121-2.121 1.415 1.414L19.413 18l2.121 2.121-1.414 1.415L18 19.413l-2.121 2.121-1.415-1.414L16.587 18l-2.121-2.121zM10 1.999l4-.001a2 2 0 0 1 2 2v2h4a2 2 0 0 1 2 2v5.53a6 6 0 0 0-9.198 7.47H4a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2h4v-2a2 2 0 0 1 2-2zm4 4v-2l-4-.001v2h4z"/>
+        <path d="M14.46 15.88l1.42-1.42L18 16.59l2.12-2.13 1.42 1.42L19.41 18l2.13 2.12-1.42 1.42L18 19.41l-2.12 2.13-1.42-1.42L16.59 18l-2.13-2.12M10 2h4a2 2 0 012 2v2h4a2 2 0 012 2v5.53A5.97 5.97 0 0018 12a6 6 0 00-6 6c0 1.09.29 2.12.8 3H4a2 2 0 01-2-2V8c0-1.11.89-2 2-2h4V4c0-1.11.89-2 2-2m4 4V4h-4v2h4z"/>
     </SvgIcon>
 );
 
