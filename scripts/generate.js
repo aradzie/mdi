@@ -91,7 +91,7 @@ const builder = new xml.Builder({
     headless: true,
 });
 
-const svgDir = `${__dirname}/../MaterialDesign/icons/svg`;
+const svgDir = `${__dirname}/../MaterialDesign/svg`;
 const outDir = `${__dirname}/../src/icon`;
 
 const fileNames = fs.readdirSync(svgDir);
