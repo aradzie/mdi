@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "description": "Generates the contents of package mdi.",
   "scripts": {
-    "clean": "rm -rf src/icon && mkdir src/icon",
-    "build": "git submodule update && npm run clean && node scripts/generate.js && tsc && npm pack file:package"
+    "clean": "rm -f package/*.js && rm -f package/*.d.ts",
+    "build": "npm run clean && node generate.js && npm pack file:package"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
     "icons",
     "svg icon",
     "svg icons",
-    "material design"
+    "material design",
+    "mdi"
   ],
   "author": "Aliaksandr Radzivanovich",
   "license": "ISC",
@@ -27,13 +28,6 @@
   },
   "homepage": "https://github.com/aradzie/mdi#readme",
   "devDependencies": {
-    "@types/classnames": "^2.2.9",
-    "@types/react": "^16.9.17",
-    "classnames": "^2.2.6",
-    "react": "^16.12.0",
-    "svgo": "^1.1.1",
-    "tslib": "^1.10.0",
-    "typescript": "^3.7.4",
     "xml2js": "^0.4.23"
   }
 }

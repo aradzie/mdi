@@ -1,7 +1,10 @@
+# Generated files
+package/*.js
+package/*.d.ts
+mdi-*.tgz
+
 # Logs
-logs
 *.log
-npm-debug.log*
 
 # IDE files
 .idea
@@ -9,12 +12,3 @@ npm-debug.log*
 
 # Dependency directories
 node_modules
-
-# Optional npm cache directory
-.npm
-
-# Optional REPL history
-.node_repl_history
-
-# Build files
-.build
