@@ -1,7 +1,7 @@
 {
-  "name": "mdi",
-  "version": "0.1.0",
-  "description": "A set of React icon components generated from Material Design SVG icons.",
+  "name": "@aradzie/mdi",
+  "version": "1.0.0",
+  "description": "A set of icon shapes generated from Material Design SVG icons.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
     "url": "https://github.com/aradzie/mdi/issues"
   },
   "homepage": "https://github.com/aradzie/mdi#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
